@@ -1,0 +1,22 @@
+[0.948s] Invoking command in '/home/rudolfs/ros2_ws/build/tb4_nav_to_pose': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rudolfs/ros2_ws/build/tb4_nav_to_pose/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rudolfs/ros2_ws/build/tb4_nav_to_pose/build --no-deps symlink_data
+[1.251s] running develop
+[1.443s] running egg_info
+[1.443s] creating tb4_nav_to_pose.egg-info
+[1.462s] writing tb4_nav_to_pose.egg-info/PKG-INFO
+[1.462s] writing dependency_links to tb4_nav_to_pose.egg-info/dependency_links.txt
+[1.462s] writing requirements to tb4_nav_to_pose.egg-info/requires.txt
+[1.462s] writing top-level names to tb4_nav_to_pose.egg-info/top_level.txt
+[1.462s] writing manifest file 'tb4_nav_to_pose.egg-info/SOURCES.txt'
+[1.500s] reading manifest file 'tb4_nav_to_pose.egg-info/SOURCES.txt'
+[1.501s] writing manifest file 'tb4_nav_to_pose.egg-info/SOURCES.txt'
+[1.521s] running build_ext
+[1.521s] Creating /home/rudolfs/ros2_ws/install/tb4_nav_to_pose/lib/python3.12/site-packages/tb4-nav-to-pose.egg-link (link to .)
+[1.522s] 
+[1.522s] Installed /home/rudolfs/ros2_ws/build/tb4_nav_to_pose
+[1.522s] running symlink_data
+[1.522s] creating /home/rudolfs/ros2_ws/install/tb4_nav_to_pose/share/ament_index
+[1.522s] creating /home/rudolfs/ros2_ws/install/tb4_nav_to_pose/share/ament_index/resource_index
+[1.522s] creating /home/rudolfs/ros2_ws/install/tb4_nav_to_pose/share/ament_index/resource_index/packages
+[1.522s] symbolically linking /home/rudolfs/ros2_ws/build/tb4_nav_to_pose/resource/tb4_nav_to_pose -> /home/rudolfs/ros2_ws/install/tb4_nav_to_pose/share/ament_index/resource_index/packages
+[1.522s] symbolically linking /home/rudolfs/ros2_ws/build/tb4_nav_to_pose/package.xml -> /home/rudolfs/ros2_ws/install/tb4_nav_to_pose/share/tb4_nav_to_pose
+[1.556s] Invoked command in '/home/rudolfs/ros2_ws/build/tb4_nav_to_pose' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rudolfs/ros2_ws/build/tb4_nav_to_pose/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rudolfs/ros2_ws/build/tb4_nav_to_pose/build --no-deps symlink_data

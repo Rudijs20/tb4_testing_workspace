@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing tb4_nav_to_pose.egg-info/PKG-INFO
+writing dependency_links to tb4_nav_to_pose.egg-info/dependency_links.txt
+writing entry points to tb4_nav_to_pose.egg-info/entry_points.txt
+writing requirements to tb4_nav_to_pose.egg-info/requires.txt
+writing top-level names to tb4_nav_to_pose.egg-info/top_level.txt
+reading manifest file 'tb4_nav_to_pose.egg-info/SOURCES.txt'
+writing manifest file 'tb4_nav_to_pose.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rudolfs/ros2_ws/install/tb4_nav_to_pose/lib/python3.12/site-packages/tb4-nav-to-pose.egg-link (link to .)
+Installing nav_to_pose script to /home/rudolfs/ros2_ws/install/tb4_nav_to_pose/lib/tb4_nav_to_pose
+
+Installed /home/rudolfs/ros2_ws/build/tb4_nav_to_pose
+running symlink_data

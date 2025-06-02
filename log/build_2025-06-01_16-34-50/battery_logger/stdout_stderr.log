@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing battery_logger.egg-info/PKG-INFO
+writing dependency_links to battery_logger.egg-info/dependency_links.txt
+writing entry points to battery_logger.egg-info/entry_points.txt
+writing requirements to battery_logger.egg-info/requires.txt
+writing top-level names to battery_logger.egg-info/top_level.txt
+reading manifest file 'battery_logger.egg-info/SOURCES.txt'
+writing manifest file 'battery_logger.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rudolfs/ros2_ws/install/battery_logger/lib/python3.12/site-packages/battery-logger.egg-link (link to .)
+Installing log_battery script to /home/rudolfs/ros2_ws/install/battery_logger/lib/battery_logger
+
+Installed /home/rudolfs/ros2_ws/build/battery_logger
+running symlink_data
