@@ -1,1 +1,0 @@
-/home/rudolfs/ros2_ws/src/battery_logger/setup.py
