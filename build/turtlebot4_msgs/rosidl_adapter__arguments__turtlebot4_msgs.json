@@ -1,0 +1,8 @@
+{
+  "package_name": "turtlebot4_msgs",
+  "non_idl_tuples": [
+    "/home/rudolfs/ros2_ws/src/turtlebot4-jazzy/turtlebot4_msgs:msg/UserLed.msg",
+    "/home/rudolfs/ros2_ws/src/turtlebot4-jazzy/turtlebot4_msgs:msg/UserButton.msg",
+    "/home/rudolfs/ros2_ws/src/turtlebot4-jazzy/turtlebot4_msgs:msg/UserDisplay.msg"
+  ]
+}

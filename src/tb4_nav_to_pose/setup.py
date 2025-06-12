@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'nav_to_pose = tb4_nav_to_pose.nav_to_pose:main',
+            'min_nav_to_pose = tb4_nav_to_pose.min_nav_to_pose:main',
         ],
     },
 )

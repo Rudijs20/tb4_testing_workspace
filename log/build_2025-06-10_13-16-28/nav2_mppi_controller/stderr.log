@@ -1,0 +1,101 @@
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:[m[K In member function ‘[01m[Kvirtual void nav2_mppi_controller::MPPIController::[01;32m[Kconfigure[m[K(const rclcpp_lifecycle::LifecycleNode::WeakPtr&, std::string, std::shared_ptr<tf2_ros::Buffer>, std::shared_ptr<nav2_costmap_2d::Costmap2DROS>)[m[K’:
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:175:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_optimal_trajectory_[m[K’ was not declared in this scope
+  175 |   getParam([01;31m[Kpublish_optimal_trajectory_[m[K, "publish_optimal_trajectory", false);
+      |            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:185:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kopt_traj_pub_[m[K’ was not declared in this scope
+  185 |     [01;31m[Kopt_traj_pub_[m[K = node->create_publisher<nav2_msgs::msg::Trajectory>(
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:185:60:[m[K [01;31m[Kerror: [m[K‘[01m[KTrajectory[m[K’ is not a member of ‘[01m[Knav2_msgs::msg[m[K’
+  185 |     opt_traj_pub_ = node->create_publisher<nav2_msgs::msg::[01;31m[KTrajectory[m[K>(
+      |                                                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:185:71:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp_lifecycle::LifecycleNode::create_publisher<<expression error> >(const char [21], rclcpp::SystemDefaultsQoS)[m[K’
+  185 |     opt_traj_pub_ = [01;31m[Knode->create_publisher<nav2_msgs::msg::Trajectory>([m[K
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  186 | [01;31m[K      "~/optimal_trajectory", rclcpp::SystemDefaultsQoS())[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K             
+In file included from [01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/tools/path_handler.hpp:25[m[K,
+                 from [01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/controller.hpp:21[m[K,
+                 from [01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:151[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:222:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT> std::shared_ptr<rclcpp_lifecycle::LifecyclePublisher<MessageT, Alloc> > rclcpp_lifecycle::LifecycleNode::[01;32m[Kcreate_publisher[m[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  222 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:222:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:185:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  185 |     opt_traj_pub_ = [01;31m[Knode->create_publisher<nav2_msgs::msg::Trajectory>([m[K
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  186 | [01;31m[K      "~/optimal_trajectory", rclcpp::SystemDefaultsQoS())[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K             
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:[m[K In member function ‘[01m[Kvirtual void nav2_mppi_controller::MPPIController::[01;32m[Kcleanup[m[K()[m[K’:
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:197:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kopt_traj_pub_[m[K’ was not declared in this scope
+  197 |   [01;31m[Kopt_traj_pub_[m[K.reset();
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:[m[K In member function ‘[01m[Kvirtual void nav2_mppi_controller::MPPIController::[01;32m[Kactivate[m[K()[m[K’:
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:206:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kopt_traj_pub_[m[K’ was not declared in this scope
+  206 |   if ([01;31m[Kopt_traj_pub_[m[K) {
+      |       [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:[m[K In member function ‘[01m[Kvirtual void nav2_mppi_controller::MPPIController::[01;32m[Kdeactivate[m[K()[m[K’:
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:215:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kopt_traj_pub_[m[K’ was not declared in this scope
+  215 |   if ([01;31m[Kopt_traj_pub_[m[K) {
+      |       [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:[m[K In member function ‘[01m[Kvirtual geometry_msgs::msg::TwistStamped nav2_mppi_controller::MPPIController::[01;32m[KcomputeVelocityCommands[m[K(const geometry_msgs::msg::PoseStamped&, const geometry_msgs::msg::Twist&, nav2_core::GoalChecker*)[m[K’:
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:252:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ has not been declared
+  252 |   [01;31m[KEigen[m[K::ArrayXXf optimal_trajectory;
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:253:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_optimal_trajectory_[m[K’ was not declared in this scope
+  253 |   if ([01;31m[Kpublish_optimal_trajectory_[m[K && opt_traj_pub_->get_subscription_count() > 0) {
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:253:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kopt_traj_pub_[m[K’ was not declared in this scope
+  253 |   if (publish_optimal_trajectory_ && [01;31m[Kopt_traj_pub_[m[K->get_subscription_count() > 0) {
+      |                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:254:5:[m[K [01;31m[Kerror: [m[K‘[01m[Koptimal_trajectory[m[K’ was not declared in this scope
+  254 |     [01;31m[Koptimal_trajectory[m[K = optimizer_.getOptimizedTrajectory();
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:255:34:[m[K [01;31m[Kerror: [m[K‘[01m[KtoTrajectoryMsg[m[K’ is not a member of ‘[01m[Kmppi::utils[m[K’
+  255 |     auto trajectory_msg = utils::[01;31m[KtoTrajectoryMsg[m[K(
+      |                                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:257:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass mppi::Optimizer[m[K’ has no member named ‘[01m[KgetOptimalControlSequence[m[K’; did you mean ‘[01m[KshiftControlSequence[m[K’?
+  257 |       optimizer_.[01;31m[KgetOptimalControlSequence[m[K(),
+      |                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                  [32m[KshiftControlSequence[m[K
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:258:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass mppi::Optimizer[m[K’ has no member named ‘[01m[KgetSettings[m[K’
+  258 |       optimizer_.[01;31m[KgetSettings[m[K().model_dt,
+      |                  [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:264:62:[m[K [01;31m[Kerror: [m[K‘[01m[Koptimal_trajectory[m[K’ was not declared in this scope
+  264 |     visualize(std::move(transformed_plan), cmd.header.stamp, [01;31m[Koptimal_trajectory[m[K);
+      |                                                              [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:[m[K At global scope:
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:273:9:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+  273 |   const [01;31m[KEigen[m[K::ArrayXXf & optimal_trajectory)
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:273:25:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+  273 |   const Eigen::ArrayXXf [01;31m[K&[m[K optimal_trajectory)
+      |                         [01;31m[K^[m[K
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:273:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+  273 |   const Eigen::ArrayXXf[01;31m[K [m[K[32m[K&[m[K optimal_trajectory)
+      |                        [01;31m[K^[m[K[32m[K~[m[K
+      |                        [32m[K)[m[K
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:270:31:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  270 | void MPPIController::visualize[01;36m[K([m[K
+      |                               [01;36m[K^[m[K
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:273:27:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Koptimal_trajectory[m[K’
+  273 |   const Eigen::ArrayXXf & [01;31m[Koptimal_trajectory[m[K)
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/memory:78[m[K,
+                 from [01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/controller.hpp:19[m[K:
+/usr/include/c++/13/bits/unique_ptr.h: In instantiation of ‘[01m[Kstd::__detail::__unique_ptr_t<_Tp> std::[01;32m[Kmake_unique[m[K(_Args&& ...) [35m[K[with _Tp = mppi::ParametersHandler; _Args = {const weak_ptr<rclcpp_lifecycle::LifecycleNode>&, __cxx11::basic_string<char, char_traits<char>, allocator<char> >&}; __detail::__unique_ptr_t<_Tp> = __detail::__unique_ptr_t<mppi::ParametersHandler>][m[K[m[K’:
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:168:60:[m[K   required from here
+[01m[K/usr/include/c++/13/bits/unique_ptr.h:1070:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmppi::ParametersHandler::ParametersHandler(const std::weak_ptr<rclcpp_lifecycle::LifecycleNode>&, std::__cxx11::basic_string<char>&)[m[K’
+ 1070 |     { return unique_ptr<_Tp>([01;31m[Knew _Tp(std::forward<_Args>(__args)...)[m[K); }
+      |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/tools/path_handler.hpp:34[m[K:
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/tools/parameters_handler.hpp:57:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmppi::ParametersHandler::[01;32m[KParametersHandler[m[K(const rclcpp_lifecycle::LifecycleNode::WeakPtr&)[m[K’
+   57 |   explicit [01;36m[KParametersHandler[m[K(
+      |            [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/tools/parameters_handler.hpp:57:12:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/tools/parameters_handler.hpp:51:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmppi::ParametersHandler::[01;32m[KParametersHandler[m[K()[m[K’
+   51 |   [01;36m[KParametersHandler[m[K() = default;
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/include/nav2_mppi_controller/tools/parameters_handler.hpp:51:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+gmake[2]: *** [CMakeFiles/mppi_controller.dir/build.make:76: CMakeFiles/mppi_controller.dir/src/controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:196: CMakeFiles/mppi_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

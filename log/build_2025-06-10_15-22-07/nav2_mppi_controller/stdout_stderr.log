@@ -1,0 +1,11 @@
+[  4%] Built target gtest_main
+[  8%] Built target gtest
+[ 10%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/controller.cpp.o[0m
+[ 35%] Built target mppi_critics
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:[m[K In member function ‘[01m[Kvirtual geometry_msgs::msg::TwistStamped nav2_mppi_controller::MPPIController::[01;32m[KcomputeVelocityCommands[m[K(const geometry_msgs::msg::PoseStamped&, const geometry_msgs::msg::Twist&, nav2_core::GoalChecker*)[m[K’:
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:127:47:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(std_msgs::msg::Header_<std::allocator<void> >::_stamp_type {aka builtin_interfaces::msg::Time_<std::allocator<void> >}) ()[m[K’
+  127 |     dummy_path.header.stamp = [01;31m[Kcmd.header.stamp()[m[K; // Or cmd.header.stamp
+      |                               [01;31m[K~~~~~~~~~~~~~~~~^~[m[K
+gmake[2]: *** [CMakeFiles/mppi_controller.dir/build.make:76: CMakeFiles/mppi_controller.dir/src/controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:196: CMakeFiles/mppi_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

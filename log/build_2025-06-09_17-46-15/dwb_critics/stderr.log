@@ -1,0 +1,3 @@
+gmake[2]: *** [test/CMakeFiles/prefer_forward_tests.dir/build.make:76: test/CMakeFiles/prefer_forward_tests.dir/prefer_forward_test.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:208: test/CMakeFiles/prefer_forward_tests.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

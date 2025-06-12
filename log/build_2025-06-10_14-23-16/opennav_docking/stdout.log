@@ -1,0 +1,61 @@
+[  5%] Built target controller
+[ 11%] Built target test_dock
+[ 22%] Built target opennav_docking_core
+[ 27%] Built target gtest
+[ 33%] Built target opennav_docking
+[ 38%] Built target gtest_main
+[ 44%] Built target pose_filter
+[ 50%] Built target test_docking_server_unit
+[ 55%] Built target simple_charging_dock
+[ 61%] Built target simple_non_charging_dock
+[ 66%] Built target test_pose_filter
+[ 72%] Built target test_simple_charging_dock
+[ 77%] Built target test_simple_non_charging_dock
+[ 83%] Built target test_controller
+[ 88%] Built target test_navigator
+[ 94%] Built target test_dock_database
+[100%] Built target test_utils
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/share/opennav_docking//plugins.xml
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/lib/opennav_docking/opennav_docking
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/include//opennav_docking/controller.hpp
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/include//opennav_docking/dock_database.hpp
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/include//opennav_docking/docking_server.hpp
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/include//opennav_docking/navigator.hpp
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/include//opennav_docking/pose_filter.hpp
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/include//opennav_docking/simple_charging_dock.hpp
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/include//opennav_docking/simple_non_charging_dock.hpp
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/include//opennav_docking/types.hpp
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/include//opennav_docking/utils.hpp
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/share/opennav_docking//test_dock_file.yaml
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/lib/libtest_dock.so
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/share/opennav_docking/environment/library_path.sh
+-- Symlinking: /home/rudolfs/ros2_ws/install/opennav_docking/share/opennav_docking/environment/library_path.dsv
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/share/opennav_docking/environment/library_path.sh
+-- Symlinking: /home/rudolfs/ros2_ws/install/opennav_docking/share/opennav_docking/environment/library_path.dsv
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/share/ament_index/resource_index/package_run_dependencies/opennav_docking
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/share/ament_index/resource_index/parent_prefix_path/opennav_docking
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/share/opennav_docking/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/share/opennav_docking/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/share/opennav_docking/environment/path.sh
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/share/opennav_docking/environment/path.dsv
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/share/opennav_docking/local_setup.bash
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/share/opennav_docking/local_setup.sh
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/share/opennav_docking/local_setup.zsh
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/share/opennav_docking/local_setup.dsv
+-- Symlinking: /home/rudolfs/ros2_ws/install/opennav_docking/share/opennav_docking/package.dsv
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/share/ament_index/resource_index/packages/opennav_docking
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/share/ament_index/resource_index/opennav_docking_core__pluginlib__plugin/opennav_docking
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/share/ament_index/resource_index/rclcpp_components/opennav_docking
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/share/opennav_docking/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/share/opennav_docking/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/share/opennav_docking/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/share/opennav_docking/cmake/opennav_dockingConfig.cmake
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/share/opennav_docking/cmake/opennav_dockingConfig-version.cmake
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking/share/opennav_docking/package.xml
+-- Up-to-date: /home/rudolfs/ros2_ws/install/opennav_docking/lib/libopennav_docking_core.so
+-- Up-to-date: /home/rudolfs/ros2_ws/install/opennav_docking/lib/libcontroller.so
+-- Up-to-date: /home/rudolfs/ros2_ws/install/opennav_docking/lib/libpose_filter.so
+-- Up-to-date: /home/rudolfs/ros2_ws/install/opennav_docking/lib/libsimple_charging_dock.so
+-- Up-to-date: /home/rudolfs/ros2_ws/install/opennav_docking/lib/libsimple_non_charging_dock.so

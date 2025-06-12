@@ -1,0 +1,8 @@
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:[m[K In member function ‘[01m[Kvirtual geometry_msgs::msg::TwistStamped nav2_mppi_controller::MPPIController::[01;32m[KcomputeVelocityCommands[m[K(const geometry_msgs::msg::PoseStamped&, const geometry_msgs::msg::Twist&, nav2_core::GoalChecker*)[m[K’:
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:127:31:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmode_t[m[K’?
+  127 |     dummy_path.header.stamp = [01;31m[Knode_[m[K->cmd.header.stamp();  // Or cmd.header.stamp
+      |                               [01;31m[K^~~~~[m[K
+      |                               [32m[Kmode_t[m[K
+gmake[2]: *** [CMakeFiles/mppi_controller.dir/build.make:76: CMakeFiles/mppi_controller.dir/src/controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:196: CMakeFiles/mppi_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

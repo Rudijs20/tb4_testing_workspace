@@ -1,0 +1,8 @@
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:[m[K In member function ‘[01m[Kvoid nav2_mppi_controller::MPPIController::[01;32m[Kvisualize[m[K(nav_msgs::msg::Path, const builtin_interfaces::msg::Time&)[m[K’:
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:111:23:[m[K [01;31m[Kerror: [m[Kunused parameter ‘[01m[Ktransformed_plan[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Werror=unused-parameter]8;;[m[K]
+  111 |   [01;31m[Knav_msgs::msg::Path transformed_plan[m[K,
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+cc1plus: all warnings being treated as errors
+gmake[2]: *** [CMakeFiles/mppi_controller.dir/build.make:76: CMakeFiles/mppi_controller.dir/src/controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:196: CMakeFiles/mppi_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

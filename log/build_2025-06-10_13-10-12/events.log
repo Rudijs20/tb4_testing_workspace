@@ -1,0 +1,170 @@
+[0.000000] (-) TimerEvent: {}
+[0.000244] (-) JobUnselected: {'identifier': 'battery_logger'}
+[0.000291] (-) JobUnselected: {'identifier': 'cmd_vel_tracker'}
+[0.000319] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.000335] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.000347] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.000356] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.000366] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.000376] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.000385] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.000396] (-) JobUnselected: {'identifier': 'nav2_behaviors'}
+[0.000405] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.000415] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.000425] (-) JobUnselected: {'identifier': 'nav2_collision_monitor'}
+[0.000435] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.000445] (-) JobUnselected: {'identifier': 'nav2_constrained_smoother'}
+[0.000455] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.000464] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.000474] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.000484] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.000498] (-) JobUnselected: {'identifier': 'nav2_graceful_controller'}
+[0.000509] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.000519] (-) JobUnselected: {'identifier': 'nav2_loopback_sim'}
+[0.000529] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.000539] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.000548] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.000558] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.000568] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.000578] (-) JobUnselected: {'identifier': 'nav2_rotation_shim_controller'}
+[0.000588] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.000598] (-) JobUnselected: {'identifier': 'nav2_simple_commander'}
+[0.000608] (-) JobUnselected: {'identifier': 'nav2_smac_planner'}
+[0.000617] (-) JobUnselected: {'identifier': 'nav2_smoother'}
+[0.000628] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.000638] (-) JobUnselected: {'identifier': 'nav2_theta_star_planner'}
+[0.000648] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.000658] (-) JobUnselected: {'identifier': 'nav2_velocity_smoother'}
+[0.000667] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.000677] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.000687] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.000697] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.000707] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.000717] (-) JobUnselected: {'identifier': 'opennav_docking'}
+[0.000726] (-) JobUnselected: {'identifier': 'opennav_docking_bt'}
+[0.000736] (-) JobUnselected: {'identifier': 'opennav_docking_core'}
+[0.000746] (-) JobUnselected: {'identifier': 'tb4_nav_to_pose'}
+[0.000756] (-) JobUnselected: {'identifier': 'turtlebot4_description'}
+[0.000766] (-) JobUnselected: {'identifier': 'turtlebot4_msgs'}
+[0.000775] (-) JobUnselected: {'identifier': 'turtlebot4_navigation'}
+[0.000785] (-) JobUnselected: {'identifier': 'turtlebot4_node'}
+[0.000797] (nav2_mppi_controller) JobQueued: {'identifier': 'nav2_mppi_controller', 'dependencies': OrderedDict({'nav2_common': '/home/rudolfs/ros2_ws/install/nav2_common', 'nav2_msgs': '/home/rudolfs/ros2_ws/install/nav2_msgs', 'nav2_voxel_grid': '/home/rudolfs/ros2_ws/install/nav2_voxel_grid', 'nav2_util': '/home/rudolfs/ros2_ws/install/nav2_util', 'nav2_behavior_tree': '/home/rudolfs/ros2_ws/install/nav2_behavior_tree', 'nav2_lifecycle_manager': '/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager', 'nav2_map_server': '/home/rudolfs/ros2_ws/install/nav2_map_server', 'nav2_costmap_2d': '/home/rudolfs/ros2_ws/install/nav2_costmap_2d', 'nav2_core': '/home/rudolfs/ros2_ws/install/nav2_core'})}
+[0.000824] (nav2_mppi_controller) JobStarted: {'identifier': 'nav2_mppi_controller'}
+[0.030144] (nav2_mppi_controller) JobProgress: {'identifier': 'nav2_mppi_controller', 'progress': 'cmake'}
+[0.031281] (nav2_mppi_controller) JobProgress: {'identifier': 'nav2_mppi_controller', 'progress': 'build'}
+[0.031377] (nav2_mppi_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rudolfs/ros2_ws/build/nav2_mppi_controller', '--', '-j6', '-l6'], 'cwd': '/home/rudolfs/ros2_ws/build/nav2_mppi_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rudolfs', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rudolfs/ros2_ws/install/nav2_costmap_2d/lib:/home/rudolfs/ros2_ws/install/nav2_map_server/lib:/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager/lib:/home/rudolfs/ros2_ws/install/nav2_behavior_tree/lib:/home/rudolfs/ros2_ws/install/nav2_util/lib:/home/rudolfs/ros2_ws/install/nav2_voxel_grid/lib:/home/rudolfs/ros2_ws/install/nav2_msgs/lib:/home/rudolfs/ros2_ws/install/turtlebot4_msgs/lib:/home/rudolfs/ros2_ws/install/nav2_system_tests/lib:/home/rudolfs/ros2_ws/install/opennav_docking/lib:/home/rudolfs/ros2_ws/install/opennav_docking_bt/lib:/home/rudolfs/ros2_ws/install/nav2_smoother/lib:/home/rudolfs/ros2_ws/install/nav2_rotation_shim_controller/lib:/home/rudolfs/ros2_ws/install/nav2_graceful_controller/lib:/home/rudolfs/ros2_ws/install/nav2_controller/lib:/home/rudolfs/ros2_ws/install/dwb_plugins/lib:/home/rudolfs/ros2_ws/install/dwb_critics/lib:/home/rudolfs/ros2_ws/install/dwb_core/lib:/home/rudolfs/ros2_ws/install/nav_2d_utils/lib:/home/rudolfs/ros2_ws/install/dwb_msgs/lib:/home/rudolfs/ros2_ws/install/nav_2d_msgs/lib:/home/rudolfs/ros2_ws/install/nav2_waypoint_follower/lib:/home/rudolfs/ros2_ws/install/nav2_theta_star_planner/lib:/home/rudolfs/ros2_ws/install/nav2_smac_planner/lib:/home/rudolfs/ros2_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/rudolfs/ros2_ws/install/nav2_planner/lib:/home/rudolfs/ros2_ws/install/nav2_navfn_planner/lib:/home/rudolfs/ros2_ws/install/nav2_mppi_controller/lib:/home/rudolfs/ros2_ws/install/nav2_constrained_smoother/lib:/home/rudolfs/ros2_ws/install/nav2_bt_navigator/lib:/home/rudolfs/ros2_ws/install/nav2_behaviors/lib:/home/rudolfs/ros2_ws/install/nav2_collision_monitor/lib:/home/rudolfs/ros2_ws/install/costmap_queue/lib:/home/rudolfs/ros2_ws/install/nav2_velocity_smoother/lib:/home/rudolfs/ros2_ws/install/nav2_rviz_plugins/lib:/home/rudolfs/ros2_ws/install/nav2_amcl/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rudolfs', 'CYCLONEDDS_URI': '/etc/turtlebot4/cyclonedds_pc.xml', 'OLDPWD': '/home/rudolfs/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1883', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/rudolfs/ros2_ws/install:/home/rudolfs/testing_ws/turtlebot4_ws/install:/home/rudolfs/testing_ws/install:/home/rudolfs/testing_ws/ros2_ws/install:/home/rudolfs/Desktop/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rudolfs', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rudolfs', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/rudolfs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rudolfs-System-Product-Name:@/tmp/.ICE-unix/1837,unix/rudolfs-System-Product-Name:/tmp/.ICE-unix/1837', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5de30ece_8b85_42c2_86b3_eef49cc0fe11', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.127', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/rudolfs/ros2_ws/install/turtlebot4_node:/home/rudolfs/ros2_ws/install/turtlebot4_navigation:/home/rudolfs/ros2_ws/install/turtlebot4_msgs:/home/rudolfs/ros2_ws/install/turtlebot4_description:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose:/home/rudolfs/ros2_ws/install/nav2_system_tests:/home/rudolfs/ros2_ws/install/nav2_bringup:/home/rudolfs/ros2_ws/install/navigation2:/home/rudolfs/ros2_ws/install/opennav_docking:/home/rudolfs/ros2_ws/install/opennav_docking_core:/home/rudolfs/ros2_ws/install/opennav_docking_bt:/home/rudolfs/ros2_ws/install/nav2_smoother:/home/rudolfs/ros2_ws/install/nav2_rotation_shim_controller:/home/rudolfs/ros2_ws/install/nav2_graceful_controller:/home/rudolfs/ros2_ws/install/nav2_dwb_controller:/home/rudolfs/ros2_ws/install/nav2_controller:/home/rudolfs/ros2_ws/install/dwb_plugins:/home/rudolfs/ros2_ws/install/dwb_critics:/home/rudolfs/ros2_ws/install/dwb_core:/home/rudolfs/ros2_ws/install/nav_2d_utils:/home/rudolfs/ros2_ws/install/dwb_msgs:/home/rudolfs/ros2_ws/install/nav_2d_msgs:/home/rudolfs/ros2_ws/install/nav2_waypoint_follower:/home/rudolfs/ros2_ws/install/nav2_theta_star_planner:/home/rudolfs/ros2_ws/install/nav2_smac_planner:/home/rudolfs/ros2_ws/install/nav2_regulated_pure_pursuit_controller:/home/rudolfs/ros2_ws/install/nav2_planner:/home/rudolfs/ros2_ws/install/nav2_navfn_planner:/home/rudolfs/ros2_ws/install/nav2_mppi_controller:/home/rudolfs/ros2_ws/install/nav2_constrained_smoother:/home/rudolfs/ros2_ws/install/nav2_bt_navigator:/home/rudolfs/ros2_ws/install/nav2_behaviors:/home/rudolfs/ros2_ws/install/nav2_core:/home/rudolfs/ros2_ws/install/nav2_collision_monitor:/home/rudolfs/ros2_ws/install/costmap_queue:/home/rudolfs/ros2_ws/install/nav2_costmap_2d:/home/rudolfs/ros2_ws/install/nav2_voxel_grid:/home/rudolfs/ros2_ws/install/nav2_velocity_smoother:/home/rudolfs/ros2_ws/install/nav2_rviz_plugins:/home/rudolfs/ros2_ws/install/nav2_map_server:/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager:/home/rudolfs/ros2_ws/install/nav2_behavior_tree:/home/rudolfs/ros2_ws/install/nav2_amcl:/home/rudolfs/ros2_ws/install/nav2_util:/home/rudolfs/ros2_ws/install/nav2_simple_commander:/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_loopback_sim:/home/rudolfs/ros2_ws/install/nav2_common:/home/rudolfs/ros2_ws/install/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/battery_logger:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rudolfs/ros2_ws/build/nav2_mppi_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rudolfs/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/nav2_common/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/turtlebot4_navigation/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/turtlebot4_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/nav_2d_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/build/nav2_simple_commander:/home/rudolfs/ros2_ws/install/nav2_simple_commander/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/build/nav2_loopback_sim:/home/rudolfs/ros2_ws/install/nav2_loopback_sim/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/build/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/cmd_vel_tracker/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/build/battery_logger:/home/rudolfs/ros2_ws/install/battery_logger/lib/python3.12/site-packages:/home/rudolfs/testing_ws/turtlebot4_ws/build/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials/lib/python3.12/site-packages:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials/lib/python3.12/site-packages:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/rudolfs/ros2_ws/install/nav2_core:/home/rudolfs/ros2_ws/install/nav2_costmap_2d:/home/rudolfs/ros2_ws/install/nav2_map_server:/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager:/home/rudolfs/ros2_ws/install/nav2_behavior_tree:/home/rudolfs/ros2_ws/install/nav2_util:/home/rudolfs/ros2_ws/install/nav2_voxel_grid:/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:/home/rudolfs/ros2_ws/install/turtlebot4_node:/home/rudolfs/ros2_ws/install/turtlebot4_navigation:/home/rudolfs/ros2_ws/install/turtlebot4_msgs:/home/rudolfs/ros2_ws/install/turtlebot4_description:/home/rudolfs/ros2_ws/install/nav2_system_tests:/home/rudolfs/ros2_ws/install/nav2_bringup:/home/rudolfs/ros2_ws/install/navigation2:/home/rudolfs/ros2_ws/install/opennav_docking:/home/rudolfs/ros2_ws/install/opennav_docking_core:/home/rudolfs/ros2_ws/install/opennav_docking_bt:/home/rudolfs/ros2_ws/install/nav2_smoother:/home/rudolfs/ros2_ws/install/nav2_rotation_shim_controller:/home/rudolfs/ros2_ws/install/nav2_graceful_controller:/home/rudolfs/ros2_ws/install/nav2_dwb_controller:/home/rudolfs/ros2_ws/install/nav2_controller:/home/rudolfs/ros2_ws/install/dwb_plugins:/home/rudolfs/ros2_ws/install/dwb_critics:/home/rudolfs/ros2_ws/install/dwb_core:/home/rudolfs/ros2_ws/install/nav_2d_utils:/home/rudolfs/ros2_ws/install/dwb_msgs:/home/rudolfs/ros2_ws/install/nav_2d_msgs:/home/rudolfs/ros2_ws/install/nav2_waypoint_follower:/home/rudolfs/ros2_ws/install/nav2_theta_star_planner:/home/rudolfs/ros2_ws/install/nav2_smac_planner:/home/rudolfs/ros2_ws/install/nav2_regulated_pure_pursuit_controller:/home/rudolfs/ros2_ws/install/nav2_planner:/home/rudolfs/ros2_ws/install/nav2_navfn_planner:/home/rudolfs/ros2_ws/install/nav2_mppi_controller:/home/rudolfs/ros2_ws/install/nav2_constrained_smoother:/home/rudolfs/ros2_ws/install/nav2_bt_navigator:/home/rudolfs/ros2_ws/install/nav2_behaviors:/home/rudolfs/ros2_ws/install/nav2_collision_monitor:/home/rudolfs/ros2_ws/install/costmap_queue:/home/rudolfs/ros2_ws/install/nav2_velocity_smoother:/home/rudolfs/ros2_ws/install/nav2_rviz_plugins:/home/rudolfs/ros2_ws/install/nav2_amcl:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose:/home/rudolfs/ros2_ws/install/nav2_simple_commander:/home/rudolfs/ros2_ws/install/nav2_loopback_sim:/home/rudolfs/ros2_ws/install/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/battery_logger:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger:/opt/ros/jazzy'}), 'shell': False}
+[0.088335] (nav2_mppi_controller) StdoutLine: {'line': b'[  8%] Built target gtest\n'}
+[0.088975] (nav2_mppi_controller) StdoutLine: {'line': b'[  8%] Built target gtest_main\n'}
+[0.099535] (-) TimerEvent: {}
+[0.116406] (nav2_mppi_controller) StdoutLine: {'line': b'[ 33%] Built target mppi_critics\n'}
+[0.125567] (nav2_mppi_controller) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/controller.cpp.o\x1b[0m\n'}
+[0.199655] (-) TimerEvent: {}
+[0.299902] (-) TimerEvent: {}
+[0.400154] (-) TimerEvent: {}
+[0.500420] (-) TimerEvent: {}
+[0.600723] (-) TimerEvent: {}
+[0.700970] (-) TimerEvent: {}
+[0.801212] (-) TimerEvent: {}
+[0.901483] (-) TimerEvent: {}
+[1.001730] (-) TimerEvent: {}
+[1.101984] (-) TimerEvent: {}
+[1.202237] (-) TimerEvent: {}
+[1.302538] (-) TimerEvent: {}
+[1.402803] (-) TimerEvent: {}
+[1.503109] (-) TimerEvent: {}
+[1.603370] (-) TimerEvent: {}
+[1.703615] (-) TimerEvent: {}
+[1.803867] (-) TimerEvent: {}
+[1.904123] (-) TimerEvent: {}
+[2.004478] (-) TimerEvent: {}
+[2.104744] (-) TimerEvent: {}
+[2.205000] (-) TimerEvent: {}
+[2.305255] (-) TimerEvent: {}
+[2.405536] (-) TimerEvent: {}
+[2.505805] (-) TimerEvent: {}
+[2.606070] (-) TimerEvent: {}
+[2.706352] (-) TimerEvent: {}
+[2.806607] (-) TimerEvent: {}
+[2.906861] (-) TimerEvent: {}
+[3.007086] (-) TimerEvent: {}
+[3.107316] (-) TimerEvent: {}
+[3.207529] (-) TimerEvent: {}
+[3.307770] (-) TimerEvent: {}
+[3.408026] (-) TimerEvent: {}
+[3.508293] (-) TimerEvent: {}
+[3.608581] (-) TimerEvent: {}
+[3.708841] (-) TimerEvent: {}
+[3.809085] (-) TimerEvent: {}
+[3.909343] (-) TimerEvent: {}
+[4.009585] (-) TimerEvent: {}
+[4.112348] (-) TimerEvent: {}
+[4.212577] (-) TimerEvent: {}
+[4.232819] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid nav2_mppi_controller::MPPIController::\x1b[01;32m\x1b[Kvisualize\x1b[m\x1b[K(nav_msgs::msg::Path, const builtin_interfaces::msg::Time&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.233006] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:111:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktransformed_plan\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Werror=unused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.233079] (nav2_mppi_controller) StderrLine: {'line': b'  111 |   \x1b[01;31m\x1b[Knav_msgs::msg::Path transformed_plan\x1b[m\x1b[K,\n'}
+[4.233139] (nav2_mppi_controller) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.312699] (-) TimerEvent: {}
+[4.412948] (-) TimerEvent: {}
+[4.513184] (-) TimerEvent: {}
+[4.613372] (-) TimerEvent: {}
+[4.713608] (-) TimerEvent: {}
+[4.813848] (-) TimerEvent: {}
+[4.914101] (-) TimerEvent: {}
+[5.014359] (-) TimerEvent: {}
+[5.114593] (-) TimerEvent: {}
+[5.214852] (-) TimerEvent: {}
+[5.315105] (-) TimerEvent: {}
+[5.415355] (-) TimerEvent: {}
+[5.515604] (-) TimerEvent: {}
+[5.615851] (-) TimerEvent: {}
+[5.716064] (-) TimerEvent: {}
+[5.816312] (-) TimerEvent: {}
+[5.916593] (-) TimerEvent: {}
+[6.016844] (-) TimerEvent: {}
+[6.117096] (-) TimerEvent: {}
+[6.217334] (-) TimerEvent: {}
+[6.317585] (-) TimerEvent: {}
+[6.417822] (-) TimerEvent: {}
+[6.518075] (-) TimerEvent: {}
+[6.618325] (-) TimerEvent: {}
+[6.718568] (-) TimerEvent: {}
+[6.818803] (-) TimerEvent: {}
+[6.919056] (-) TimerEvent: {}
+[7.019292] (-) TimerEvent: {}
+[7.119579] (-) TimerEvent: {}
+[7.219829] (-) TimerEvent: {}
+[7.320086] (-) TimerEvent: {}
+[7.420340] (-) TimerEvent: {}
+[7.520577] (-) TimerEvent: {}
+[7.620825] (-) TimerEvent: {}
+[7.721066] (-) TimerEvent: {}
+[7.821319] (-) TimerEvent: {}
+[7.921560] (-) TimerEvent: {}
+[8.021797] (-) TimerEvent: {}
+[8.122037] (-) TimerEvent: {}
+[8.222288] (-) TimerEvent: {}
+[8.322576] (-) TimerEvent: {}
+[8.422827] (-) TimerEvent: {}
+[8.523075] (-) TimerEvent: {}
+[8.623327] (-) TimerEvent: {}
+[8.723566] (-) TimerEvent: {}
+[8.823809] (-) TimerEvent: {}
+[8.924066] (-) TimerEvent: {}
+[9.024358] (-) TimerEvent: {}
+[9.124603] (-) TimerEvent: {}
+[9.224846] (-) TimerEvent: {}
+[9.325111] (-) TimerEvent: {}
+[9.425376] (-) TimerEvent: {}
+[9.525640] (-) TimerEvent: {}
+[9.625892] (-) TimerEvent: {}
+[9.726122] (-) TimerEvent: {}
+[9.826371] (-) TimerEvent: {}
+[9.926605] (-) TimerEvent: {}
+[9.991629] (nav2_mppi_controller) StderrLine: {'line': b'cc1plus: all warnings being treated as errors\n'}
+[10.026726] (-) TimerEvent: {}
+[10.033845] (nav2_mppi_controller) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mppi_controller.dir/build.make:76: CMakeFiles/mppi_controller.dir/src/controller.cpp.o] Error 1\n'}
+[10.034128] (nav2_mppi_controller) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:196: CMakeFiles/mppi_controller.dir/all] Error 2\n'}
+[10.034358] (nav2_mppi_controller) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[10.036050] (nav2_mppi_controller) CommandEnded: {'returncode': 2}
+[10.045571] (nav2_mppi_controller) JobEnded: {'identifier': 'nav2_mppi_controller', 'rc': 2}
+[10.057455] (-) EventReactorShutdown: {}

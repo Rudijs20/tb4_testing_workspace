@@ -1,0 +1,174 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found bond: 4.1.2 (/opt/ros/jazzy/share/bond/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found bondcpp: 4.1.2 (/opt/ros/jazzy/share/bondcpp/cmake)
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found nav2_common: 1.3.7 (/home/rudolfs/ros2_ws/install/nav2_common/share/nav2_common/cmake)
+-- Found nav2_msgs: 1.3.7 (/home/rudolfs/ros2_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+-- Found rclcpp_action: 28.1.9 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+-- Found tf2: 0.36.11 (/opt/ros/jazzy/share/tf2/cmake)
+-- Found tf2_geometry_msgs: 0.36.11 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Setting build type to Release as none was specified.
+-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Found ament_cmake_pytest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.6s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/rudolfs/ros2_ws/build/nav2_util
+[  5%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/costmap.cpp.o[0m
+[  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  5%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/node_utils.cpp.o[0m
+[  7%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_service_client.cpp.o[0m
+[  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 11%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/string_utils.cpp.o[0m
+[ 13%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_utils.cpp.o[0m
+[ 15%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 15%] Built target gtest_main
+[ 17%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_node.cpp.o[0m
+[ 19%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/robot_utils.cpp.o[0m
+[ 21%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/node_thread.cpp.o[0m
+[ 23%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/odometry_utils.cpp.o[0m
+[ 25%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/array_parser.cpp.o[0m
+[ 27%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 27%] Built target gtest
+[ 29%] [32m[1mLinking CXX shared library libnav2_util_core.so[0m
+[ 29%] Built target nav2_util_core
+[ 31%] [32mBuilding CXX object src/CMakeFiles/lifecycle_bringup.dir/lifecycle_bringup_commandline.cpp.o[0m
+[ 37%] [32mBuilding CXX object test/CMakeFiles/test_execution_timer.dir/test_execution_timer.cpp.o[0m
+[ 37%] [32mBuilding CXX object test/CMakeFiles/test_string_utils.dir/test_string_utils.cpp.o[0m
+[ 37%] [32mBuilding CXX object src/CMakeFiles/base_footprint_publisher.dir/base_footprint_publisher.cpp.o[0m
+[ 39%] [32mBuilding CXX object test/CMakeFiles/test_node_utils.dir/test_node_utils.cpp.o[0m
+[ 41%] [32mBuilding CXX object test/CMakeFiles/test_service_client.dir/test_service_client.cpp.o[0m
+[ 43%] [32m[1mLinking CXX executable test_execution_timer[0m
+[ 45%] [32m[1mLinking CXX executable test_string_utils[0m
+[ 45%] Built target test_string_utils
+[ 47%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_utils.dir/test_lifecycle_utils.cpp.o[0m
+[ 47%] Built target test_execution_timer
+[ 49%] [32mBuilding CXX object test/CMakeFiles/test_actions.dir/test_actions.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable lifecycle_bringup[0m
+[ 50%] Built target lifecycle_bringup
+[ 52%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_node.dir/test_lifecycle_node.cpp.o[0m
+[ 54%] [32m[1mLinking CXX executable test_node_utils[0m
+[ 54%] Built target test_node_utils
+[ 56%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_cli_node.dir/test_lifecycle_cli_node.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable test_lifecycle_utils[0m
+[ 58%] Built target test_lifecycle_utils
+[ 60%] [32mBuilding CXX object test/CMakeFiles/test_geometry_utils.dir/test_geometry_utils.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable base_footprint_publisher[0m
+[ 62%] Built target base_footprint_publisher
+[ 64%] [32mBuilding CXX object test/CMakeFiles/test_odometry_utils.dir/test_odometry_utils.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable test_lifecycle_node[0m
+[ 66%] Built target test_lifecycle_node
+[ 68%] [32mBuilding CXX object test/CMakeFiles/test_robot_utils.dir/test_robot_utils.cpp.o[0m
+[ 70%] [32m[1mLinking CXX executable test_lifecycle_cli_node[0m
+[ 70%] Built target test_lifecycle_cli_node
+[ 72%] [32mBuilding CXX object test/CMakeFiles/test_base_footprint_publisher.dir/test_base_footprint_publisher.cpp.o[0m
+[ 74%] [32m[1mLinking CXX executable test_geometry_utils[0m
+[ 74%] Built target test_geometry_utils
+[ 76%] [32mBuilding CXX object test/CMakeFiles/test_array_parser.dir/test_array_parser.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable test_array_parser[0m
+[ 78%] Built target test_array_parser
+[ 80%] [32mBuilding CXX object test/CMakeFiles/test_twist_publisher.dir/test_twist_publisher.cpp.o[0m
+[ 82%] [32m[1mLinking CXX executable test_service_client[0m
+[ 82%] Built target test_service_client
+[ 84%] [32mBuilding CXX object test/CMakeFiles/test_twist_subscriber.dir/test_twist_subscriber.cpp.o[0m
+[ 86%] [32m[1mLinking CXX executable test_robot_utils[0m
+[ 88%] [32m[1mLinking CXX executable test_odometry_utils[0m
+[ 88%] Built target test_robot_utils
+[ 90%] [32mBuilding CXX object test/CMakeFiles/test_validation_messages.dir/test_validation_messages.cpp.o[0m
+[ 90%] Built target test_odometry_utils
+[ 92%] [32m[1mLinking CXX executable test_validation_messages[0m
+[ 92%] Built target test_validation_messages
+[ 94%] [32m[1mLinking CXX executable test_base_footprint_publisher[0m
+[ 94%] Built target test_base_footprint_publisher
+[ 96%] [32m[1mLinking CXX executable test_actions[0m
+[ 96%] Built target test_actions
+[ 98%] [32m[1mLinking CXX executable test_twist_publisher[0m
+[ 98%] Built target test_twist_publisher
+[100%] [32m[1mLinking CXX executable test_twist_subscriber[0m
+[100%] Built target test_twist_subscriber
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/lib/nav2_util/lifecycle_bringup
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/array_parser.hpp
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/clear_entirely_costmap_service_client.hpp
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/costmap.hpp
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/execution_timer.hpp
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/geometry_utils.hpp
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/lifecycle_node.hpp
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/lifecycle_service_client.hpp
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/lifecycle_utils.hpp
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/line_iterator.hpp
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/node_thread.hpp
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/node_utils.hpp
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/occ_grid_values.hpp
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/odometry_utils.hpp
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/robot_utils.hpp
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/service_client.hpp
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/simple_action_server.hpp
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/string_utils.hpp
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/twist_publisher.hpp
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/twist_subscriber.hpp
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/validate_messages.hpp
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/environment/library_path.sh
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/environment/library_path.dsv
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/ament_index/resource_index/package_run_dependencies/nav2_util
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/ament_index/resource_index/parent_prefix_path/nav2_util
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/environment/ament_prefix_path.sh
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/environment/ament_prefix_path.dsv
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/environment/path.sh
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/environment/path.dsv
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/local_setup.bash
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/local_setup.sh
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/local_setup.zsh
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/local_setup.dsv
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/package.dsv
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/ament_index/resource_index/packages/nav2_util
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig.cmake
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig-version.cmake
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/package.xml
+-- Installing: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/cmake/nav2_util_coreExport.cmake
+-- Installing: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/cmake/nav2_util_coreExport-release.cmake
+-- Installing: /home/rudolfs/ros2_ws/install/nav2_util/lib/libnav2_util_core.so
+-- Set non-toolchain portion of runtime path of "/home/rudolfs/ros2_ws/install/nav2_util/lib/libnav2_util_core.so" to ""

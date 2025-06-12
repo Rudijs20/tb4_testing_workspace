@@ -1,0 +1,4 @@
+[  4%] Built target gtest_main
+[  8%] Built target gtest
+[ 10%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/controller.cpp.o[0m
+[ 35%] Built target mppi_critics

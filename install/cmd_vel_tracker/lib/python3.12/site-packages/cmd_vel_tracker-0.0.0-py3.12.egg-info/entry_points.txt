@@ -1,0 +1,2 @@
+[console_scripts]
+cmd_vel_logger = cmd_vel_tracker.cmd_vel_logger:main

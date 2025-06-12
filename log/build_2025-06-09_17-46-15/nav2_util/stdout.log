@@ -1,0 +1,102 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found bond: 4.1.2 (/opt/ros/jazzy/share/bond/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found bondcpp: 4.1.2 (/opt/ros/jazzy/share/bondcpp/cmake)
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found nav2_common: 1.3.7 (/home/rudolfs/ros2_ws/install/nav2_common/share/nav2_common/cmake)
+-- Found nav2_msgs: 1.3.7 (/home/rudolfs/ros2_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+-- Found rclcpp_action: 28.1.9 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+-- Found tf2: 0.36.11 (/opt/ros/jazzy/share/tf2/cmake)
+-- Found tf2_geometry_msgs: 0.36.11 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Found ament_cmake_pytest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/rudolfs/ros2_ws/build/nav2_util
+[  3%] Built target gtest_main
+[  7%] Built target gtest
+[ 29%] Built target nav2_util_core
+[ 33%] Built target lifecycle_bringup
+[ 37%] Built target test_execution_timer
+[ 41%] Built target test_string_utils
+[ 45%] Built target base_footprint_publisher
+[ 49%] Built target test_service_client
+[ 52%] Built target test_node_utils
+[ 56%] Built target test_lifecycle_node
+[ 60%] Built target test_actions
+[ 64%] Built target test_lifecycle_utils
+[ 68%] Built target test_lifecycle_cli_node
+[ 72%] Built target test_geometry_utils
+[ 76%] Built target test_odometry_utils
+[ 80%] Built target test_validation_messages
+[ 84%] Built target test_twist_publisher
+[ 88%] Built target test_robot_utils
+[ 92%] Built target test_array_parser
+[ 96%] Built target test_base_footprint_publisher
+[100%] Built target test_twist_subscriber
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/lib/nav2_util/lifecycle_bringup
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/array_parser.hpp
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/clear_entirely_costmap_service_client.hpp
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/costmap.hpp
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/execution_timer.hpp
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/geometry_utils.hpp
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/lifecycle_node.hpp
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/lifecycle_service_client.hpp
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/lifecycle_utils.hpp
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/line_iterator.hpp
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/node_thread.hpp
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/node_utils.hpp
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/occ_grid_values.hpp
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/odometry_utils.hpp
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/robot_utils.hpp
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/service_client.hpp
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/simple_action_server.hpp
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/string_utils.hpp
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/twist_publisher.hpp
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/twist_subscriber.hpp
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/validate_messages.hpp
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/environment/library_path.sh
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/environment/library_path.dsv
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/share/ament_index/resource_index/package_run_dependencies/nav2_util
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/share/ament_index/resource_index/parent_prefix_path/nav2_util
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/environment/path.sh
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/environment/path.dsv
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/local_setup.bash
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/local_setup.sh
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/local_setup.zsh
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/local_setup.dsv
+-- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/package.dsv
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/share/ament_index/resource_index/packages/nav2_util
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig.cmake
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig-version.cmake
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/package.xml
+-- Up-to-date: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/cmake/nav2_util_coreExport.cmake
+-- Up-to-date: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/cmake/nav2_util_coreExport-release.cmake
+-- Up-to-date: /home/rudolfs/ros2_ws/install/nav2_util/lib/libnav2_util_core.so

@@ -1,4 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000517] (-) JobUnselected: {'identifier': 'battery_logger'}
-[0.000575] (-) JobUnselected: {'identifier': 'tb4_nav_to_pose'}
-[0.000590] (-) EventReactorShutdown: {}

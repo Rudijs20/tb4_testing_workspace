@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/tb4_nav_to_pose/tb4_nav_to_pose.egg-info
+writing ../../build/tb4_nav_to_pose/tb4_nav_to_pose.egg-info/PKG-INFO
+writing dependency_links to ../../build/tb4_nav_to_pose/tb4_nav_to_pose.egg-info/dependency_links.txt
+writing entry points to ../../build/tb4_nav_to_pose/tb4_nav_to_pose.egg-info/entry_points.txt
+writing requirements to ../../build/tb4_nav_to_pose/tb4_nav_to_pose.egg-info/requires.txt
+writing top-level names to ../../build/tb4_nav_to_pose/tb4_nav_to_pose.egg-info/top_level.txt
+writing manifest file '../../build/tb4_nav_to_pose/tb4_nav_to_pose.egg-info/SOURCES.txt'
+reading manifest file '../../build/tb4_nav_to_pose/tb4_nav_to_pose.egg-info/SOURCES.txt'
+writing manifest file '../../build/tb4_nav_to_pose/tb4_nav_to_pose.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rudolfs/ros2_ws/build/tb4_nav_to_pose/build
+creating /home/rudolfs/ros2_ws/build/tb4_nav_to_pose/build/lib
+creating /home/rudolfs/ros2_ws/build/tb4_nav_to_pose/build/lib/tb4_nav_to_pose
+copying tb4_nav_to_pose/__init__.py -> /home/rudolfs/ros2_ws/build/tb4_nav_to_pose/build/lib/tb4_nav_to_pose
+copying tb4_nav_to_pose/nav_to_pose.py -> /home/rudolfs/ros2_ws/build/tb4_nav_to_pose/build/lib/tb4_nav_to_pose
+running install
+running install_lib
+creating /home/rudolfs/ros2_ws/install/tb4_nav_to_pose/lib/python3.12/site-packages/tb4_nav_to_pose
+copying /home/rudolfs/ros2_ws/build/tb4_nav_to_pose/build/lib/tb4_nav_to_pose/__init__.py -> /home/rudolfs/ros2_ws/install/tb4_nav_to_pose/lib/python3.12/site-packages/tb4_nav_to_pose
+copying /home/rudolfs/ros2_ws/build/tb4_nav_to_pose/build/lib/tb4_nav_to_pose/nav_to_pose.py -> /home/rudolfs/ros2_ws/install/tb4_nav_to_pose/lib/python3.12/site-packages/tb4_nav_to_pose
+byte-compiling /home/rudolfs/ros2_ws/install/tb4_nav_to_pose/lib/python3.12/site-packages/tb4_nav_to_pose/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/rudolfs/ros2_ws/install/tb4_nav_to_pose/lib/python3.12/site-packages/tb4_nav_to_pose/nav_to_pose.py to nav_to_pose.cpython-312.pyc
+running install_data
+creating /home/rudolfs/ros2_ws/install/tb4_nav_to_pose/share/ament_index
+creating /home/rudolfs/ros2_ws/install/tb4_nav_to_pose/share/ament_index/resource_index
+creating /home/rudolfs/ros2_ws/install/tb4_nav_to_pose/share/ament_index/resource_index/packages
+copying resource/tb4_nav_to_pose -> /home/rudolfs/ros2_ws/install/tb4_nav_to_pose/share/ament_index/resource_index/packages
+copying package.xml -> /home/rudolfs/ros2_ws/install/tb4_nav_to_pose/share/tb4_nav_to_pose
+running install_egg_info
+Copying ../../build/tb4_nav_to_pose/tb4_nav_to_pose.egg-info to /home/rudolfs/ros2_ws/install/tb4_nav_to_pose/lib/python3.12/site-packages/tb4_nav_to_pose-0.0.0-py3.12.egg-info
+running install_scripts
+Installing nav_to_pose script to /home/rudolfs/ros2_ws/install/tb4_nav_to_pose/lib/tb4_nav_to_pose
+writing list of installed files to '/home/rudolfs/ros2_ws/build/tb4_nav_to_pose/install.log'

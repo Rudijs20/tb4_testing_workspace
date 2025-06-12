@@ -21,7 +21,6 @@ import rclpy
 import time
 import csv
 import os
-import signal
 from nav_msgs.msg import Odometry, Path
 from turtlebot4_navigation.turtlebot4_navigator import TurtleBot4Directions, TurtleBot4Navigator
 from builtin_interfaces.msg import Time
@@ -31,6 +30,7 @@ from rosgraph_msgs.msg import Clock
 from datetime import datetime
 import threading
 from rclpy.executors import SingleThreadedExecutor
+from geometry_msgs.msg import PointStamped
 
 
 class MetricsMonitor(Node):
@@ -53,12 +53,24 @@ class MetricsMonitor(Node):
             self.global_callback,
             10
         )
+        # self.local_sub = self.create_subscription(
+        #     Path,
+        #     '/local_plan',          # use this for DWB
+        #     self.local_callback,
+        #     10
+        # )
         self.local_sub = self.create_subscription(
-            Path,
-            '/local_plan',
+            PointStamped,
+            '/lookahead_point',  # use this for RPP
             self.local_callback,
             10
         )
+        # self.local_sub = self.create_subscription(
+        #     Path,
+        #     '/optimal_trajectory',    # Use this for modified MPPI 
+        #     self.local_callback,
+        #     10
+        # )
 
     def clock_callback(self, msg):
         self.latest_time = msg.clock.sec + msg.clock.nanosec * 1e-9
@@ -92,6 +104,8 @@ def main():
 
     cpu_proc = run_script("python3 /home/rudolfs/ros2_ws/nav2_cpu_logger.py")
     battery_proc = subprocess.Popen(["ros2", "run", "battery_logger", "log_battery"])
+    cmd_vel_proc = subprocess.Popen(["ros2", "run", "cmd_vel_tracker", "cmd_vel_logger"])
+
     filename = f"navigation_metrics_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
 
     navigator.path_length = 0.0
@@ -183,6 +197,7 @@ def main():
 
     cpu_proc.terminate()
     battery_proc.terminate()
+    cmd_vel_proc.terminate()
 
     results_dir = os.path.expanduser("~/ros2_ws/results")
     os.makedirs(results_dir, exist_ok=True)
@@ -198,7 +213,7 @@ def main():
             global_count
         ])
 
-    subprocess.run("pkill -f 'battery_logger|nav2_cpu_logger'", shell=True)
+    subprocess.run("pkill -f 'battery_logger|nav2_cpu_logger|cmd_vel_tracker'", shell=True)
     navigator.destroy_node()
     metrics_monitor.destroy_node()
     rclpy.shutdown()

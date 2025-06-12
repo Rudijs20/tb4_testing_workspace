@@ -1,0 +1,3 @@
+gmake[2]: *** [plugins/test/CMakeFiles/pctest.dir/build.make:76: plugins/test/CMakeFiles/pctest.dir/progress_checker.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:389: plugins/test/CMakeFiles/pctest.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

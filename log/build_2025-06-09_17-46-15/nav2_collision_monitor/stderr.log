@@ -1,0 +1,3 @@
+gmake[2]: *** [test/CMakeFiles/collision_monitor_node_test.dir/build.make:76: test/CMakeFiles/collision_monitor_node_test.dir/collision_monitor_node_test.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:406: test/CMakeFiles/collision_monitor_node_test.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

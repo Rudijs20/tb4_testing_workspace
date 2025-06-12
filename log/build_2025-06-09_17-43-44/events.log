@@ -1,0 +1,298 @@
+[0.000000] (-) TimerEvent: {}
+[0.000690] (-) JobUnselected: {'identifier': 'battery_logger'}
+[0.000768] (-) JobUnselected: {'identifier': 'cmd_vel_tracker'}
+[0.000785] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.000810] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.000822] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.000832] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.000843] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.000853] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.000862] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.000872] (-) JobUnselected: {'identifier': 'nav2_behaviors'}
+[0.000883] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.000893] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.000903] (-) JobUnselected: {'identifier': 'nav2_collision_monitor'}
+[0.000913] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.000923] (-) JobUnselected: {'identifier': 'nav2_constrained_smoother'}
+[0.000932] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.000943] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.000952] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.000962] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.000978] (-) JobUnselected: {'identifier': 'nav2_graceful_controller'}
+[0.000988] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.000999] (-) JobUnselected: {'identifier': 'nav2_loopback_sim'}
+[0.001008] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.001018] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.001069] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.001081] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.001091] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.001102] (-) JobUnselected: {'identifier': 'nav2_rotation_shim_controller'}
+[0.001112] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.001122] (-) JobUnselected: {'identifier': 'nav2_simple_commander'}
+[0.001136] (-) JobUnselected: {'identifier': 'nav2_smac_planner'}
+[0.001149] (-) JobUnselected: {'identifier': 'nav2_smoother'}
+[0.001159] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.001169] (-) JobUnselected: {'identifier': 'nav2_theta_star_planner'}
+[0.001179] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.001189] (-) JobUnselected: {'identifier': 'nav2_velocity_smoother'}
+[0.001199] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.001209] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.001219] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.001229] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.001239] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.001249] (-) JobUnselected: {'identifier': 'opennav_docking'}
+[0.001259] (-) JobUnselected: {'identifier': 'opennav_docking_bt'}
+[0.001269] (-) JobUnselected: {'identifier': 'opennav_docking_core'}
+[0.001278] (-) JobUnselected: {'identifier': 'tb4_nav_to_pose'}
+[0.001288] (-) JobUnselected: {'identifier': 'turtlebot4_description'}
+[0.001299] (-) JobUnselected: {'identifier': 'turtlebot4_msgs'}
+[0.001309] (-) JobUnselected: {'identifier': 'turtlebot4_navigation'}
+[0.001318] (-) JobUnselected: {'identifier': 'turtlebot4_node'}
+[0.001331] (nav2_mppi_controller) JobQueued: {'identifier': 'nav2_mppi_controller', 'dependencies': OrderedDict({'nav2_common': '/home/rudolfs/ros2_ws/install/nav2_common', 'nav2_msgs': '/home/rudolfs/ros2_ws/install/nav2_msgs', 'nav2_voxel_grid': '/home/rudolfs/ros2_ws/install/nav2_voxel_grid', 'nav2_util': '/home/rudolfs/ros2_ws/install/nav2_util', 'nav2_behavior_tree': '/home/rudolfs/ros2_ws/install/nav2_behavior_tree', 'nav2_lifecycle_manager': '/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager', 'nav2_map_server': '/home/rudolfs/ros2_ws/install/nav2_map_server', 'nav2_costmap_2d': '/home/rudolfs/ros2_ws/install/nav2_costmap_2d', 'nav2_core': '/home/rudolfs/ros2_ws/install/nav2_core'})}
+[0.001360] (nav2_mppi_controller) JobStarted: {'identifier': 'nav2_mppi_controller'}
+[0.037861] (nav2_mppi_controller) JobProgress: {'identifier': 'nav2_mppi_controller', 'progress': 'cmake'}
+[0.039384] (nav2_mppi_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller', '-DCMAKE_INSTALL_PREFIX=/home/rudolfs/ros2_ws/install/nav2_mppi_controller'], 'cwd': '/home/rudolfs/ros2_ws/build/nav2_mppi_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rudolfs', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rudolfs/ros2_ws/install/nav2_costmap_2d/lib:/home/rudolfs/ros2_ws/install/nav2_map_server/lib:/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager/lib:/home/rudolfs/ros2_ws/install/nav2_behavior_tree/lib:/home/rudolfs/ros2_ws/install/nav2_util/lib:/home/rudolfs/ros2_ws/install/nav2_voxel_grid/lib:/home/rudolfs/ros2_ws/install/nav2_msgs/lib:/home/rudolfs/ros2_ws/install/turtlebot4_msgs/lib:/home/rudolfs/ros2_ws/install/nav2_system_tests/lib:/home/rudolfs/ros2_ws/install/opennav_docking/lib:/home/rudolfs/ros2_ws/install/opennav_docking_bt/lib:/home/rudolfs/ros2_ws/install/nav2_smoother/lib:/home/rudolfs/ros2_ws/install/nav2_rotation_shim_controller/lib:/home/rudolfs/ros2_ws/install/nav2_graceful_controller/lib:/home/rudolfs/ros2_ws/install/nav2_controller/lib:/home/rudolfs/ros2_ws/install/dwb_plugins/lib:/home/rudolfs/ros2_ws/install/dwb_critics/lib:/home/rudolfs/ros2_ws/install/dwb_core/lib:/home/rudolfs/ros2_ws/install/nav_2d_utils/lib:/home/rudolfs/ros2_ws/install/dwb_msgs/lib:/home/rudolfs/ros2_ws/install/nav_2d_msgs/lib:/home/rudolfs/ros2_ws/install/nav2_waypoint_follower/lib:/home/rudolfs/ros2_ws/install/nav2_theta_star_planner/lib:/home/rudolfs/ros2_ws/install/nav2_smac_planner/lib:/home/rudolfs/ros2_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/rudolfs/ros2_ws/install/nav2_planner/lib:/home/rudolfs/ros2_ws/install/nav2_navfn_planner/lib:/home/rudolfs/ros2_ws/install/nav2_mppi_controller/lib:/home/rudolfs/ros2_ws/install/nav2_constrained_smoother/lib:/home/rudolfs/ros2_ws/install/nav2_bt_navigator/lib:/home/rudolfs/ros2_ws/install/nav2_behaviors/lib:/home/rudolfs/ros2_ws/install/nav2_collision_monitor/lib:/home/rudolfs/ros2_ws/install/costmap_queue/lib:/home/rudolfs/ros2_ws/install/nav2_velocity_smoother/lib:/home/rudolfs/ros2_ws/install/nav2_rviz_plugins/lib:/home/rudolfs/ros2_ws/install/nav2_amcl/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rudolfs', 'CYCLONEDDS_URI': '/etc/turtlebot4/cyclonedds_pc.xml', 'OLDPWD': '/home/rudolfs/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1883', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/rudolfs/ros2_ws/install:/home/rudolfs/testing_ws/turtlebot4_ws/install:/home/rudolfs/testing_ws/install:/home/rudolfs/testing_ws/ros2_ws/install:/home/rudolfs/Desktop/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rudolfs', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rudolfs', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/rudolfs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rudolfs-System-Product-Name:@/tmp/.ICE-unix/1837,unix/rudolfs-System-Product-Name:/tmp/.ICE-unix/1837', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5de30ece_8b85_42c2_86b3_eef49cc0fe11', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.127', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/rudolfs/ros2_ws/install/turtlebot4_node:/home/rudolfs/ros2_ws/install/turtlebot4_navigation:/home/rudolfs/ros2_ws/install/turtlebot4_msgs:/home/rudolfs/ros2_ws/install/turtlebot4_description:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose:/home/rudolfs/ros2_ws/install/nav2_system_tests:/home/rudolfs/ros2_ws/install/nav2_bringup:/home/rudolfs/ros2_ws/install/navigation2:/home/rudolfs/ros2_ws/install/opennav_docking:/home/rudolfs/ros2_ws/install/opennav_docking_core:/home/rudolfs/ros2_ws/install/opennav_docking_bt:/home/rudolfs/ros2_ws/install/nav2_smoother:/home/rudolfs/ros2_ws/install/nav2_rotation_shim_controller:/home/rudolfs/ros2_ws/install/nav2_graceful_controller:/home/rudolfs/ros2_ws/install/nav2_dwb_controller:/home/rudolfs/ros2_ws/install/nav2_controller:/home/rudolfs/ros2_ws/install/dwb_plugins:/home/rudolfs/ros2_ws/install/dwb_critics:/home/rudolfs/ros2_ws/install/dwb_core:/home/rudolfs/ros2_ws/install/nav_2d_utils:/home/rudolfs/ros2_ws/install/dwb_msgs:/home/rudolfs/ros2_ws/install/nav_2d_msgs:/home/rudolfs/ros2_ws/install/nav2_waypoint_follower:/home/rudolfs/ros2_ws/install/nav2_theta_star_planner:/home/rudolfs/ros2_ws/install/nav2_smac_planner:/home/rudolfs/ros2_ws/install/nav2_regulated_pure_pursuit_controller:/home/rudolfs/ros2_ws/install/nav2_planner:/home/rudolfs/ros2_ws/install/nav2_navfn_planner:/home/rudolfs/ros2_ws/install/nav2_mppi_controller:/home/rudolfs/ros2_ws/install/nav2_constrained_smoother:/home/rudolfs/ros2_ws/install/nav2_bt_navigator:/home/rudolfs/ros2_ws/install/nav2_behaviors:/home/rudolfs/ros2_ws/install/nav2_core:/home/rudolfs/ros2_ws/install/nav2_collision_monitor:/home/rudolfs/ros2_ws/install/costmap_queue:/home/rudolfs/ros2_ws/install/nav2_costmap_2d:/home/rudolfs/ros2_ws/install/nav2_voxel_grid:/home/rudolfs/ros2_ws/install/nav2_velocity_smoother:/home/rudolfs/ros2_ws/install/nav2_rviz_plugins:/home/rudolfs/ros2_ws/install/nav2_map_server:/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager:/home/rudolfs/ros2_ws/install/nav2_behavior_tree:/home/rudolfs/ros2_ws/install/nav2_amcl:/home/rudolfs/ros2_ws/install/nav2_util:/home/rudolfs/ros2_ws/install/nav2_simple_commander:/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_loopback_sim:/home/rudolfs/ros2_ws/install/nav2_common:/home/rudolfs/ros2_ws/install/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/battery_logger:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rudolfs/ros2_ws/build/nav2_mppi_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rudolfs/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/nav2_common/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/turtlebot4_navigation/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/turtlebot4_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/nav_2d_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/build/nav2_simple_commander:/home/rudolfs/ros2_ws/install/nav2_simple_commander/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/build/nav2_loopback_sim:/home/rudolfs/ros2_ws/install/nav2_loopback_sim/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/build/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/cmd_vel_tracker/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/build/battery_logger:/home/rudolfs/ros2_ws/install/battery_logger/lib/python3.12/site-packages:/home/rudolfs/testing_ws/turtlebot4_ws/build/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials/lib/python3.12/site-packages:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials/lib/python3.12/site-packages:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/rudolfs/ros2_ws/install/nav2_core:/home/rudolfs/ros2_ws/install/nav2_costmap_2d:/home/rudolfs/ros2_ws/install/nav2_map_server:/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager:/home/rudolfs/ros2_ws/install/nav2_behavior_tree:/home/rudolfs/ros2_ws/install/nav2_util:/home/rudolfs/ros2_ws/install/nav2_voxel_grid:/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:/home/rudolfs/ros2_ws/install/turtlebot4_node:/home/rudolfs/ros2_ws/install/turtlebot4_navigation:/home/rudolfs/ros2_ws/install/turtlebot4_msgs:/home/rudolfs/ros2_ws/install/turtlebot4_description:/home/rudolfs/ros2_ws/install/nav2_system_tests:/home/rudolfs/ros2_ws/install/nav2_bringup:/home/rudolfs/ros2_ws/install/navigation2:/home/rudolfs/ros2_ws/install/opennav_docking:/home/rudolfs/ros2_ws/install/opennav_docking_core:/home/rudolfs/ros2_ws/install/opennav_docking_bt:/home/rudolfs/ros2_ws/install/nav2_smoother:/home/rudolfs/ros2_ws/install/nav2_rotation_shim_controller:/home/rudolfs/ros2_ws/install/nav2_graceful_controller:/home/rudolfs/ros2_ws/install/nav2_dwb_controller:/home/rudolfs/ros2_ws/install/nav2_controller:/home/rudolfs/ros2_ws/install/dwb_plugins:/home/rudolfs/ros2_ws/install/dwb_critics:/home/rudolfs/ros2_ws/install/dwb_core:/home/rudolfs/ros2_ws/install/nav_2d_utils:/home/rudolfs/ros2_ws/install/dwb_msgs:/home/rudolfs/ros2_ws/install/nav_2d_msgs:/home/rudolfs/ros2_ws/install/nav2_waypoint_follower:/home/rudolfs/ros2_ws/install/nav2_theta_star_planner:/home/rudolfs/ros2_ws/install/nav2_smac_planner:/home/rudolfs/ros2_ws/install/nav2_regulated_pure_pursuit_controller:/home/rudolfs/ros2_ws/install/nav2_planner:/home/rudolfs/ros2_ws/install/nav2_navfn_planner:/home/rudolfs/ros2_ws/install/nav2_mppi_controller:/home/rudolfs/ros2_ws/install/nav2_constrained_smoother:/home/rudolfs/ros2_ws/install/nav2_bt_navigator:/home/rudolfs/ros2_ws/install/nav2_behaviors:/home/rudolfs/ros2_ws/install/nav2_collision_monitor:/home/rudolfs/ros2_ws/install/costmap_queue:/home/rudolfs/ros2_ws/install/nav2_velocity_smoother:/home/rudolfs/ros2_ws/install/nav2_rviz_plugins:/home/rudolfs/ros2_ws/install/nav2_amcl:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose:/home/rudolfs/ros2_ws/install/nav2_simple_commander:/home/rudolfs/ros2_ws/install/nav2_loopback_sim:/home/rudolfs/ros2_ws/install/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/battery_logger:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger:/opt/ros/jazzy'}), 'shell': False}
+[0.060821] (nav2_mppi_controller) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.100047] (-) TimerEvent: {}
+[0.200317] (-) TimerEvent: {}
+[0.300539] (-) TimerEvent: {}
+[0.348488] (nav2_mppi_controller) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.369615] (nav2_mppi_controller) StdoutLine: {'line': b'-- Found angles: 1.16.0 (/opt/ros/jazzy/share/angles/cmake)\n'}
+[0.372528] (nav2_mppi_controller) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.400642] (-) TimerEvent: {}
+[0.411945] (nav2_mppi_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.423431] (nav2_mppi_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.442217] (nav2_mppi_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.462147] (nav2_mppi_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500744] (-) TimerEvent: {}
+[0.514565] (nav2_mppi_controller) StdoutLine: {'line': b'-- Found nav2_common: 1.3.7 (/home/rudolfs/ros2_ws/install/nav2_common/share/nav2_common/cmake)\n'}
+[0.515758] (nav2_mppi_controller) StdoutLine: {'line': b'-- Found nav2_core: 1.3.7 (/home/rudolfs/ros2_ws/install/nav2_core/share/nav2_core/cmake)\n'}
+[0.587168] (nav2_mppi_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.592015] (nav2_mppi_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600837] (-) TimerEvent: {}
+[0.667347] (nav2_mppi_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.700954] (-) TimerEvent: {}
+[0.801159] (-) TimerEvent: {}
+[0.901366] (-) TimerEvent: {}
+[1.001621] (-) TimerEvent: {}
+[1.101849] (-) TimerEvent: {}
+[1.116588] (nav2_mppi_controller) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[1.118139] (nav2_mppi_controller) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.201966] (-) TimerEvent: {}
+[1.302190] (-) TimerEvent: {}
+[1.322786] (nav2_mppi_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.323997] (nav2_mppi_controller) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)\n'}
+[1.402280] (-) TimerEvent: {}
+[1.414757] (nav2_mppi_controller) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.457214] (nav2_mppi_controller) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.457496] (nav2_mppi_controller) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/include;$<BUILD_INTERFACE:/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/include>\n'}
+[1.457584] (nav2_mppi_controller) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.459751] (nav2_mppi_controller) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.459846] (nav2_mppi_controller) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.461374] (nav2_mppi_controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.464383] (nav2_mppi_controller) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.464521] (nav2_mppi_controller) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.465154] (nav2_mppi_controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.469977] (nav2_mppi_controller) StdoutLine: {'line': b'-- Configuring done (1.4s)\n'}
+[1.502393] (-) TimerEvent: {}
+[1.602598] (-) TimerEvent: {}
+[1.625693] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:53 (target_link_libraries):\n'}
+[1.625885] (nav2_mppi_controller) StderrLine: {'line': b'  Target "mppi_controller" links to:\n'}
+[1.625971] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.626033] (nav2_mppi_controller) StderrLine: {'line': b'    nav2_core::nav2_core\n'}
+[1.626093] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.626495] (nav2_mppi_controller) StderrLine: {'line': b'  but the target was not found.  Possible reasons include:\n'}
+[1.626570] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.626630] (nav2_mppi_controller) StderrLine: {'line': b'    * There is a typo in the target name.\n'}
+[1.626686] (nav2_mppi_controller) StderrLine: {'line': b'    * A find_package call is missing for an IMPORTED target.\n'}
+[1.626742] (nav2_mppi_controller) StderrLine: {'line': b'    * An ALIAS target is missing.\n'}
+[1.626804] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.626860] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.626914] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[1.626969] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:88 (target_link_libraries):\n'}
+[1.627023] (nav2_mppi_controller) StderrLine: {'line': b'  Target "mppi_critics" links to:\n'}
+[1.627078] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.627136] (nav2_mppi_controller) StderrLine: {'line': b'    nav2_core::nav2_core\n'}
+[1.627196] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.627249] (nav2_mppi_controller) StderrLine: {'line': b'  but the target was not found.  Possible reasons include:\n'}
+[1.627302] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.627355] (nav2_mppi_controller) StderrLine: {'line': b'    * There is a typo in the target name.\n'}
+[1.627409] (nav2_mppi_controller) StderrLine: {'line': b'    * A find_package call is missing for an IMPORTED target.\n'}
+[1.627462] (nav2_mppi_controller) StderrLine: {'line': b'    * An ALIAS target is missing.\n'}
+[1.627516] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.627570] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.627623] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[1.627675] (nav2_mppi_controller) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[1.627735] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):\n'}
+[1.627790] (nav2_mppi_controller) StderrLine: {'line': b'  Target "optimizer_smoke_test" links to:\n'}
+[1.627844] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.627897] (nav2_mppi_controller) StderrLine: {'line': b'    nav2_core::nav2_core\n'}
+[1.627965] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.628017] (nav2_mppi_controller) StderrLine: {'line': b'  but the target was not found.  Possible reasons include:\n'}
+[1.628070] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.628122] (nav2_mppi_controller) StderrLine: {'line': b'    * There is a typo in the target name.\n'}
+[1.628209] (nav2_mppi_controller) StderrLine: {'line': b'    * A find_package call is missing for an IMPORTED target.\n'}
+[1.628263] (nav2_mppi_controller) StderrLine: {'line': b'    * An ALIAS target is missing.\n'}
+[1.628314] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.628366] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.628418] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[1.628471] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):\n'}
+[1.628524] (nav2_mppi_controller) StderrLine: {'line': b'  Target "controller_state_transition_test" links to:\n'}
+[1.628577] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.628629] (nav2_mppi_controller) StderrLine: {'line': b'    nav2_core::nav2_core\n'}
+[1.628680] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.628731] (nav2_mppi_controller) StderrLine: {'line': b'  but the target was not found.  Possible reasons include:\n'}
+[1.628784] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.628835] (nav2_mppi_controller) StderrLine: {'line': b'    * There is a typo in the target name.\n'}
+[1.628886] (nav2_mppi_controller) StderrLine: {'line': b'    * A find_package call is missing for an IMPORTED target.\n'}
+[1.628937] (nav2_mppi_controller) StderrLine: {'line': b'    * An ALIAS target is missing.\n'}
+[1.628988] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.629040] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.629092] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[1.629172] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):\n'}
+[1.629245] (nav2_mppi_controller) StderrLine: {'line': b'  Target "models_test" links to:\n'}
+[1.629297] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.629349] (nav2_mppi_controller) StderrLine: {'line': b'    nav2_core::nav2_core\n'}
+[1.629406] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.629457] (nav2_mppi_controller) StderrLine: {'line': b'  but the target was not found.  Possible reasons include:\n'}
+[1.629511] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.629699] (nav2_mppi_controller) StderrLine: {'line': b'    * There is a typo in the target name.\n'}
+[1.629785] (nav2_mppi_controller) StderrLine: {'line': b'    * A find_package call is missing for an IMPORTED target.\n'}
+[1.629843] (nav2_mppi_controller) StderrLine: {'line': b'    * An ALIAS target is missing.\n'}
+[1.629897] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.629987] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.630041] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[1.630095] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):\n'}
+[1.630206] (nav2_mppi_controller) StderrLine: {'line': b'  Target "noise_generator_test" links to:\n'}
+[1.630278] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.630333] (nav2_mppi_controller) StderrLine: {'line': b'    nav2_core::nav2_core\n'}
+[1.630386] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.630437] (nav2_mppi_controller) StderrLine: {'line': b'  but the target was not found.  Possible reasons include:\n'}
+[1.630497] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.630550] (nav2_mppi_controller) StderrLine: {'line': b'    * There is a typo in the target name.\n'}
+[1.630601] (nav2_mppi_controller) StderrLine: {'line': b'    * A find_package call is missing for an IMPORTED target.\n'}
+[1.630653] (nav2_mppi_controller) StderrLine: {'line': b'    * An ALIAS target is missing.\n'}
+[1.630705] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.630757] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.630809] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[1.630861] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):\n'}
+[1.630913] (nav2_mppi_controller) StderrLine: {'line': b'  Target "parameter_handler_test" links to:\n'}
+[1.630964] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.631016] (nav2_mppi_controller) StderrLine: {'line': b'    nav2_core::nav2_core\n'}
+[1.631067] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.631118] (nav2_mppi_controller) StderrLine: {'line': b'  but the target was not found.  Possible reasons include:\n'}
+[1.631180] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.631233] (nav2_mppi_controller) StderrLine: {'line': b'    * There is a typo in the target name.\n'}
+[1.631286] (nav2_mppi_controller) StderrLine: {'line': b'    * A find_package call is missing for an IMPORTED target.\n'}
+[1.631338] (nav2_mppi_controller) StderrLine: {'line': b'    * An ALIAS target is missing.\n'}
+[1.631389] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.631441] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.631492] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[1.631545] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):\n'}
+[1.631596] (nav2_mppi_controller) StderrLine: {'line': b'  Target "motion_model_tests" links to:\n'}
+[1.631648] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.631700] (nav2_mppi_controller) StderrLine: {'line': b'    nav2_core::nav2_core\n'}
+[1.631752] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.631804] (nav2_mppi_controller) StderrLine: {'line': b'  but the target was not found.  Possible reasons include:\n'}
+[1.631856] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.631907] (nav2_mppi_controller) StderrLine: {'line': b'    * There is a typo in the target name.\n'}
+[1.631959] (nav2_mppi_controller) StderrLine: {'line': b'    * A find_package call is missing for an IMPORTED target.\n'}
+[1.632011] (nav2_mppi_controller) StderrLine: {'line': b'    * An ALIAS target is missing.\n'}
+[1.632063] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.632114] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.632180] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[1.632233] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):\n'}
+[1.632285] (nav2_mppi_controller) StderrLine: {'line': b'  Target "trajectory_visualizer_tests" links to:\n'}
+[1.632337] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.632388] (nav2_mppi_controller) StderrLine: {'line': b'    nav2_core::nav2_core\n'}
+[1.632440] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.632492] (nav2_mppi_controller) StderrLine: {'line': b'  but the target was not found.  Possible reasons include:\n'}
+[1.632543] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.632595] (nav2_mppi_controller) StderrLine: {'line': b'    * There is a typo in the target name.\n'}
+[1.632647] (nav2_mppi_controller) StderrLine: {'line': b'    * A find_package call is missing for an IMPORTED target.\n'}
+[1.632697] (nav2_mppi_controller) StderrLine: {'line': b'    * An ALIAS target is missing.\n'}
+[1.632748] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.632800] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.632852] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[1.632904] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):\n'}
+[1.632956] (nav2_mppi_controller) StderrLine: {'line': b'  Target "utils_test" links to:\n'}
+[1.633007] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.633058] (nav2_mppi_controller) StderrLine: {'line': b'    nav2_core::nav2_core\n'}
+[1.633113] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.633176] (nav2_mppi_controller) StderrLine: {'line': b'  but the target was not found.  Possible reasons include:\n'}
+[1.633229] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.633280] (nav2_mppi_controller) StderrLine: {'line': b'    * There is a typo in the target name.\n'}
+[1.633332] (nav2_mppi_controller) StderrLine: {'line': b'    * A find_package call is missing for an IMPORTED target.\n'}
+[1.633384] (nav2_mppi_controller) StderrLine: {'line': b'    * An ALIAS target is missing.\n'}
+[1.633436] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.633488] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.633539] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[1.633592] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):\n'}
+[1.633643] (nav2_mppi_controller) StderrLine: {'line': b'  Target "path_handler_test" links to:\n'}
+[1.633694] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.633745] (nav2_mppi_controller) StderrLine: {'line': b'    nav2_core::nav2_core\n'}
+[1.633796] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.633848] (nav2_mppi_controller) StderrLine: {'line': b'  but the target was not found.  Possible reasons include:\n'}
+[1.633900] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.633954] (nav2_mppi_controller) StderrLine: {'line': b'    * There is a typo in the target name.\n'}
+[1.634006] (nav2_mppi_controller) StderrLine: {'line': b'    * A find_package call is missing for an IMPORTED target.\n'}
+[1.634059] (nav2_mppi_controller) StderrLine: {'line': b'    * An ALIAS target is missing.\n'}
+[1.634111] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.634171] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.634224] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[1.634277] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):\n'}
+[1.634328] (nav2_mppi_controller) StderrLine: {'line': b'  Target "critic_manager_test" links to:\n'}
+[1.634381] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.634433] (nav2_mppi_controller) StderrLine: {'line': b'    nav2_core::nav2_core\n'}
+[1.634484] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.634536] (nav2_mppi_controller) StderrLine: {'line': b'  but the target was not found.  Possible reasons include:\n'}
+[1.634589] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.634647] (nav2_mppi_controller) StderrLine: {'line': b'    * There is a typo in the target name.\n'}
+[1.634699] (nav2_mppi_controller) StderrLine: {'line': b'    * A find_package call is missing for an IMPORTED target.\n'}
+[1.634750] (nav2_mppi_controller) StderrLine: {'line': b'    * An ALIAS target is missing.\n'}
+[1.634804] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.634856] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.634909] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[1.634961] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):\n'}
+[1.635020] (nav2_mppi_controller) StderrLine: {'line': b'  Target "optimizer_unit_tests" links to:\n'}
+[1.635072] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.635124] (nav2_mppi_controller) StderrLine: {'line': b'    nav2_core::nav2_core\n'}
+[1.635184] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.635237] (nav2_mppi_controller) StderrLine: {'line': b'  but the target was not found.  Possible reasons include:\n'}
+[1.635289] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.635340] (nav2_mppi_controller) StderrLine: {'line': b'    * There is a typo in the target name.\n'}
+[1.635391] (nav2_mppi_controller) StderrLine: {'line': b'    * A find_package call is missing for an IMPORTED target.\n'}
+[1.635442] (nav2_mppi_controller) StderrLine: {'line': b'    * An ALIAS target is missing.\n'}
+[1.635494] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.635546] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.635597] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[1.635650] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[31mCMake Error at benchmark/CMakeLists.txt:12 (target_link_libraries):\n'}
+[1.635703] (nav2_mppi_controller) StderrLine: {'line': b'  Target "optimizer_benchmark" links to:\n'}
+[1.635755] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.635807] (nav2_mppi_controller) StderrLine: {'line': b'    nav2_core::nav2_core\n'}
+[1.635859] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.635911] (nav2_mppi_controller) StderrLine: {'line': b'  but the target was not found.  Possible reasons include:\n'}
+[1.635963] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.636014] (nav2_mppi_controller) StderrLine: {'line': b'    * There is a typo in the target name.\n'}
+[1.636065] (nav2_mppi_controller) StderrLine: {'line': b'    * A find_package call is missing for an IMPORTED target.\n'}
+[1.636117] (nav2_mppi_controller) StderrLine: {'line': b'    * An ALIAS target is missing.\n'}
+[1.636182] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.636236] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.636287] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[1.636338] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[31mCMake Error at benchmark/CMakeLists.txt:12 (target_link_libraries):\n'}
+[1.636390] (nav2_mppi_controller) StderrLine: {'line': b'  Target "controller_benchmark" links to:\n'}
+[1.636442] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.636496] (nav2_mppi_controller) StderrLine: {'line': b'    nav2_core::nav2_core\n'}
+[1.636549] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.636624] (nav2_mppi_controller) StderrLine: {'line': b'  but the target was not found.  Possible reasons include:\n'}
+[1.636690] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.636744] (nav2_mppi_controller) StderrLine: {'line': b'    * There is a typo in the target name.\n'}
+[1.636796] (nav2_mppi_controller) StderrLine: {'line': b'    * A find_package call is missing for an IMPORTED target.\n'}
+[1.636848] (nav2_mppi_controller) StderrLine: {'line': b'    * An ALIAS target is missing.\n'}
+[1.636931] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.636983] (nav2_mppi_controller) StderrLine: {'line': b'\n'}
+[1.637036] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[1.637089] (nav2_mppi_controller) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[1.643022] (nav2_mppi_controller) CommandEnded: {'returncode': 1}
+[1.653532] (nav2_mppi_controller) JobEnded: {'identifier': 'nav2_mppi_controller', 'rc': 1}
+[1.663917] (-) EventReactorShutdown: {}

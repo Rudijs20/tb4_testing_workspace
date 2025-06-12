@@ -1,0 +1,138 @@
+[0.043s] Invoking command in '/home/rudolfs/ros2_ws/build/nav2_rviz_plugins': AMENT_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager:/home/rudolfs/ros2_ws/install/nav2_util:/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager:/home/rudolfs/ros2_ws/install/nav2_util:/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose:/home/rudolfs/ros2_ws/install/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/battery_logger:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager/lib:/home/rudolfs/ros2_ws/install/nav2_util/lib:/home/rudolfs/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudolfs/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rudolfs/ros2_ws/src/navigation2/nav2_rviz_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rudolfs/ros2_ws/install/nav2_rviz_plugins
+[0.631s] -- The C compiler identification is GNU 13.3.0
+[0.631s] -- The CXX compiler identification is GNU 13.3.0
+[0.631s] -- Detecting C compiler ABI info
+[0.631s] -- Detecting C compiler ABI info - done
+[0.631s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.632s] -- Detecting C compile features
+[0.632s] -- Detecting C compile features - done
+[0.632s] -- Detecting CXX compiler ABI info
+[0.777s] -- Detecting CXX compiler ABI info - done
+[0.794s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.798s] -- Detecting CXX compile features
+[0.798s] -- Detecting CXX compile features - done
+[0.814s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.006s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.096s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.149s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.221s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.235s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.258s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.285s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.340s] -- Found nav2_util: 1.3.7 (/home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/cmake)
+[1.453s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.457s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.569s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.602s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.633s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.063s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[2.064s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.065s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.185s] -- Found nav2_lifecycle_manager: 1.3.7 (/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake)
+[2.276s] -- Found pluginlib: 5.4.2 (/opt/ros/jazzy/share/pluginlib/cmake)
+[2.331s] -- Found rviz_common: 14.1.11 (/opt/ros/jazzy/share/rviz_common/cmake)
+[2.341s] -- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[2.344s] -- Found OGRE
+[2.344s] --   static     : OFF
+[2.344s] --   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[2.345s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.345s] --   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media
+[2.345s] -- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[2.345s] -- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib
+[2.345s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.345s] -- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE
+[2.345s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.345s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.345s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.345s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.396s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[2.420s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[2.641s] -- Found X11: /usr/include   
+[2.641s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[2.727s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[2.727s] -- Looking for gethostbyname
+[2.808s] -- Looking for gethostbyname - found
+[2.808s] -- Looking for connect
+[2.891s] -- Looking for connect - found
+[2.892s] -- Looking for remove
+[2.973s] -- Looking for remove - found
+[2.973s] -- Looking for shmat
+[3.062s] -- Looking for shmat - found
+[3.062s] -- Looking for IceConnectionNumber in ICE
+[3.184s] -- Looking for IceConnectionNumber in ICE - found
+[3.233s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[3.246s] -- Found rviz_default_plugins: 14.1.11 (/opt/ros/jazzy/share/rviz_default_plugins/cmake)
+[3.745s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.913s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.916s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.917s] -- Configured cppcheck include dirs: /home/rudolfs/ros2_ws/src/navigation2/nav2_rviz_plugins/include
+[3.917s] -- Configured cppcheck exclude dirs and/or files: 
+[3.919s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.920s] -- Configured cpplint exclude dirs and/or files: 
+[3.921s] -- Added test 'lint_cmake' to check CMake code style
+[3.924s] -- Added test 'uncrustify' to check C / C++ code style
+[3.924s] -- Configured uncrustify additional arguments: 
+[3.926s] -- Added test 'xmllint' to check XML markup files
+[3.961s] -- Configuring done (3.9s)
+[4.092s] -- Generating done (0.1s)
+[4.105s] -- Build files have been written to: /home/rudolfs/ros2_ws/build/nav2_rviz_plugins
+[4.133s] Invoked command in '/home/rudolfs/ros2_ws/build/nav2_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager:/home/rudolfs/ros2_ws/install/nav2_util:/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager:/home/rudolfs/ros2_ws/install/nav2_util:/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose:/home/rudolfs/ros2_ws/install/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/battery_logger:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager/lib:/home/rudolfs/ros2_ws/install/nav2_util/lib:/home/rudolfs/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudolfs/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rudolfs/ros2_ws/src/navigation2/nav2_rviz_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rudolfs/ros2_ws/install/nav2_rviz_plugins
+[4.134s] Invoking command in '/home/rudolfs/ros2_ws/build/nav2_rviz_plugins': AMENT_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager:/home/rudolfs/ros2_ws/install/nav2_util:/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager:/home/rudolfs/ros2_ws/install/nav2_util:/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose:/home/rudolfs/ros2_ws/install/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/battery_logger:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager/lib:/home/rudolfs/ros2_ws/install/nav2_util/lib:/home/rudolfs/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudolfs/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rudolfs/ros2_ws/build/nav2_rviz_plugins -- -j6 -l6
+[4.213s] [  0%] Built target nav2_rviz_plugins_autogen_timestamp_deps
+[4.243s] [  8%] [34m[1mAutomatic MOC for target nav2_rviz_plugins[0m
+[7.942s] [  8%] Built target nav2_rviz_plugins_autogen
+[8.096s] [ 16%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/nav2_rviz_plugins_autogen/mocs_compilation.cpp.o[0m
+[26.668s] [ 25%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/selector.cpp.o[0m
+[33.932s] [ 33%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/utils.cpp.o[0m
+[39.378s] [ 41%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/flat_weighted_arrows_array.cpp.o[0m
+[45.460s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/particle_cloud_display.cpp.o[0m
+[58.095s] [ 58%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/nav2_panel.cpp.o[0m
+[80.616s] [ 66%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/goal_tool.cpp.o[0m
+[84.859s] [ 75%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/docking_panel.cpp.o[0m
+[100.536s] [ 83%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/costmap_cost_tool.cpp.o[0m
+[105.487s] [ 91%] [32m[1mLinking CXX shared library libnav2_rviz_plugins.so[0m
+[112.536s] [100%] Built target nav2_rviz_plugins
+[112.548s] Invoked command in '/home/rudolfs/ros2_ws/build/nav2_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager:/home/rudolfs/ros2_ws/install/nav2_util:/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager:/home/rudolfs/ros2_ws/install/nav2_util:/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose:/home/rudolfs/ros2_ws/install/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/battery_logger:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager/lib:/home/rudolfs/ros2_ws/install/nav2_util/lib:/home/rudolfs/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudolfs/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rudolfs/ros2_ws/build/nav2_rviz_plugins -- -j6 -l6
+[112.548s] Invoking command in '/home/rudolfs/ros2_ws/build/nav2_rviz_plugins': AMENT_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager:/home/rudolfs/ros2_ws/install/nav2_util:/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager:/home/rudolfs/ros2_ws/install/nav2_util:/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose:/home/rudolfs/ros2_ws/install/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/battery_logger:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager/lib:/home/rudolfs/ros2_ws/install/nav2_util/lib:/home/rudolfs/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudolfs/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rudolfs/ros2_ws/build/nav2_rviz_plugins
+[112.556s] -- Install configuration: ""
+[112.556s] -- Execute custom install script
+[112.557s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins//plugins_description.xml
+[112.567s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/costmap_cost_tool.hpp
+[112.577s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/docking_panel.hpp
+[112.586s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_common.hpp
+[112.599s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_pose_updater.hpp
+[112.605s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_tool.hpp
+[112.614s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/nav2_panel.hpp
+[112.623s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/particle_cloud_display/flat_weighted_arrows_array.hpp
+[112.632s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/particle_cloud_display/particle_cloud_display.hpp
+[112.641s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/ros_action_qevent.hpp
+[112.650s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/selector.hpp
+[112.658s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/utils.hpp
+[112.667s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/icons/classes/Docking.svg
+[112.676s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/icons/classes/nav2_logo_small.png
+[112.684s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/library_path.sh
+[112.693s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/library_path.dsv
+[112.701s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/share/ament_index/resource_index/package_run_dependencies/nav2_rviz_plugins
+[112.710s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/share/ament_index/resource_index/parent_prefix_path/nav2_rviz_plugins
+[112.718s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/ament_prefix_path.sh
+[112.728s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/ament_prefix_path.dsv
+[112.736s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/path.sh
+[112.744s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/path.dsv
+[112.753s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.bash
+[112.762s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.sh
+[112.770s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.zsh
+[112.779s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.dsv
+[112.788s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/package.dsv
+[112.797s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/share/ament_index/resource_index/packages/nav2_rviz_plugins
+[112.806s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/share/ament_index/resource_index/rviz_common__pluginlib__plugin/nav2_rviz_plugins
+[112.815s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[112.823s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[112.831s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[112.840s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsConfig.cmake
+[112.850s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsConfig-version.cmake
+[112.859s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/package.xml
+[112.871s] -- Installing: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/lib/libnav2_rviz_plugins.so
+[112.889s] -- Set non-toolchain portion of runtime path of "/home/rudolfs/ros2_ws/install/nav2_rviz_plugins/lib/libnav2_rviz_plugins.so" to ""
+[112.889s] -- Installing: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsExport.cmake
+[112.890s] -- Installing: /home/rudolfs/ros2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsExport-noconfig.cmake
+[112.892s] Invoked command in '/home/rudolfs/ros2_ws/build/nav2_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager:/home/rudolfs/ros2_ws/install/nav2_util:/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager:/home/rudolfs/ros2_ws/install/nav2_util:/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose:/home/rudolfs/ros2_ws/install/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/battery_logger:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager/lib:/home/rudolfs/ros2_ws/install/nav2_util/lib:/home/rudolfs/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudolfs/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rudolfs/ros2_ws/build/nav2_rviz_plugins

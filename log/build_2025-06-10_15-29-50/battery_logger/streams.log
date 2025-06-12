@@ -1,0 +1,21 @@
+[1.758s] Invoking command in '/home/rudolfs/ros2_ws/src/battery_logger': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rudolfs/ros2_ws/build/battery_logger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rudolfs/ros2_ws/install/battery_logger/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/battery_logger build --build-base /home/rudolfs/ros2_ws/build/battery_logger/build install --record /home/rudolfs/ros2_ws/build/battery_logger/install.log --single-version-externally-managed install_data
+[2.170s] running egg_info
+[2.197s] writing ../../build/battery_logger/battery_logger.egg-info/PKG-INFO
+[2.198s] writing dependency_links to ../../build/battery_logger/battery_logger.egg-info/dependency_links.txt
+[2.198s] writing entry points to ../../build/battery_logger/battery_logger.egg-info/entry_points.txt
+[2.204s] writing requirements to ../../build/battery_logger/battery_logger.egg-info/requires.txt
+[2.204s] writing top-level names to ../../build/battery_logger/battery_logger.egg-info/top_level.txt
+[2.247s] reading manifest file '../../build/battery_logger/battery_logger.egg-info/SOURCES.txt'
+[2.248s] writing manifest file '../../build/battery_logger/battery_logger.egg-info/SOURCES.txt'
+[2.249s] running build
+[2.249s] running build_py
+[2.251s] running install
+[2.259s] running install_lib
+[2.313s] running install_data
+[2.316s] running install_egg_info
+[2.357s] removing '/home/rudolfs/ros2_ws/install/battery_logger/lib/python3.12/site-packages/battery_logger-0.0.0-py3.12.egg-info' (and everything under it)
+[2.357s] Copying ../../build/battery_logger/battery_logger.egg-info to /home/rudolfs/ros2_ws/install/battery_logger/lib/python3.12/site-packages/battery_logger-0.0.0-py3.12.egg-info
+[2.358s] running install_scripts
+[2.538s] Installing log_battery script to /home/rudolfs/ros2_ws/install/battery_logger/lib/battery_logger
+[2.545s] writing list of installed files to '/home/rudolfs/ros2_ws/build/battery_logger/install.log'
+[2.625s] Invoked command in '/home/rudolfs/ros2_ws/src/battery_logger' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rudolfs/ros2_ws/build/battery_logger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rudolfs/ros2_ws/install/battery_logger/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/battery_logger build --build-base /home/rudolfs/ros2_ws/build/battery_logger/build install --record /home/rudolfs/ros2_ws/build/battery_logger/install.log --single-version-externally-managed install_data

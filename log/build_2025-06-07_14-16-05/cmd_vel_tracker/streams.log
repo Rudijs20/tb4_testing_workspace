@@ -1,0 +1,19 @@
+[1.642s] Invoking command in '/home/rudolfs/ros2_ws/build/cmd_vel_tracker': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rudolfs/ros2_ws/build/cmd_vel_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rudolfs/ros2_ws/install/cmd_vel_tracker/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rudolfs/ros2_ws/build/cmd_vel_tracker/build --no-deps symlink_data --force
+[2.068s] running develop
+[2.388s] running egg_info
+[2.408s] writing cmd_vel_tracker.egg-info/PKG-INFO
+[2.409s] writing dependency_links to cmd_vel_tracker.egg-info/dependency_links.txt
+[2.409s] writing entry points to cmd_vel_tracker.egg-info/entry_points.txt
+[2.409s] writing requirements to cmd_vel_tracker.egg-info/requires.txt
+[2.409s] writing top-level names to cmd_vel_tracker.egg-info/top_level.txt
+[2.468s] reading manifest file 'cmd_vel_tracker.egg-info/SOURCES.txt'
+[2.471s] writing manifest file 'cmd_vel_tracker.egg-info/SOURCES.txt'
+[2.534s] running build_ext
+[2.537s] Creating /home/rudolfs/ros2_ws/install/cmd_vel_tracker/lib/python3.12/site-packages/cmd-vel-tracker.egg-link (link to .)
+[2.538s] Installing cmd_vel_logger script to /home/rudolfs/ros2_ws/install/cmd_vel_tracker/lib/cmd_vel_tracker
+[2.538s] 
+[2.538s] Installed /home/rudolfs/ros2_ws/build/cmd_vel_tracker
+[2.538s] running symlink_data
+[2.538s] symbolically linking /home/rudolfs/ros2_ws/build/cmd_vel_tracker/resource/cmd_vel_tracker -> /home/rudolfs/ros2_ws/install/cmd_vel_tracker/share/ament_index/resource_index/packages
+[2.540s] symbolically linking /home/rudolfs/ros2_ws/build/cmd_vel_tracker/package.xml -> /home/rudolfs/ros2_ws/install/cmd_vel_tracker/share/cmd_vel_tracker
+[2.665s] Invoked command in '/home/rudolfs/ros2_ws/build/cmd_vel_tracker' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rudolfs/ros2_ws/build/cmd_vel_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rudolfs/ros2_ws/install/cmd_vel_tracker/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rudolfs/ros2_ws/build/cmd_vel_tracker/build --no-deps symlink_data --force

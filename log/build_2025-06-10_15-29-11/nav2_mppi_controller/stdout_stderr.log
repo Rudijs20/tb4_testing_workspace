@@ -1,0 +1,16 @@
+[  2%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/controller.cpp.o[0m
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:[m[K In member function ‘[01m[Kvirtual void nav2_mppi_controller::MPPIController::[01;32m[Kconfigure[m[K(const rclcpp_lifecycle::LifecycleNode::WeakPtr&, std::string, std::shared_ptr<tf2_ros::Buffer>, std::shared_ptr<nav2_costmap_2d::Costmap2DROS>)[m[K’:
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:51:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode[m[K’?
+   51 |     opt_traj_pub_ = [01;31m[Knode_[m[K->create_publisher<nav_msgs::msg::Path>("optimal_trajectory", 10);
+      |                     [01;31m[K^~~~~[m[K
+      |                     [32m[Knode[m[K
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:51:64:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   51 |     opt_traj_pub_ = node_->create_publisher<nav_msgs::msg::Path[01;31m[K>[m[K("optimal_trajectory", 10);
+      |                                                                [01;31m[K^[m[K
+[01m[K/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/src/controller.cpp:51:66:[m[K [01;31m[Kerror: [m[Kleft operand of comma operator has no effect [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Werror=unused-value]8;;[m[K]
+   51 |     opt_traj_pub_ = node_->create_publisher<nav_msgs::msg::Path>([01;31m[K"optimal_trajectory"[m[K, 10);
+      |                                                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+cc1plus: all warnings being treated as errors
+gmake[2]: *** [CMakeFiles/mppi_controller.dir/build.make:76: CMakeFiles/mppi_controller.dir/src/controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:196: CMakeFiles/mppi_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

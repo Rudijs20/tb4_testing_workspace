@@ -1,0 +1,70 @@
+[0.244s] Invoking command in '/home/rudolfs/ros2_ws/build/turtlebot4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose:/home/rudolfs/ros2_ws/install/nav2_simple_commander:/home/rudolfs/ros2_ws/install/nav2_loopback_sim:/home/rudolfs/ros2_ws/install/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/battery_logger:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rudolfs/ros2_ws/src/turtlebot4-jazzy/turtlebot4_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rudolfs/ros2_ws/install/turtlebot4_description
+[0.303s] -- The C compiler identification is GNU 13.3.0
+[0.375s] -- The CXX compiler identification is GNU 13.3.0
+[0.392s] -- Detecting C compiler ABI info
+[0.572s] -- Detecting C compiler ABI info - done
+[0.585s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.587s] -- Detecting C compile features
+[0.587s] -- Detecting C compile features - done
+[0.610s] -- Detecting CXX compiler ABI info
+[0.757s] -- Detecting CXX compiler ABI info - done
+[0.785s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.785s] -- Detecting CXX compile features
+[0.785s] -- Detecting CXX compile features - done
+[0.787s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.175s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.424s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.666s] -- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)
+[1.804s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.832s] -- Found irobot_create_description: 3.0.4 (/opt/ros/jazzy/share/irobot_create_description/cmake)
+[1.843s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.105s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.113s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.113s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.118s] -- Added test 'lint_cmake' to check CMake code style
+[2.119s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.125s] -- Added test 'xmllint' to check XML markup files
+[2.135s] -- Configuring done (1.9s)
+[2.144s] -- Generating done (0.0s)
+[2.150s] -- Build files have been written to: /home/rudolfs/ros2_ws/build/turtlebot4_description
+[2.166s] Invoked command in '/home/rudolfs/ros2_ws/build/turtlebot4_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose:/home/rudolfs/ros2_ws/install/nav2_simple_commander:/home/rudolfs/ros2_ws/install/nav2_loopback_sim:/home/rudolfs/ros2_ws/install/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/battery_logger:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rudolfs/ros2_ws/src/turtlebot4-jazzy/turtlebot4_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rudolfs/ros2_ws/install/turtlebot4_description
+[2.166s] Invoking command in '/home/rudolfs/ros2_ws/build/turtlebot4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose:/home/rudolfs/ros2_ws/install/nav2_simple_commander:/home/rudolfs/ros2_ws/install/nav2_loopback_sim:/home/rudolfs/ros2_ws/install/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/battery_logger:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rudolfs/ros2_ws/build/turtlebot4_description -- -j6 -l6
+[2.268s] Invoked command in '/home/rudolfs/ros2_ws/build/turtlebot4_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose:/home/rudolfs/ros2_ws/install/nav2_simple_commander:/home/rudolfs/ros2_ws/install/nav2_loopback_sim:/home/rudolfs/ros2_ws/install/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/battery_logger:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rudolfs/ros2_ws/build/turtlebot4_description -- -j6 -l6
+[2.269s] Invoking command in '/home/rudolfs/ros2_ws/build/turtlebot4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose:/home/rudolfs/ros2_ws/install/nav2_simple_commander:/home/rudolfs/ros2_ws/install/nav2_loopback_sim:/home/rudolfs/ros2_ws/install/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/battery_logger:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rudolfs/ros2_ws/build/turtlebot4_description
+[2.292s] -- Install configuration: ""
+[2.307s] -- Execute custom install script
+[2.307s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/turtlebot4_description/launch/robot_description.launch.py
+[2.310s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/camera_bracket.dae
+[2.330s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/oakd_lite.dae
+[2.344s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/oakd_pro.dae
+[2.368s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/rplidar.dae
+[2.389s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/shell.dae
+[2.408s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/shell_collision.dae
+[2.433s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/tower.dae
+[2.463s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/tower_sensor_plate.dae
+[2.464s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/tower_standoff.dae
+[2.468s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/weight_block.dae
+[2.479s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/lite/turtlebot4.urdf.xacro
+[2.503s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/camera_bracket.urdf.xacro
+[2.515s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/oakd.urdf.xacro
+[2.526s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/rplidar.urdf.xacro
+[2.539s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/tower_sensor_plate.urdf.xacro
+[2.561s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/tower_standoff.urdf.xacro
+[2.583s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/turtlebot4.urdf.xacro
+[2.601s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/weight_block.urdf.xacro
+[2.616s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/ament_index/resource_index/package_run_dependencies/turtlebot4_description
+[2.632s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/ament_index/resource_index/parent_prefix_path/turtlebot4_description
+[2.644s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/turtlebot4_description/environment/ament_prefix_path.sh
+[2.659s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/turtlebot4_description/environment/ament_prefix_path.dsv
+[2.668s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/turtlebot4_description/environment/path.sh
+[2.677s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/turtlebot4_description/environment/path.dsv
+[2.688s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/turtlebot4_description/local_setup.bash
+[2.701s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/turtlebot4_description/local_setup.sh
+[2.716s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/turtlebot4_description/local_setup.zsh
+[2.726s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/turtlebot4_description/local_setup.dsv
+[2.739s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/turtlebot4_description/package.dsv
+[2.754s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/ament_index/resource_index/packages/turtlebot4_description
+[2.772s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/turtlebot4_description/cmake/turtlebot4_descriptionConfig.cmake
+[2.784s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/turtlebot4_description/cmake/turtlebot4_descriptionConfig-version.cmake
+[2.794s] -- Symlinking: /home/rudolfs/ros2_ws/install/turtlebot4_description/share/turtlebot4_description/package.xml
+[2.823s] Invoked command in '/home/rudolfs/ros2_ws/build/turtlebot4_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose:/home/rudolfs/ros2_ws/install/nav2_simple_commander:/home/rudolfs/ros2_ws/install/nav2_loopback_sim:/home/rudolfs/ros2_ws/install/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/battery_logger:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rudolfs/ros2_ws/build/turtlebot4_description

@@ -1,0 +1,227 @@
+[0.031s] Invoking command in '/home/rudolfs/ros2_ws/build/nav2_mppi_controller': CMAKE_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_core:/home/rudolfs/ros2_ws/install/nav2_costmap_2d:/home/rudolfs/ros2_ws/install/nav2_map_server:/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager:/home/rudolfs/ros2_ws/install/nav2_behavior_tree:/home/rudolfs/ros2_ws/install/nav2_util:/home/rudolfs/ros2_ws/install/nav2_voxel_grid:/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:/home/rudolfs/ros2_ws/install/turtlebot4_node:/home/rudolfs/ros2_ws/install/turtlebot4_navigation:/home/rudolfs/ros2_ws/install/turtlebot4_msgs:/home/rudolfs/ros2_ws/install/turtlebot4_description:/home/rudolfs/ros2_ws/install/nav2_system_tests:/home/rudolfs/ros2_ws/install/nav2_bringup:/home/rudolfs/ros2_ws/install/navigation2:/home/rudolfs/ros2_ws/install/opennav_docking:/home/rudolfs/ros2_ws/install/opennav_docking_core:/home/rudolfs/ros2_ws/install/opennav_docking_bt:/home/rudolfs/ros2_ws/install/nav2_smoother:/home/rudolfs/ros2_ws/install/nav2_rotation_shim_controller:/home/rudolfs/ros2_ws/install/nav2_graceful_controller:/home/rudolfs/ros2_ws/install/nav2_dwb_controller:/home/rudolfs/ros2_ws/install/nav2_controller:/home/rudolfs/ros2_ws/install/dwb_plugins:/home/rudolfs/ros2_ws/install/dwb_critics:/home/rudolfs/ros2_ws/install/dwb_core:/home/rudolfs/ros2_ws/install/nav_2d_utils:/home/rudolfs/ros2_ws/install/dwb_msgs:/home/rudolfs/ros2_ws/install/nav_2d_msgs:/home/rudolfs/ros2_ws/install/nav2_waypoint_follower:/home/rudolfs/ros2_ws/install/nav2_theta_star_planner:/home/rudolfs/ros2_ws/install/nav2_smac_planner:/home/rudolfs/ros2_ws/install/nav2_regulated_pure_pursuit_controller:/home/rudolfs/ros2_ws/install/nav2_planner:/home/rudolfs/ros2_ws/install/nav2_navfn_planner:/home/rudolfs/ros2_ws/install/nav2_mppi_controller:/home/rudolfs/ros2_ws/install/nav2_constrained_smoother:/home/rudolfs/ros2_ws/install/nav2_bt_navigator:/home/rudolfs/ros2_ws/install/nav2_behaviors:/home/rudolfs/ros2_ws/install/nav2_collision_monitor:/home/rudolfs/ros2_ws/install/costmap_queue:/home/rudolfs/ros2_ws/install/nav2_velocity_smoother:/home/rudolfs/ros2_ws/install/nav2_rviz_plugins:/home/rudolfs/ros2_ws/install/nav2_amcl:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose:/home/rudolfs/ros2_ws/install/nav2_simple_commander:/home/rudolfs/ros2_ws/install/nav2_loopback_sim:/home/rudolfs/ros2_ws/install/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/battery_logger:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rudolfs/ros2_ws/install/nav2_costmap_2d/lib:/home/rudolfs/ros2_ws/install/nav2_map_server/lib:/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager/lib:/home/rudolfs/ros2_ws/install/nav2_behavior_tree/lib:/home/rudolfs/ros2_ws/install/nav2_util/lib:/home/rudolfs/ros2_ws/install/nav2_voxel_grid/lib:/home/rudolfs/ros2_ws/install/nav2_msgs/lib:/home/rudolfs/ros2_ws/install/turtlebot4_msgs/lib:/home/rudolfs/ros2_ws/install/nav2_system_tests/lib:/home/rudolfs/ros2_ws/install/opennav_docking/lib:/home/rudolfs/ros2_ws/install/opennav_docking_bt/lib:/home/rudolfs/ros2_ws/install/nav2_smoother/lib:/home/rudolfs/ros2_ws/install/nav2_rotation_shim_controller/lib:/home/rudolfs/ros2_ws/install/nav2_graceful_controller/lib:/home/rudolfs/ros2_ws/install/nav2_controller/lib:/home/rudolfs/ros2_ws/install/dwb_plugins/lib:/home/rudolfs/ros2_ws/install/dwb_critics/lib:/home/rudolfs/ros2_ws/install/dwb_core/lib:/home/rudolfs/ros2_ws/install/nav_2d_utils/lib:/home/rudolfs/ros2_ws/install/dwb_msgs/lib:/home/rudolfs/ros2_ws/install/nav_2d_msgs/lib:/home/rudolfs/ros2_ws/install/nav2_waypoint_follower/lib:/home/rudolfs/ros2_ws/install/nav2_theta_star_planner/lib:/home/rudolfs/ros2_ws/install/nav2_smac_planner/lib:/home/rudolfs/ros2_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/rudolfs/ros2_ws/install/nav2_planner/lib:/home/rudolfs/ros2_ws/install/nav2_navfn_planner/lib:/home/rudolfs/ros2_ws/install/nav2_mppi_controller/lib:/home/rudolfs/ros2_ws/install/nav2_constrained_smoother/lib:/home/rudolfs/ros2_ws/install/nav2_bt_navigator/lib:/home/rudolfs/ros2_ws/install/nav2_behaviors/lib:/home/rudolfs/ros2_ws/install/nav2_collision_monitor/lib:/home/rudolfs/ros2_ws/install/costmap_queue/lib:/home/rudolfs/ros2_ws/install/nav2_velocity_smoother/lib:/home/rudolfs/ros2_ws/install/nav2_rviz_plugins/lib:/home/rudolfs/ros2_ws/install/nav2_amcl/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/rudolfs/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/nav2_common/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/turtlebot4_navigation/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/turtlebot4_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/nav_2d_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/build/nav2_simple_commander:/home/rudolfs/ros2_ws/install/nav2_simple_commander/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/build/nav2_loopback_sim:/home/rudolfs/ros2_ws/install/nav2_loopback_sim/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/build/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/cmd_vel_tracker/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/build/battery_logger:/home/rudolfs/ros2_ws/install/battery_logger/lib/python3.12/site-packages:/home/rudolfs/testing_ws/turtlebot4_ws/build/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials/lib/python3.12/site-packages:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials/lib/python3.12/site-packages:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller -DCMAKE_INSTALL_PREFIX=/home/rudolfs/ros2_ws/install/nav2_mppi_controller
+[0.045s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.228s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.234s] -- Found angles: 1.16.0 (/opt/ros/jazzy/share/angles/cmake)
+[0.235s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.259s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.267s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.278s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.291s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.330s] -- Found nav2_common: 1.3.7 (/home/rudolfs/ros2_ws/install/nav2_common/share/nav2_common/cmake)
+[0.330s] -- Found nav2_core: 1.3.7 (/home/rudolfs/ros2_ws/install/nav2_core/share/nav2_core/cmake)
+[0.377s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.380s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.439s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.780s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.781s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.939s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.940s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.020s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.049s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.050s] -- Configured cppcheck include dirs: /home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/include;$<BUILD_INTERFACE:/home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller/include>
+[1.050s] -- Configured cppcheck exclude dirs and/or files: 
+[1.052s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.052s] -- Configured cpplint exclude dirs and/or files: 
+[1.053s] -- Added test 'lint_cmake' to check CMake code style
+[1.055s] -- Added test 'uncrustify' to check C / C++ code style
+[1.055s] -- Configured uncrustify additional arguments: 
+[1.055s] -- Added test 'xmllint' to check XML markup files
+[1.058s] -- Configuring done (1.0s)
+[1.195s] [31mCMake Error at CMakeLists.txt:53 (target_link_libraries):
+[1.195s]   Target "mppi_controller" links to:
+[1.195s] 
+[1.195s]     nav2_core::nav2_core
+[1.195s] 
+[1.195s]   but the target was not found.  Possible reasons include:
+[1.195s] 
+[1.196s]     * There is a typo in the target name.
+[1.196s]     * A find_package call is missing for an IMPORTED target.
+[1.196s]     * An ALIAS target is missing.
+[1.196s] 
+[1.196s] 
+[1.196s] [0m
+[1.196s] [31mCMake Error at CMakeLists.txt:88 (target_link_libraries):
+[1.196s]   Target "mppi_critics" links to:
+[1.196s] 
+[1.196s]     nav2_core::nav2_core
+[1.196s] 
+[1.196s]   but the target was not found.  Possible reasons include:
+[1.196s] 
+[1.196s]     * There is a typo in the target name.
+[1.196s]     * A find_package call is missing for an IMPORTED target.
+[1.196s]     * An ALIAS target is missing.
+[1.196s] 
+[1.196s] 
+[1.196s] [0m
+[1.197s] [31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):
+[1.197s]   Target "optimizer_smoke_test" links to:
+[1.197s] 
+[1.197s]     nav2_core::nav2_core
+[1.197s] 
+[1.197s]   but the target was not found.  Possible reasons include:
+[1.197s] 
+[1.197s]     * There is a typo in the target name.
+[1.197s]     * A find_package call is missing for an IMPORTED target.
+[1.197s]     * An ALIAS target is missing.
+[1.197s] 
+[1.197s] 
+[1.197s] [0m
+[1.197s] [31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):
+[1.197s]   Target "controller_state_transition_test" links to:
+[1.197s] 
+[1.197s]     nav2_core::nav2_core
+[1.197s] 
+[1.198s]   but the target was not found.  Possible reasons include:
+[1.198s] 
+[1.198s]     * There is a typo in the target name.
+[1.198s]     * A find_package call is missing for an IMPORTED target.
+[1.198s]     * An ALIAS target is missing.
+[1.198s] 
+[1.198s] 
+[1.198s] [0m
+[1.198s] [31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):
+[1.198s]   Target "models_test" links to:
+[1.198s] 
+[1.198s]     nav2_core::nav2_core
+[1.198s] 
+[1.198s]   but the target was not found.  Possible reasons include:
+[1.198s] 
+[1.198s]     * There is a typo in the target name.
+[1.198s]     * A find_package call is missing for an IMPORTED target.
+[1.198s]     * An ALIAS target is missing.
+[1.199s] 
+[1.199s] 
+[1.199s] [0m
+[1.199s] [31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):
+[1.199s]   Target "noise_generator_test" links to:
+[1.199s] 
+[1.199s]     nav2_core::nav2_core
+[1.199s] 
+[1.199s]   but the target was not found.  Possible reasons include:
+[1.199s] 
+[1.199s]     * There is a typo in the target name.
+[1.199s]     * A find_package call is missing for an IMPORTED target.
+[1.199s]     * An ALIAS target is missing.
+[1.199s] 
+[1.199s] 
+[1.199s] [0m
+[1.199s] [31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):
+[1.199s]   Target "parameter_handler_test" links to:
+[1.200s] 
+[1.200s]     nav2_core::nav2_core
+[1.200s] 
+[1.200s]   but the target was not found.  Possible reasons include:
+[1.200s] 
+[1.200s]     * There is a typo in the target name.
+[1.200s]     * A find_package call is missing for an IMPORTED target.
+[1.200s]     * An ALIAS target is missing.
+[1.200s] 
+[1.200s] 
+[1.200s] [0m
+[1.200s] [31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):
+[1.200s]   Target "motion_model_tests" links to:
+[1.200s] 
+[1.200s]     nav2_core::nav2_core
+[1.200s] 
+[1.200s]   but the target was not found.  Possible reasons include:
+[1.200s] 
+[1.201s]     * There is a typo in the target name.
+[1.201s]     * A find_package call is missing for an IMPORTED target.
+[1.201s]     * An ALIAS target is missing.
+[1.201s] 
+[1.201s] 
+[1.201s] [0m
+[1.201s] [31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):
+[1.201s]   Target "trajectory_visualizer_tests" links to:
+[1.201s] 
+[1.201s]     nav2_core::nav2_core
+[1.201s] 
+[1.201s]   but the target was not found.  Possible reasons include:
+[1.201s] 
+[1.201s]     * There is a typo in the target name.
+[1.201s]     * A find_package call is missing for an IMPORTED target.
+[1.201s]     * An ALIAS target is missing.
+[1.201s] 
+[1.201s] 
+[1.201s] [0m
+[1.202s] [31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):
+[1.202s]   Target "utils_test" links to:
+[1.202s] 
+[1.202s]     nav2_core::nav2_core
+[1.202s] 
+[1.202s]   but the target was not found.  Possible reasons include:
+[1.202s] 
+[1.202s]     * There is a typo in the target name.
+[1.202s]     * A find_package call is missing for an IMPORTED target.
+[1.202s]     * An ALIAS target is missing.
+[1.202s] 
+[1.202s] 
+[1.202s] [0m
+[1.202s] [31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):
+[1.202s]   Target "path_handler_test" links to:
+[1.202s] 
+[1.202s]     nav2_core::nav2_core
+[1.202s] 
+[1.203s]   but the target was not found.  Possible reasons include:
+[1.203s] 
+[1.203s]     * There is a typo in the target name.
+[1.203s]     * A find_package call is missing for an IMPORTED target.
+[1.203s]     * An ALIAS target is missing.
+[1.203s] 
+[1.203s] 
+[1.203s] [0m
+[1.203s] [31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):
+[1.203s]   Target "critic_manager_test" links to:
+[1.203s] 
+[1.203s]     nav2_core::nav2_core
+[1.203s] 
+[1.203s]   but the target was not found.  Possible reasons include:
+[1.203s] 
+[1.203s]     * There is a typo in the target name.
+[1.203s]     * A find_package call is missing for an IMPORTED target.
+[1.203s]     * An ALIAS target is missing.
+[1.203s] 
+[1.204s] 
+[1.204s] [0m
+[1.204s] [31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):
+[1.204s]   Target "optimizer_unit_tests" links to:
+[1.204s] 
+[1.204s]     nav2_core::nav2_core
+[1.204s] 
+[1.204s]   but the target was not found.  Possible reasons include:
+[1.204s] 
+[1.204s]     * There is a typo in the target name.
+[1.204s]     * A find_package call is missing for an IMPORTED target.
+[1.204s]     * An ALIAS target is missing.
+[1.204s] 
+[1.204s] 
+[1.204s] [0m
+[1.204s] [31mCMake Error at benchmark/CMakeLists.txt:12 (target_link_libraries):
+[1.204s]   Target "optimizer_benchmark" links to:
+[1.204s] 
+[1.204s]     nav2_core::nav2_core
+[1.205s] 
+[1.205s]   but the target was not found.  Possible reasons include:
+[1.205s] 
+[1.205s]     * There is a typo in the target name.
+[1.205s]     * A find_package call is missing for an IMPORTED target.
+[1.205s]     * An ALIAS target is missing.
+[1.205s] 
+[1.205s] 
+[1.205s] [0m
+[1.205s] [31mCMake Error at benchmark/CMakeLists.txt:12 (target_link_libraries):
+[1.205s]   Target "controller_benchmark" links to:
+[1.205s] 
+[1.205s]     nav2_core::nav2_core
+[1.205s] 
+[1.205s]   but the target was not found.  Possible reasons include:
+[1.205s] 
+[1.205s]     * There is a typo in the target name.
+[1.205s]     * A find_package call is missing for an IMPORTED target.
+[1.205s]     * An ALIAS target is missing.
+[1.206s] 
+[1.206s] 
+[1.206s] [0m
+[1.206s] -- Generating done (0.1s)
+[1.206s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.212s] Invoked command in '/home/rudolfs/ros2_ws/build/nav2_mppi_controller' returned '1': CMAKE_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_core:/home/rudolfs/ros2_ws/install/nav2_costmap_2d:/home/rudolfs/ros2_ws/install/nav2_map_server:/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager:/home/rudolfs/ros2_ws/install/nav2_behavior_tree:/home/rudolfs/ros2_ws/install/nav2_util:/home/rudolfs/ros2_ws/install/nav2_voxel_grid:/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:/home/rudolfs/ros2_ws/install/turtlebot4_node:/home/rudolfs/ros2_ws/install/turtlebot4_navigation:/home/rudolfs/ros2_ws/install/turtlebot4_msgs:/home/rudolfs/ros2_ws/install/turtlebot4_description:/home/rudolfs/ros2_ws/install/nav2_system_tests:/home/rudolfs/ros2_ws/install/nav2_bringup:/home/rudolfs/ros2_ws/install/navigation2:/home/rudolfs/ros2_ws/install/opennav_docking:/home/rudolfs/ros2_ws/install/opennav_docking_core:/home/rudolfs/ros2_ws/install/opennav_docking_bt:/home/rudolfs/ros2_ws/install/nav2_smoother:/home/rudolfs/ros2_ws/install/nav2_rotation_shim_controller:/home/rudolfs/ros2_ws/install/nav2_graceful_controller:/home/rudolfs/ros2_ws/install/nav2_dwb_controller:/home/rudolfs/ros2_ws/install/nav2_controller:/home/rudolfs/ros2_ws/install/dwb_plugins:/home/rudolfs/ros2_ws/install/dwb_critics:/home/rudolfs/ros2_ws/install/dwb_core:/home/rudolfs/ros2_ws/install/nav_2d_utils:/home/rudolfs/ros2_ws/install/dwb_msgs:/home/rudolfs/ros2_ws/install/nav_2d_msgs:/home/rudolfs/ros2_ws/install/nav2_waypoint_follower:/home/rudolfs/ros2_ws/install/nav2_theta_star_planner:/home/rudolfs/ros2_ws/install/nav2_smac_planner:/home/rudolfs/ros2_ws/install/nav2_regulated_pure_pursuit_controller:/home/rudolfs/ros2_ws/install/nav2_planner:/home/rudolfs/ros2_ws/install/nav2_navfn_planner:/home/rudolfs/ros2_ws/install/nav2_mppi_controller:/home/rudolfs/ros2_ws/install/nav2_constrained_smoother:/home/rudolfs/ros2_ws/install/nav2_bt_navigator:/home/rudolfs/ros2_ws/install/nav2_behaviors:/home/rudolfs/ros2_ws/install/nav2_collision_monitor:/home/rudolfs/ros2_ws/install/costmap_queue:/home/rudolfs/ros2_ws/install/nav2_velocity_smoother:/home/rudolfs/ros2_ws/install/nav2_rviz_plugins:/home/rudolfs/ros2_ws/install/nav2_amcl:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose:/home/rudolfs/ros2_ws/install/nav2_simple_commander:/home/rudolfs/ros2_ws/install/nav2_loopback_sim:/home/rudolfs/ros2_ws/install/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/battery_logger:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rudolfs/ros2_ws/install/nav2_costmap_2d/lib:/home/rudolfs/ros2_ws/install/nav2_map_server/lib:/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager/lib:/home/rudolfs/ros2_ws/install/nav2_behavior_tree/lib:/home/rudolfs/ros2_ws/install/nav2_util/lib:/home/rudolfs/ros2_ws/install/nav2_voxel_grid/lib:/home/rudolfs/ros2_ws/install/nav2_msgs/lib:/home/rudolfs/ros2_ws/install/turtlebot4_msgs/lib:/home/rudolfs/ros2_ws/install/nav2_system_tests/lib:/home/rudolfs/ros2_ws/install/opennav_docking/lib:/home/rudolfs/ros2_ws/install/opennav_docking_bt/lib:/home/rudolfs/ros2_ws/install/nav2_smoother/lib:/home/rudolfs/ros2_ws/install/nav2_rotation_shim_controller/lib:/home/rudolfs/ros2_ws/install/nav2_graceful_controller/lib:/home/rudolfs/ros2_ws/install/nav2_controller/lib:/home/rudolfs/ros2_ws/install/dwb_plugins/lib:/home/rudolfs/ros2_ws/install/dwb_critics/lib:/home/rudolfs/ros2_ws/install/dwb_core/lib:/home/rudolfs/ros2_ws/install/nav_2d_utils/lib:/home/rudolfs/ros2_ws/install/dwb_msgs/lib:/home/rudolfs/ros2_ws/install/nav_2d_msgs/lib:/home/rudolfs/ros2_ws/install/nav2_waypoint_follower/lib:/home/rudolfs/ros2_ws/install/nav2_theta_star_planner/lib:/home/rudolfs/ros2_ws/install/nav2_smac_planner/lib:/home/rudolfs/ros2_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/rudolfs/ros2_ws/install/nav2_planner/lib:/home/rudolfs/ros2_ws/install/nav2_navfn_planner/lib:/home/rudolfs/ros2_ws/install/nav2_mppi_controller/lib:/home/rudolfs/ros2_ws/install/nav2_constrained_smoother/lib:/home/rudolfs/ros2_ws/install/nav2_bt_navigator/lib:/home/rudolfs/ros2_ws/install/nav2_behaviors/lib:/home/rudolfs/ros2_ws/install/nav2_collision_monitor/lib:/home/rudolfs/ros2_ws/install/costmap_queue/lib:/home/rudolfs/ros2_ws/install/nav2_velocity_smoother/lib:/home/rudolfs/ros2_ws/install/nav2_rviz_plugins/lib:/home/rudolfs/ros2_ws/install/nav2_amcl/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/rudolfs/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/nav2_common/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/turtlebot4_navigation/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/turtlebot4_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/dwb_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/nav_2d_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/build/nav2_simple_commander:/home/rudolfs/ros2_ws/install/nav2_simple_commander/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/build/nav2_loopback_sim:/home/rudolfs/ros2_ws/install/nav2_loopback_sim/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/build/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/cmd_vel_tracker/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/build/battery_logger:/home/rudolfs/ros2_ws/install/battery_logger/lib/python3.12/site-packages:/home/rudolfs/testing_ws/turtlebot4_ws/build/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials/lib/python3.12/site-packages:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials/lib/python3.12/site-packages:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/rudolfs/ros2_ws/src/navigation2/nav2_mppi_controller -DCMAKE_INSTALL_PREFIX=/home/rudolfs/ros2_ws/install/nav2_mppi_controller

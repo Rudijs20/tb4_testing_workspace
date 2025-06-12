@@ -1,0 +1,1 @@
+/home/rudolfs/ros2_ws/src/turtlebot4-jazzy/turtlebot4_navigation/launch/nav2.launch.py

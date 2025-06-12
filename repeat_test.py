@@ -4,9 +4,9 @@ import os
 import signal
 import sys
 
-NUM_RUNS = 9
-WORLD_DIR = "/opt/ros/jazzy/share/turtlebot4_gz_bringup/worlds"
-
+NUM_RUNS = 5
+# WORLD_DIR = "/opt/ros/jazzy/share/turtlebot4_gz_bringup/worlds"
+WORLD_DIR = "/home/rudolfs/ros2_ws/worlds"
 sim_proc = None
 nav_proc = None
 
@@ -47,10 +47,10 @@ for i in range(NUM_RUNS):
         "nav2:=true",
         "slam:=false",
         "localization:=true",
-        "rviz:=false",
+        "rviz:=true",
         "use_sim_time:=true",
         "world:=maze",
-        "map:=/opt/ros/jazzy/share/turtlebot4_navigation/maps/maze.yaml",
+        "map:=/home/rudolfs/ros2_ws/maps/maze.yaml",
         "x:=1.7502",
         "y:=-0.2405",
         "yaw:=0.45"
@@ -63,7 +63,7 @@ for i in range(NUM_RUNS):
     time.sleep(15)
 
     nav_proc = subprocess.Popen([
-        "ros2", "run", "tb4_nav_to_pose", "nav_to_pose"
+        "ros2", "run", "tb4_nav_to_pose", "min_nav_to_pose"
     ])
 
     nav_proc.wait()

@@ -1,0 +1,27 @@
+running develop
+Removing /home/rudolfs/ros2_ws/install/battery_logger/lib/python3.12/site-packages/battery-logger.egg-link (link to .)
+running egg_info
+writing ../../build/battery_logger/battery_logger.egg-info/PKG-INFO
+writing dependency_links to ../../build/battery_logger/battery_logger.egg-info/dependency_links.txt
+writing entry points to ../../build/battery_logger/battery_logger.egg-info/entry_points.txt
+writing requirements to ../../build/battery_logger/battery_logger.egg-info/requires.txt
+writing top-level names to ../../build/battery_logger/battery_logger.egg-info/top_level.txt
+reading manifest file '../../build/battery_logger/battery_logger.egg-info/SOURCES.txt'
+writing manifest file '../../build/battery_logger/battery_logger.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/rudolfs/ros2_ws/install/battery_logger/lib/python3.12/site-packages/battery_logger
+copying /home/rudolfs/ros2_ws/build/battery_logger/build/lib/battery_logger/__init__.py -> /home/rudolfs/ros2_ws/install/battery_logger/lib/python3.12/site-packages/battery_logger
+copying /home/rudolfs/ros2_ws/build/battery_logger/build/lib/battery_logger/logger.py -> /home/rudolfs/ros2_ws/install/battery_logger/lib/python3.12/site-packages/battery_logger
+byte-compiling /home/rudolfs/ros2_ws/install/battery_logger/lib/python3.12/site-packages/battery_logger/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/rudolfs/ros2_ws/install/battery_logger/lib/python3.12/site-packages/battery_logger/logger.py to logger.cpython-312.pyc
+running install_data
+copying resource/battery_logger -> /home/rudolfs/ros2_ws/install/battery_logger/share/ament_index/resource_index/packages
+copying package.xml -> /home/rudolfs/ros2_ws/install/battery_logger/share/battery_logger
+running install_egg_info
+Copying ../../build/battery_logger/battery_logger.egg-info to /home/rudolfs/ros2_ws/install/battery_logger/lib/python3.12/site-packages/battery_logger-0.0.0-py3.12.egg-info
+running install_scripts
+Installing log_battery script to /home/rudolfs/ros2_ws/install/battery_logger/lib/battery_logger
+writing list of installed files to '/home/rudolfs/ros2_ws/build/battery_logger/install.log'

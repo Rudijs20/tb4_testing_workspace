@@ -1,0 +1,1 @@
+/home/rudolfs/ros2_ws/src/navigation2/nav2_bringup/launch/tb3_loopback_simulation.launch.py

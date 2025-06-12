@@ -1,0 +1,230 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-935f406aa87c8e3c3e52.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						9,
+						12
+					]
+				},
+				{
+					"build" : "test",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-test-Release-451c0598f41488bb20b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						2,
+						5,
+						8,
+						10,
+						11,
+						13
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-Release-0908a8c91ddba5d6c989.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/jazzy/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "nav2_collision_monitor",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "collision_detector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-collision_detector-Release-cedea5cd1df51c625de1.json",
+					"name" : "collision_detector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "collision_detector_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-collision_detector_core-Release-a8b28b343936bda067c0.json",
+					"name" : "collision_detector_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "collision_detector_node_test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-collision_detector_node_test-Release-7a5a9d2fc8aacdeefe08.json",
+					"name" : "collision_detector_node_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "collision_monitor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-collision_monitor-Release-b6ef7c661108d56b939d.json",
+					"name" : "collision_monitor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "collision_monitor_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-collision_monitor_core-Release-f15c4d926f5f91110a26.json",
+					"name" : "collision_monitor_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "collision_monitor_node_test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-collision_monitor_node_test-Release-143216582b56c16f6f91.json",
+					"name" : "collision_monitor_node_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-Release-002aaa22cadcb19ff181.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-Release-21a3c4e3fde039ff7d3b.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kinematics_test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-kinematics_test-Release-9f78d0cc5307c12e15d9.json",
+					"name" : "kinematics_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_collision_monitor_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_collision_monitor_uninstall-Release-c9f15d644e64a9909688.json",
+					"name" : "nav2_collision_monitor_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "polygons_test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-polygons_test-Release-863f6b1ba24ad381255d.json",
+					"name" : "polygons_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sources_test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-sources_test-Release-d36e1a86b39c70d0fb67.json",
+					"name" : "sources_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-023572252847c4e059ad.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "velocity_polygons_test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-velocity_polygons_test-Release-789dbd7f0430d593d63d.json",
+					"name" : "velocity_polygons_test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rudolfs/ros2_ws/build/nav2_collision_monitor",
+		"source" : "/home/rudolfs/ros2_ws/src/navigation2/nav2_collision_monitor"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

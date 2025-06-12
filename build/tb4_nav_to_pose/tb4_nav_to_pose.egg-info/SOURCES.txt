@@ -10,6 +10,7 @@ setup.py
 ../../build/tb4_nav_to_pose/tb4_nav_to_pose.egg-info/zip-safe
 resource/tb4_nav_to_pose
 tb4_nav_to_pose/__init__.py
+tb4_nav_to_pose/min_nav_to_pose.py
 tb4_nav_to_pose/nav_to_pose.py
 test/test_copyright.py
 test/test_flake8.py

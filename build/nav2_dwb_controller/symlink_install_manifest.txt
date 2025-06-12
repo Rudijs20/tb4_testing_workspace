@@ -1,0 +1,15 @@
+/home/rudolfs/ros2_ws/install/nav2_dwb_controller/share/ament_index/resource_index/package_run_dependencies/nav2_dwb_controller
+/home/rudolfs/ros2_ws/install/nav2_dwb_controller/share/ament_index/resource_index/parent_prefix_path/nav2_dwb_controller
+/home/rudolfs/ros2_ws/install/nav2_dwb_controller/share/nav2_dwb_controller/environment/ament_prefix_path.sh
+/home/rudolfs/ros2_ws/install/nav2_dwb_controller/share/nav2_dwb_controller/environment/ament_prefix_path.dsv
+/home/rudolfs/ros2_ws/install/nav2_dwb_controller/share/nav2_dwb_controller/environment/path.sh
+/home/rudolfs/ros2_ws/install/nav2_dwb_controller/share/nav2_dwb_controller/environment/path.dsv
+/home/rudolfs/ros2_ws/install/nav2_dwb_controller/share/nav2_dwb_controller/local_setup.bash
+/home/rudolfs/ros2_ws/install/nav2_dwb_controller/share/nav2_dwb_controller/local_setup.sh
+/home/rudolfs/ros2_ws/install/nav2_dwb_controller/share/nav2_dwb_controller/local_setup.zsh
+/home/rudolfs/ros2_ws/install/nav2_dwb_controller/share/nav2_dwb_controller/local_setup.dsv
+/home/rudolfs/ros2_ws/install/nav2_dwb_controller/share/nav2_dwb_controller/package.dsv
+/home/rudolfs/ros2_ws/install/nav2_dwb_controller/share/ament_index/resource_index/packages/nav2_dwb_controller
+/home/rudolfs/ros2_ws/install/nav2_dwb_controller/share/nav2_dwb_controller/cmake/nav2_dwb_controllerConfig.cmake
+/home/rudolfs/ros2_ws/install/nav2_dwb_controller/share/nav2_dwb_controller/cmake/nav2_dwb_controllerConfig-version.cmake
+/home/rudolfs/ros2_ws/install/nav2_dwb_controller/share/nav2_dwb_controller/package.xml

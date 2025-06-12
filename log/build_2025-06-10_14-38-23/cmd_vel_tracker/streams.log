@@ -1,0 +1,21 @@
+[1.854s] Invoking command in '/home/rudolfs/ros2_ws/src/cmd_vel_tracker': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rudolfs/ros2_ws/build/cmd_vel_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rudolfs/ros2_ws/install/cmd_vel_tracker/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cmd_vel_tracker build --build-base /home/rudolfs/ros2_ws/build/cmd_vel_tracker/build install --record /home/rudolfs/ros2_ws/build/cmd_vel_tracker/install.log --single-version-externally-managed install_data
+[2.187s] running egg_info
+[2.211s] writing ../../build/cmd_vel_tracker/cmd_vel_tracker.egg-info/PKG-INFO
+[2.212s] writing dependency_links to ../../build/cmd_vel_tracker/cmd_vel_tracker.egg-info/dependency_links.txt
+[2.213s] writing entry points to ../../build/cmd_vel_tracker/cmd_vel_tracker.egg-info/entry_points.txt
+[2.216s] writing requirements to ../../build/cmd_vel_tracker/cmd_vel_tracker.egg-info/requires.txt
+[2.216s] writing top-level names to ../../build/cmd_vel_tracker/cmd_vel_tracker.egg-info/top_level.txt
+[2.276s] reading manifest file '../../build/cmd_vel_tracker/cmd_vel_tracker.egg-info/SOURCES.txt'
+[2.276s] writing manifest file '../../build/cmd_vel_tracker/cmd_vel_tracker.egg-info/SOURCES.txt'
+[2.276s] running build
+[2.276s] running build_py
+[2.276s] running install
+[2.295s] running install_lib
+[2.324s] running install_data
+[2.324s] running install_egg_info
+[2.370s] removing '/home/rudolfs/ros2_ws/install/cmd_vel_tracker/lib/python3.12/site-packages/cmd_vel_tracker-0.0.0-py3.12.egg-info' (and everything under it)
+[2.370s] Copying ../../build/cmd_vel_tracker/cmd_vel_tracker.egg-info to /home/rudolfs/ros2_ws/install/cmd_vel_tracker/lib/python3.12/site-packages/cmd_vel_tracker-0.0.0-py3.12.egg-info
+[2.372s] running install_scripts
+[2.526s] Installing cmd_vel_logger script to /home/rudolfs/ros2_ws/install/cmd_vel_tracker/lib/cmd_vel_tracker
+[2.526s] writing list of installed files to '/home/rudolfs/ros2_ws/build/cmd_vel_tracker/install.log'
+[2.603s] Invoked command in '/home/rudolfs/ros2_ws/src/cmd_vel_tracker' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rudolfs/ros2_ws/build/cmd_vel_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rudolfs/ros2_ws/install/cmd_vel_tracker/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cmd_vel_tracker build --build-base /home/rudolfs/ros2_ws/build/cmd_vel_tracker/build install --record /home/rudolfs/ros2_ws/build/cmd_vel_tracker/install.log --single-version-externally-managed install_data

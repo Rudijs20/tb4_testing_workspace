@@ -1,0 +1,196 @@
+[31mCMake Error at CMakeLists.txt:53 (target_link_libraries):
+  Target "mppi_controller" links to:
+
+    nav2_core::nav2_core
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+[0m
+[31mCMake Error at CMakeLists.txt:88 (target_link_libraries):
+  Target "mppi_critics" links to:
+
+    nav2_core::nav2_core
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+[0m
+[31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):
+  Target "optimizer_smoke_test" links to:
+
+    nav2_core::nav2_core
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+[0m
+[31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):
+  Target "controller_state_transition_test" links to:
+
+    nav2_core::nav2_core
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+[0m
+[31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):
+  Target "models_test" links to:
+
+    nav2_core::nav2_core
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+[0m
+[31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):
+  Target "noise_generator_test" links to:
+
+    nav2_core::nav2_core
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+[0m
+[31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):
+  Target "parameter_handler_test" links to:
+
+    nav2_core::nav2_core
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+[0m
+[31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):
+  Target "motion_model_tests" links to:
+
+    nav2_core::nav2_core
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+[0m
+[31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):
+  Target "trajectory_visualizer_tests" links to:
+
+    nav2_core::nav2_core
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+[0m
+[31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):
+  Target "utils_test" links to:
+
+    nav2_core::nav2_core
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+[0m
+[31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):
+  Target "path_handler_test" links to:
+
+    nav2_core::nav2_core
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+[0m
+[31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):
+  Target "critic_manager_test" links to:
+
+    nav2_core::nav2_core
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+[0m
+[31mCMake Error at test/CMakeLists.txt:19 (target_link_libraries):
+  Target "optimizer_unit_tests" links to:
+
+    nav2_core::nav2_core
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+[0m
+[31mCMake Error at benchmark/CMakeLists.txt:12 (target_link_libraries):
+  Target "optimizer_benchmark" links to:
+
+    nav2_core::nav2_core
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+[0m
+[31mCMake Error at benchmark/CMakeLists.txt:12 (target_link_libraries):
+  Target "controller_benchmark" links to:
+
+    nav2_core::nav2_core
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m

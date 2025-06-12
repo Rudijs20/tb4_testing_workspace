@@ -1,0 +1,193 @@
+[0.030s] Invoking command in '/home/rudolfs/ros2_ws/build/nav2_smac_planner': AMENT_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_core:/home/rudolfs/ros2_ws/install/nav2_costmap_2d:/home/rudolfs/ros2_ws/install/nav2_map_server:/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager:/home/rudolfs/ros2_ws/install/nav2_behavior_tree:/home/rudolfs/ros2_ws/install/nav2_util:/home/rudolfs/ros2_ws/install/nav2_voxel_grid:/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_core:/home/rudolfs/ros2_ws/install/nav2_costmap_2d:/home/rudolfs/ros2_ws/install/nav2_map_server:/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager:/home/rudolfs/ros2_ws/install/nav2_behavior_tree:/home/rudolfs/ros2_ws/install/nav2_util:/home/rudolfs/ros2_ws/install/nav2_voxel_grid:/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose:/home/rudolfs/ros2_ws/install/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/battery_logger:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rudolfs/ros2_ws/install/nav2_costmap_2d/lib:/home/rudolfs/ros2_ws/install/nav2_map_server/lib:/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager/lib:/home/rudolfs/ros2_ws/install/nav2_behavior_tree/lib:/home/rudolfs/ros2_ws/install/nav2_util/lib:/home/rudolfs/ros2_ws/install/nav2_voxel_grid/lib:/home/rudolfs/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudolfs/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rudolfs/ros2_ws/src/navigation2/nav2_smac_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rudolfs/ros2_ws/install/nav2_smac_planner
+[14.197s] -- The C compiler identification is GNU 13.3.0
+[14.197s] -- The CXX compiler identification is GNU 13.3.0
+[14.197s] -- Detecting C compiler ABI info
+[14.197s] -- Detecting C compiler ABI info - done
+[14.197s] -- Check for working C compiler: /usr/bin/cc - skipped
+[14.198s] -- Detecting C compile features
+[14.198s] -- Detecting C compile features - done
+[14.198s] -- Detecting CXX compiler ABI info
+[14.198s] -- Detecting CXX compiler ABI info - done
+[14.198s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[14.198s] -- Detecting CXX compile features
+[14.198s] -- Detecting CXX compile features - done
+[14.198s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[14.198s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[14.198s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[14.198s] -- Found nav2_common: 1.3.7 (/home/rudolfs/ros2_ws/install/nav2_common/share/nav2_common/cmake)
+[14.198s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[14.198s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[14.198s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[14.198s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.198s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.198s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[14.199s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[14.199s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[14.199s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[14.199s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.199s] -- Found rclcpp_action: 28.1.9 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[14.199s] -- Found rclcpp_lifecycle: 28.1.9 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[14.199s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[14.199s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[14.199s] -- Found nav2_util: 1.3.7 (/home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/cmake)
+[14.199s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[14.199s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[14.199s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[14.199s] -- Found nav2_core: 1.3.7 (/home/rudolfs/ros2_ws/install/nav2_core/share/nav2_core/cmake)
+[14.199s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: serialization filesystem system 
+[14.199s] -- Found ompl: /opt/ros/jazzy/include/ompl-1.7;/usr/include;/usr/include/eigen3  
+[14.199s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[14.204s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[14.204s] -- Found Threads: TRUE  
+[14.204s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.204s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.204s] -- Configured cppcheck include dirs: /home/rudolfs/ros2_ws/src/navigation2/nav2_smac_planner/include
+[14.204s] -- Configured cppcheck exclude dirs and/or files: include/nav2_smac_planner/thirdparty/robin_hood.h
+[14.204s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[14.204s] -- Configured cpplint exclude dirs and/or files: include/nav2_smac_planner/thirdparty/robin_hood.h
+[14.205s] -- Added test 'flake8' to check Python code syntax and style conventions
+[14.205s] -- Configured 'flake8' exclude dirs and/or files: include/nav2_smac_planner/thirdparty/robin_hood.h
+[14.205s] -- Added test 'lint_cmake' to check CMake code style
+[14.205s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[14.205s] -- Added test 'uncrustify' to check C / C++ code style
+[14.205s] -- Configured uncrustify additional arguments: 
+[14.205s] -- Added test 'xmllint' to check XML markup files
+[14.206s] -- Configuring done (3.3s)
+[14.206s] -- Generating done (0.7s)
+[14.206s] -- Build files have been written to: /home/rudolfs/ros2_ws/build/nav2_smac_planner
+[14.206s] Invoked command in '/home/rudolfs/ros2_ws/build/nav2_smac_planner' returned '0': AMENT_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_core:/home/rudolfs/ros2_ws/install/nav2_costmap_2d:/home/rudolfs/ros2_ws/install/nav2_map_server:/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager:/home/rudolfs/ros2_ws/install/nav2_behavior_tree:/home/rudolfs/ros2_ws/install/nav2_util:/home/rudolfs/ros2_ws/install/nav2_voxel_grid:/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_core:/home/rudolfs/ros2_ws/install/nav2_costmap_2d:/home/rudolfs/ros2_ws/install/nav2_map_server:/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager:/home/rudolfs/ros2_ws/install/nav2_behavior_tree:/home/rudolfs/ros2_ws/install/nav2_util:/home/rudolfs/ros2_ws/install/nav2_voxel_grid:/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose:/home/rudolfs/ros2_ws/install/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/battery_logger:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rudolfs/ros2_ws/install/nav2_costmap_2d/lib:/home/rudolfs/ros2_ws/install/nav2_map_server/lib:/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager/lib:/home/rudolfs/ros2_ws/install/nav2_behavior_tree/lib:/home/rudolfs/ros2_ws/install/nav2_util/lib:/home/rudolfs/ros2_ws/install/nav2_voxel_grid/lib:/home/rudolfs/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudolfs/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rudolfs/ros2_ws/src/navigation2/nav2_smac_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rudolfs/ros2_ws/install/nav2_smac_planner
+[14.207s] Invoking command in '/home/rudolfs/ros2_ws/build/nav2_smac_planner': AMENT_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_core:/home/rudolfs/ros2_ws/install/nav2_costmap_2d:/home/rudolfs/ros2_ws/install/nav2_map_server:/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager:/home/rudolfs/ros2_ws/install/nav2_behavior_tree:/home/rudolfs/ros2_ws/install/nav2_util:/home/rudolfs/ros2_ws/install/nav2_voxel_grid:/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_core:/home/rudolfs/ros2_ws/install/nav2_costmap_2d:/home/rudolfs/ros2_ws/install/nav2_map_server:/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager:/home/rudolfs/ros2_ws/install/nav2_behavior_tree:/home/rudolfs/ros2_ws/install/nav2_util:/home/rudolfs/ros2_ws/install/nav2_voxel_grid:/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose:/home/rudolfs/ros2_ws/install/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/battery_logger:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rudolfs/ros2_ws/install/nav2_costmap_2d/lib:/home/rudolfs/ros2_ws/install/nav2_map_server/lib:/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager/lib:/home/rudolfs/ros2_ws/install/nav2_behavior_tree/lib:/home/rudolfs/ros2_ws/install/nav2_util/lib:/home/rudolfs/ros2_ws/install/nav2_voxel_grid/lib:/home/rudolfs/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudolfs/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rudolfs/ros2_ws/build/nav2_smac_planner -- -j6 -l6
+[14.544s] [  1%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o[0m
+[36.043s] [  3%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/a_star.cpp.o[0m
+[44.643s] [  4%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/collision_checker.cpp.o[0m
+[49.880s] [  6%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/smoother.cpp.o[0m
+[55.973s] [  8%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/analytic_expansion.cpp.o[0m
+[63.709s] [  9%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_hybrid.cpp.o[0m
+[71.208s] [ 11%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_lattice.cpp.o[0m
+[83.695s] [ 13%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/costmap_downsampler.cpp.o[0m
+[89.217s] [ 14%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_2d.cpp.o[0m
+[95.985s] [ 16%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_basic.cpp.o[0m
+[102.802s] [ 18%] [32m[1mLinking CXX shared library libnav2_smac_planner.so[0m
+[104.294s] [ 18%] Built target nav2_smac_planner
+[104.327s] [ 19%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[113.387s] [ 21%] [32m[1mLinking CXX static library libgtest.a[0m
+[113.429s] [ 21%] Built target gtest
+[113.448s] [ 22%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[114.328s] [ 24%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[114.361s] [ 24%] Built target gtest_main
+[114.383s] [ 26%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/smac_planner_lattice.cpp.o[0m
+[128.515s] [ 27%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/a_star.cpp.o[0m
+[135.688s] [ 29%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/smoother.cpp.o[0m
+[140.884s] [ 31%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/collision_checker.cpp.o[0m
+[145.324s] [ 32%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/analytic_expansion.cpp.o[0m
+[146.429s] [ 34%] [32mBuilding CXX object test/CMakeFiles/test_nodehybrid.dir/test_nodehybrid.cpp.o[0m
+[146.446s] [ 36%] [32mBuilding CXX object test/CMakeFiles/test_node2d.dir/test_node2d.cpp.o[0m
+[147.491s] [ 37%] [32mBuilding CXX object test/CMakeFiles/test_costmap_downsampler.dir/test_costmap_downsampler.cpp.o[0m
+[148.523s] [ 39%] [32mBuilding CXX object test/CMakeFiles/test_utils.dir/test_utils.cpp.o[0m
+[149.548s] [ 40%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.o[0m
+[159.418s] [ 42%] [32m[1mLinking CXX executable test_node2d[0m
+[160.610s] [ 44%] [32m[1mLinking CXX executable test_costmap_downsampler[0m
+[160.691s] [ 45%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_hybrid.cpp.o[0m
+[162.829s] [ 47%] [32m[1mLinking CXX executable test_nodehybrid[0m
+[163.048s] [ 47%] Built target test_node2d
+[163.874s] [ 47%] Built target test_costmap_downsampler
+[164.937s] [ 47%] Built target test_nodehybrid
+[165.869s] [ 49%] [32m[1mLinking CXX executable test_utils[0m
+[166.778s] [ 49%] Built target test_utils
+[169.965s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/a_star.cpp.o[0m
+[171.086s] [ 52%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/costmap_downsampler.cpp.o[0m
+[176.318s] [ 54%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_lattice.cpp.o[0m
+[178.523s] [ 55%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.o[0m
+[183.853s] [ 57%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.o[0m
+[186.205s] [ 59%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_2d.cpp.o[0m
+[188.940s] [ 60%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/analytic_expansion.cpp.o[0m
+[191.903s] [ 62%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_basic.cpp.o[0m
+[196.032s] [ 63%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_hybrid.cpp.o[0m
+[197.726s] [ 65%] [32m[1mLinking CXX shared library libnav2_smac_planner_lattice.so[0m
+[198.778s] [ 65%] Built target nav2_smac_planner_lattice
+[203.535s] [ 67%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_lattice.cpp.o[0m
+[221.536s] [ 68%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/costmap_downsampler.cpp.o[0m
+[226.527s] [ 70%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_2d.cpp.o[0m
+[231.748s] [ 72%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_basic.cpp.o[0m
+[237.436s] [ 73%] [32m[1mLinking CXX shared library libnav2_smac_planner_2d.so[0m
+[237.985s] [ 73%] Built target nav2_smac_planner_2d
+[238.006s] [ 75%] [32mBuilding CXX object test/CMakeFiles/test_lattice_node.dir/test_nodelattice.cpp.o[0m
+[246.029s] [ 77%] [32mBuilding CXX object test/CMakeFiles/test_smac_2d.dir/test_smac_2d.cpp.o[0m
+[247.049s] [ 78%] [32mBuilding CXX object test/CMakeFiles/test_smac_hybrid.dir/test_smac_hybrid.cpp.o[0m
+[247.123s] [ 80%] [32m[1mLinking CXX executable test_lattice_node[0m
+[248.075s] [ 81%] [32mBuilding CXX object test/CMakeFiles/test_a_star.dir/test_a_star.cpp.o[0m
+[248.446s] [ 81%] Built target test_lattice_node
+[248.475s] [ 83%] [32mBuilding CXX object test/CMakeFiles/test_nodebasic.dir/test_nodebasic.cpp.o[0m
+[248.477s] [ 85%] [32mBuilding CXX object test/CMakeFiles/test_collision_checker.dir/test_collision_checker.cpp.o[0m
+[249.517s] [ 86%] [32mBuilding CXX object test/CMakeFiles/test_smac_lattice.dir/test_smac_lattice.cpp.o[0m
+[255.667s] [ 88%] [32m[1mLinking CXX executable test_collision_checker[0m
+[257.326s] [ 88%] Built target test_collision_checker
+[259.430s] [ 90%] [32m[1mLinking CXX executable test_a_star[0m
+[259.905s] [ 91%] [32m[1mLinking CXX executable test_smac_hybrid[0m
+[260.671s] [ 91%] Built target test_a_star
+[261.148s] [ 93%] [32m[1mLinking CXX executable test_nodebasic[0m
+[261.202s] [ 93%] Built target test_smac_hybrid
+[261.396s] [ 95%] [32m[1mLinking CXX executable test_smac_lattice[0m
+[261.573s] [ 95%] Built target test_nodebasic
+[261.769s] [ 96%] [32m[1mLinking CXX executable test_smac_2d[0m
+[262.023s] [ 96%] Built target test_smac_lattice
+[262.320s] [ 96%] Built target test_smac_2d
+[262.341s] [ 98%] [32mBuilding CXX object test/CMakeFiles/test_smoother.dir/test_smoother.cpp.o[0m
+[269.589s] [100%] [32m[1mLinking CXX executable test_smoother[0m
+[270.071s] [100%] Built target test_smoother
+[270.081s] Invoked command in '/home/rudolfs/ros2_ws/build/nav2_smac_planner' returned '0': AMENT_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_core:/home/rudolfs/ros2_ws/install/nav2_costmap_2d:/home/rudolfs/ros2_ws/install/nav2_map_server:/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager:/home/rudolfs/ros2_ws/install/nav2_behavior_tree:/home/rudolfs/ros2_ws/install/nav2_util:/home/rudolfs/ros2_ws/install/nav2_voxel_grid:/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_core:/home/rudolfs/ros2_ws/install/nav2_costmap_2d:/home/rudolfs/ros2_ws/install/nav2_map_server:/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager:/home/rudolfs/ros2_ws/install/nav2_behavior_tree:/home/rudolfs/ros2_ws/install/nav2_util:/home/rudolfs/ros2_ws/install/nav2_voxel_grid:/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose:/home/rudolfs/ros2_ws/install/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/battery_logger:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rudolfs/ros2_ws/install/nav2_costmap_2d/lib:/home/rudolfs/ros2_ws/install/nav2_map_server/lib:/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager/lib:/home/rudolfs/ros2_ws/install/nav2_behavior_tree/lib:/home/rudolfs/ros2_ws/install/nav2_util/lib:/home/rudolfs/ros2_ws/install/nav2_voxel_grid/lib:/home/rudolfs/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudolfs/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rudolfs/ros2_ws/build/nav2_smac_planner -- -j6 -l6
+[270.082s] Invoking command in '/home/rudolfs/ros2_ws/build/nav2_smac_planner': AMENT_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_core:/home/rudolfs/ros2_ws/install/nav2_costmap_2d:/home/rudolfs/ros2_ws/install/nav2_map_server:/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager:/home/rudolfs/ros2_ws/install/nav2_behavior_tree:/home/rudolfs/ros2_ws/install/nav2_util:/home/rudolfs/ros2_ws/install/nav2_voxel_grid:/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_core:/home/rudolfs/ros2_ws/install/nav2_costmap_2d:/home/rudolfs/ros2_ws/install/nav2_map_server:/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager:/home/rudolfs/ros2_ws/install/nav2_behavior_tree:/home/rudolfs/ros2_ws/install/nav2_util:/home/rudolfs/ros2_ws/install/nav2_voxel_grid:/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose:/home/rudolfs/ros2_ws/install/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/battery_logger:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rudolfs/ros2_ws/install/nav2_costmap_2d/lib:/home/rudolfs/ros2_ws/install/nav2_map_server/lib:/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager/lib:/home/rudolfs/ros2_ws/install/nav2_behavior_tree/lib:/home/rudolfs/ros2_ws/install/nav2_util/lib:/home/rudolfs/ros2_ws/install/nav2_voxel_grid/lib:/home/rudolfs/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudolfs/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rudolfs/ros2_ws/build/nav2_smac_planner
+[270.089s] -- Install configuration: "Release"
+[270.089s] -- Execute custom install script
+[270.089s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/share/nav2_smac_planner//smac_plugin_hybrid.xml
+[270.097s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/share/nav2_smac_planner//smac_plugin_2d.xml
+[270.104s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/share/nav2_smac_planner//smac_plugin_lattice.xml
+[270.111s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/lib/libnav2_smac_planner.so
+[270.118s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/lib/libnav2_smac_planner_2d.so
+[270.126s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/lib/libnav2_smac_planner_lattice.so
+[270.133s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/a_star.hpp
+[270.140s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/analytic_expansion.hpp
+[270.147s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/collision_checker.hpp
+[270.154s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/constants.hpp
+[270.161s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/costmap_downsampler.hpp
+[270.168s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/node_2d.hpp
+[270.175s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/node_basic.hpp
+[270.182s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/node_hybrid.hpp
+[270.189s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/node_lattice.hpp
+[270.195s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_2d.hpp
+[270.203s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_hybrid.hpp
+[270.210s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_lattice.hpp
+[270.217s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/smoother.hpp
+[270.224s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/thirdparty/robin_hood.h
+[270.231s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/types.hpp
+[270.238s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/include//nav2_smac_planner/utils.hpp
+[270.245s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/ackermann/output.json
+[270.252s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/all_trajectories.png
+[270.259s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/diff/output.json
+[270.266s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/omni/output.json
+[270.273s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/ackermann/output.json
+[270.280s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/all_trajectories.png
+[270.288s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/diff/output.json
+[270.295s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/omni/output.json
+[270.303s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/library_path.sh
+[270.310s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/library_path.dsv
+[270.317s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/share/ament_index/resource_index/package_run_dependencies/nav2_smac_planner
+[270.324s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/share/ament_index/resource_index/parent_prefix_path/nav2_smac_planner
+[270.331s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/ament_prefix_path.sh
+[270.338s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/ament_prefix_path.dsv
+[270.345s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/path.sh
+[270.352s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/path.dsv
+[270.359s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.bash
+[270.366s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.sh
+[270.374s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.zsh
+[270.381s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.dsv
+[270.388s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/package.dsv
+[270.395s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/share/ament_index/resource_index/packages/nav2_smac_planner
+[270.402s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_smac_planner
+[270.409s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[270.416s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[270.423s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[270.430s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/cmake/nav2_smac_plannerConfig.cmake
+[270.437s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/cmake/nav2_smac_plannerConfig-version.cmake
+[270.444s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_smac_planner/share/nav2_smac_planner/package.xml
+[270.453s] Invoked command in '/home/rudolfs/ros2_ws/build/nav2_smac_planner' returned '0': AMENT_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_core:/home/rudolfs/ros2_ws/install/nav2_costmap_2d:/home/rudolfs/ros2_ws/install/nav2_map_server:/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager:/home/rudolfs/ros2_ws/install/nav2_behavior_tree:/home/rudolfs/ros2_ws/install/nav2_util:/home/rudolfs/ros2_ws/install/nav2_voxel_grid:/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_core:/home/rudolfs/ros2_ws/install/nav2_costmap_2d:/home/rudolfs/ros2_ws/install/nav2_map_server:/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager:/home/rudolfs/ros2_ws/install/nav2_behavior_tree:/home/rudolfs/ros2_ws/install/nav2_util:/home/rudolfs/ros2_ws/install/nav2_voxel_grid:/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose:/home/rudolfs/ros2_ws/install/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/battery_logger:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rudolfs/ros2_ws/install/nav2_costmap_2d/lib:/home/rudolfs/ros2_ws/install/nav2_map_server/lib:/home/rudolfs/ros2_ws/install/nav2_lifecycle_manager/lib:/home/rudolfs/ros2_ws/install/nav2_behavior_tree/lib:/home/rudolfs/ros2_ws/install/nav2_util/lib:/home/rudolfs/ros2_ws/install/nav2_voxel_grid/lib:/home/rudolfs/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudolfs/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rudolfs/ros2_ws/build/nav2_smac_planner

@@ -1,0 +1,33 @@
+[ 16%] Built target gtest_main
+[ 33%] Built target opennav_dock_action_bt_node
+[ 50%] Built target gtest
+[ 66%] Built target opennav_undock_action_bt_node
+[ 83%] Built target test_dock_robot
+[100%] Built target test_undock_robot
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking_bt/lib/libopennav_dock_action_bt_node.so
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking_bt/lib/libopennav_undock_action_bt_node.so
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking_bt/include//opennav_docking_bt/dock_robot.hpp
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking_bt/include//opennav_docking_bt/undock_robot.hpp
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking_bt/share/opennav_docking_bt/behavior_trees/application_example.xml
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking_bt/share/opennav_docking_bt/environment/library_path.sh
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking_bt/share/opennav_docking_bt/environment/library_path.dsv
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking_bt/share/ament_index/resource_index/package_run_dependencies/opennav_docking_bt
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking_bt/share/ament_index/resource_index/parent_prefix_path/opennav_docking_bt
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking_bt/share/opennav_docking_bt/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking_bt/share/opennav_docking_bt/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking_bt/share/opennav_docking_bt/environment/path.sh
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking_bt/share/opennav_docking_bt/environment/path.dsv
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking_bt/share/opennav_docking_bt/local_setup.bash
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking_bt/share/opennav_docking_bt/local_setup.sh
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking_bt/share/opennav_docking_bt/local_setup.zsh
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking_bt/share/opennav_docking_bt/local_setup.dsv
+-- Symlinking: /home/rudolfs/ros2_ws/install/opennav_docking_bt/share/opennav_docking_bt/package.dsv
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking_bt/share/ament_index/resource_index/packages/opennav_docking_bt
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking_bt/share/opennav_docking_bt/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking_bt/share/opennav_docking_bt/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking_bt/share/opennav_docking_bt/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking_bt/share/opennav_docking_bt/cmake/opennav_docking_btConfig.cmake
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking_bt/share/opennav_docking_bt/cmake/opennav_docking_btConfig-version.cmake
+-- Up-to-date symlink: /home/rudolfs/ros2_ws/install/opennav_docking_bt/share/opennav_docking_bt/package.xml

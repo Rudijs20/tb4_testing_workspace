@@ -1,0 +1,15 @@
+name: "actor_walking"
+pose {
+  position {
+    x: -6.3793
+    y: -7.7471
+    z: 1.0
+  }
+  orientation {
+    x: 0.0
+    y: 0.0
+    z: 0.2079
+    w: 0.9781
+  }
+}
+

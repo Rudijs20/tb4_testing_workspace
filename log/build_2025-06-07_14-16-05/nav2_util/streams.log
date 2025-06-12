@@ -1,0 +1,180 @@
+[0.011s] Invoking command in '/home/rudolfs/ros2_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose:/home/rudolfs/ros2_ws/install/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/battery_logger:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rudolfs/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudolfs/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rudolfs/ros2_ws/src/navigation2/nav2_util -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rudolfs/ros2_ws/install/nav2_util
+[0.055s] -- The C compiler identification is GNU 13.3.0
+[0.101s] -- The CXX compiler identification is GNU 13.3.0
+[0.113s] -- Detecting C compiler ABI info
+[0.179s] -- Detecting C compiler ABI info - done
+[0.187s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.188s] -- Detecting C compile features
+[0.188s] -- Detecting C compile features - done
+[0.195s] -- Detecting CXX compiler ABI info
+[0.273s] -- Detecting CXX compiler ABI info - done
+[0.282s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.282s] -- Detecting CXX compile features
+[0.282s] -- Detecting CXX compile features - done
+[0.286s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.420s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.484s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.527s] -- Found bond: 4.1.2 (/opt/ros/jazzy/share/bond/cmake)
+[0.576s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.591s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.609s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.628s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.684s] -- Found bondcpp: 4.1.2 (/opt/ros/jazzy/share/bondcpp/cmake)
+[0.758s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.762s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.835s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.854s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.874s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.001s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.015s] -- Found nav2_common: 1.3.7 (/home/rudolfs/ros2_ws/install/nav2_common/share/nav2_common/cmake)
+[1.015s] -- Found nav2_msgs: 1.3.7 (/home/rudolfs/ros2_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[1.160s] -- Found rclcpp_action: 28.1.9 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[1.177s] -- Found tf2: 0.36.11 (/opt/ros/jazzy/share/tf2/cmake)
+[1.185s] -- Found tf2_geometry_msgs: 0.36.11 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.209s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.210s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.210s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.317s] -- Setting build type to Release as none was specified.
+[1.322s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.325s] -- Found ament_cmake_pytest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+[1.492s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.495s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.574s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.575s] -- Found Threads: TRUE  
+[1.605s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.605s] -- Configured cppcheck include dirs: 
+[1.605s] -- Configured cppcheck exclude dirs and/or files: 
+[1.607s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.607s] -- Configured cpplint exclude dirs and/or files: 
+[1.609s] -- Added test 'lint_cmake' to check CMake code style
+[1.611s] -- Added test 'uncrustify' to check C / C++ code style
+[1.611s] -- Configured uncrustify additional arguments: 
+[1.611s] -- Added test 'xmllint' to check XML markup files
+[1.615s] -- Configuring done (1.6s)
+[1.735s] -- Generating done (0.1s)
+[1.781s] -- Build files have been written to: /home/rudolfs/ros2_ws/build/nav2_util
+[1.809s] Invoked command in '/home/rudolfs/ros2_ws/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose:/home/rudolfs/ros2_ws/install/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/battery_logger:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rudolfs/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudolfs/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rudolfs/ros2_ws/src/navigation2/nav2_util -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rudolfs/ros2_ws/install/nav2_util
+[1.811s] Invoking command in '/home/rudolfs/ros2_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose:/home/rudolfs/ros2_ws/install/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/battery_logger:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rudolfs/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudolfs/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rudolfs/ros2_ws/build/nav2_util -- -j6 -l6
+[1.858s] [  5%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/costmap.cpp.o[0m
+[1.858s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.858s] [  5%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/node_utils.cpp.o[0m
+[1.858s] [  7%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_service_client.cpp.o[0m
+[1.866s] [  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.868s] [ 11%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/string_utils.cpp.o[0m
+[2.350s] [ 13%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_utils.cpp.o[0m
+[2.806s] [ 15%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.887s] [ 15%] Built target gtest_main
+[2.914s] [ 17%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_node.cpp.o[0m
+[6.178s] [ 19%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/robot_utils.cpp.o[0m
+[6.317s] [ 21%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/node_thread.cpp.o[0m
+[6.425s] [ 23%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/odometry_utils.cpp.o[0m
+[7.907s] [ 25%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/array_parser.cpp.o[0m
+[11.381s] [ 27%] [32m[1mLinking CXX static library libgtest.a[0m
+[11.412s] [ 27%] Built target gtest
+[15.768s] [ 29%] [32m[1mLinking CXX shared library libnav2_util_core.so[0m
+[15.931s] [ 29%] Built target nav2_util_core
+[15.956s] [ 31%] [32mBuilding CXX object src/CMakeFiles/lifecycle_bringup.dir/lifecycle_bringup_commandline.cpp.o[0m
+[15.962s] [ 37%] [32mBuilding CXX object test/CMakeFiles/test_execution_timer.dir/test_execution_timer.cpp.o[0m
+[15.962s] [ 37%] [32mBuilding CXX object test/CMakeFiles/test_string_utils.dir/test_string_utils.cpp.o[0m
+[15.962s] [ 37%] [32mBuilding CXX object src/CMakeFiles/base_footprint_publisher.dir/base_footprint_publisher.cpp.o[0m
+[15.962s] [ 39%] [32mBuilding CXX object test/CMakeFiles/test_node_utils.dir/test_node_utils.cpp.o[0m
+[15.963s] [ 41%] [32mBuilding CXX object test/CMakeFiles/test_service_client.dir/test_service_client.cpp.o[0m
+[17.244s] [ 43%] [32m[1mLinking CXX executable test_execution_timer[0m
+[17.326s] [ 45%] [32m[1mLinking CXX executable test_string_utils[0m
+[17.535s] [ 45%] Built target test_string_utils
+[17.557s] [ 47%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_utils.dir/test_lifecycle_utils.cpp.o[0m
+[17.661s] [ 47%] Built target test_execution_timer
+[17.685s] [ 49%] [32mBuilding CXX object test/CMakeFiles/test_actions.dir/test_actions.cpp.o[0m
+[19.063s] [ 50%] [32m[1mLinking CXX executable lifecycle_bringup[0m
+[19.276s] [ 50%] Built target lifecycle_bringup
+[19.295s] [ 52%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_node.dir/test_lifecycle_node.cpp.o[0m
+[20.842s] [ 54%] [32m[1mLinking CXX executable test_node_utils[0m
+[21.099s] [ 54%] Built target test_node_utils
+[21.124s] [ 56%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_cli_node.dir/test_lifecycle_cli_node.cpp.o[0m
+[21.284s] [ 58%] [32m[1mLinking CXX executable test_lifecycle_utils[0m
+[21.536s] [ 58%] Built target test_lifecycle_utils
+[21.558s] [ 60%] [32mBuilding CXX object test/CMakeFiles/test_geometry_utils.dir/test_geometry_utils.cpp.o[0m
+[22.934s] [ 62%] [32m[1mLinking CXX executable base_footprint_publisher[0m
+[23.154s] [ 62%] Built target base_footprint_publisher
+[23.184s] [ 64%] [32mBuilding CXX object test/CMakeFiles/test_odometry_utils.dir/test_odometry_utils.cpp.o[0m
+[23.757s] [ 66%] [32m[1mLinking CXX executable test_lifecycle_node[0m
+[24.039s] [ 66%] Built target test_lifecycle_node
+[24.061s] [ 68%] [32mBuilding CXX object test/CMakeFiles/test_robot_utils.dir/test_robot_utils.cpp.o[0m
+[25.107s] [ 70%] [32m[1mLinking CXX executable test_lifecycle_cli_node[0m
+[25.375s] [ 70%] Built target test_lifecycle_cli_node
+[25.398s] [ 72%] [32mBuilding CXX object test/CMakeFiles/test_base_footprint_publisher.dir/test_base_footprint_publisher.cpp.o[0m
+[25.623s] [ 74%] [32m[1mLinking CXX executable test_geometry_utils[0m
+[26.039s] [ 74%] Built target test_geometry_utils
+[26.061s] [ 76%] [32mBuilding CXX object test/CMakeFiles/test_array_parser.dir/test_array_parser.cpp.o[0m
+[27.600s] [ 78%] [32m[1mLinking CXX executable test_array_parser[0m
+[27.822s] [ 78%] Built target test_array_parser
+[27.846s] [ 80%] [32mBuilding CXX object test/CMakeFiles/test_twist_publisher.dir/test_twist_publisher.cpp.o[0m
+[28.981s] [ 82%] [32m[1mLinking CXX executable test_service_client[0m
+[29.296s] [ 82%] Built target test_service_client
+[29.322s] [ 84%] [32mBuilding CXX object test/CMakeFiles/test_twist_subscriber.dir/test_twist_subscriber.cpp.o[0m
+[30.011s] [ 86%] [32m[1mLinking CXX executable test_robot_utils[0m
+[30.119s] [ 88%] [32m[1mLinking CXX executable test_odometry_utils[0m
+[30.364s] [ 88%] Built target test_robot_utils
+[30.391s] [ 90%] [32mBuilding CXX object test/CMakeFiles/test_validation_messages.dir/test_validation_messages.cpp.o[0m
+[30.449s] [ 90%] Built target test_odometry_utils
+[32.360s] [ 92%] [32m[1mLinking CXX executable test_validation_messages[0m
+[32.836s] [ 92%] Built target test_validation_messages
+[33.425s] [ 94%] [32m[1mLinking CXX executable test_base_footprint_publisher[0m
+[33.760s] [ 94%] Built target test_base_footprint_publisher
+[35.801s] [ 96%] [32m[1mLinking CXX executable test_actions[0m
+[36.098s] [ 96%] Built target test_actions
+[44.012s] [ 98%] [32m[1mLinking CXX executable test_twist_publisher[0m
+[44.220s] [ 98%] Built target test_twist_publisher
+[45.329s] [100%] [32m[1mLinking CXX executable test_twist_subscriber[0m
+[45.545s] [100%] Built target test_twist_subscriber
+[45.555s] Invoked command in '/home/rudolfs/ros2_ws/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose:/home/rudolfs/ros2_ws/install/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/battery_logger:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rudolfs/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudolfs/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rudolfs/ros2_ws/build/nav2_util -- -j6 -l6
+[45.556s] Invoking command in '/home/rudolfs/ros2_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose:/home/rudolfs/ros2_ws/install/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/battery_logger:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rudolfs/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudolfs/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rudolfs/ros2_ws/build/nav2_util
+[45.563s] -- Install configuration: "Release"
+[45.564s] -- Execute custom install script
+[45.564s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/lib/nav2_util/lifecycle_bringup
+[45.572s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/array_parser.hpp
+[45.580s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/clear_entirely_costmap_service_client.hpp
+[45.587s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/costmap.hpp
+[45.595s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/execution_timer.hpp
+[45.603s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/geometry_utils.hpp
+[45.610s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/lifecycle_node.hpp
+[45.618s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/lifecycle_service_client.hpp
+[45.626s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/lifecycle_utils.hpp
+[45.634s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/line_iterator.hpp
+[45.641s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/node_thread.hpp
+[45.648s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/node_utils.hpp
+[45.655s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/occ_grid_values.hpp
+[45.662s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/odometry_utils.hpp
+[45.669s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/robot_utils.hpp
+[45.676s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/service_client.hpp
+[45.683s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/simple_action_server.hpp
+[45.690s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/string_utils.hpp
+[45.697s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/twist_publisher.hpp
+[45.704s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/twist_subscriber.hpp
+[45.711s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/include/nav2_util/nav2_util/validate_messages.hpp
+[45.718s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/environment/library_path.sh
+[45.725s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/environment/library_path.dsv
+[45.732s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/ament_index/resource_index/package_run_dependencies/nav2_util
+[45.739s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/ament_index/resource_index/parent_prefix_path/nav2_util
+[45.746s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/environment/ament_prefix_path.sh
+[45.753s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/environment/ament_prefix_path.dsv
+[45.761s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/environment/path.sh
+[45.768s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/environment/path.dsv
+[45.774s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/local_setup.bash
+[45.781s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/local_setup.sh
+[45.788s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/local_setup.zsh
+[45.796s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/local_setup.dsv
+[45.803s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/package.dsv
+[45.811s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/ament_index/resource_index/packages/nav2_util
+[45.818s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_include_directories-extras.cmake
+[45.826s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_libraries-extras.cmake
+[45.833s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_dependencies-extras.cmake
+[45.841s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_targets-extras.cmake
+[45.849s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig.cmake
+[45.856s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig-version.cmake
+[45.864s] -- Symlinking: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/package.xml
+[45.871s] -- Installing: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/cmake/nav2_util_coreExport.cmake
+[45.872s] -- Installing: /home/rudolfs/ros2_ws/install/nav2_util/share/nav2_util/cmake/nav2_util_coreExport-release.cmake
+[45.872s] -- Installing: /home/rudolfs/ros2_ws/install/nav2_util/lib/libnav2_util_core.so
+[45.873s] -- Set non-toolchain portion of runtime path of "/home/rudolfs/ros2_ws/install/nav2_util/lib/libnav2_util_core.so" to ""
+[45.875s] Invoked command in '/home/rudolfs/ros2_ws/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudolfs/ros2_ws/install/nav2_msgs:/home/rudolfs/ros2_ws/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rudolfs/ros2_ws/install/tb4_nav_to_pose:/home/rudolfs/ros2_ws/install/cmd_vel_tracker:/home/rudolfs/ros2_ws/install/battery_logger:/home/rudolfs/testing_ws/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/install/turtlebot4_python_tutorials:/home/rudolfs/testing_ws/ros2_ws/install/battery_logger:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/rudolfs/ros2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudolfs/ros2_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/rudolfs/ros2_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rudolfs/ros2_ws/build/nav2_util

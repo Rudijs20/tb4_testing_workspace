@@ -1,0 +1,21 @@
+[2.481s] Invoking command in '/home/rudolfs/ros2_ws/src/navigation2/nav2_loopback_sim': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rudolfs/ros2_ws/build/nav2_loopback_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rudolfs/ros2_ws/install/nav2_loopback_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nav2_loopback_sim build --build-base /home/rudolfs/ros2_ws/build/nav2_loopback_sim/build install --record /home/rudolfs/ros2_ws/build/nav2_loopback_sim/install.log --single-version-externally-managed install_data
+[3.046s] running egg_info
+[3.091s] writing ../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info/PKG-INFO
+[3.091s] writing dependency_links to ../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info/dependency_links.txt
+[3.091s] writing entry points to ../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info/entry_points.txt
+[3.097s] writing requirements to ../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info/requires.txt
+[3.097s] writing top-level names to ../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info/top_level.txt
+[3.229s] reading manifest file '../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info/SOURCES.txt'
+[3.230s] writing manifest file '../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info/SOURCES.txt'
+[3.233s] running build
+[3.233s] running build_py
+[3.233s] running install
+[3.249s] running install_lib
+[3.313s] running install_data
+[3.316s] running install_egg_info
+[3.353s] removing '/home/rudolfs/ros2_ws/install/nav2_loopback_sim/lib/python3.12/site-packages/nav2_loopback_sim-1.0.0-py3.12.egg-info' (and everything under it)
+[3.353s] Copying ../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info to /home/rudolfs/ros2_ws/install/nav2_loopback_sim/lib/python3.12/site-packages/nav2_loopback_sim-1.0.0-py3.12.egg-info
+[3.354s] running install_scripts
+[3.545s] Installing loopback_simulator script to /home/rudolfs/ros2_ws/install/nav2_loopback_sim/lib/nav2_loopback_sim
+[3.547s] writing list of installed files to '/home/rudolfs/ros2_ws/build/nav2_loopback_sim/install.log'
+[3.636s] Invoked command in '/home/rudolfs/ros2_ws/src/navigation2/nav2_loopback_sim' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rudolfs/ros2_ws/build/nav2_loopback_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rudolfs/ros2_ws/install/nav2_loopback_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nav2_loopback_sim build --build-base /home/rudolfs/ros2_ws/build/nav2_loopback_sim/build install --record /home/rudolfs/ros2_ws/build/nav2_loopback_sim/install.log --single-version-externally-managed install_data

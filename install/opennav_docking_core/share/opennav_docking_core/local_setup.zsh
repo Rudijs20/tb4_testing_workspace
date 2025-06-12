@@ -1,0 +1,1 @@
+/home/rudolfs/ros2_ws/build/opennav_docking_core/ament_cmake_environment_hooks/local_setup.zsh

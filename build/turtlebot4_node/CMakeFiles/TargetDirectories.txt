@@ -1,0 +1,11 @@
+/home/rudolfs/ros2_ws/build/turtlebot4_node/CMakeFiles/uninstall.dir
+/home/rudolfs/ros2_ws/build/turtlebot4_node/CMakeFiles/turtlebot4_node_uninstall.dir
+/home/rudolfs/ros2_ws/build/turtlebot4_node/CMakeFiles/turtlebot4_node_lib.dir
+/home/rudolfs/ros2_ws/build/turtlebot4_node/CMakeFiles/turtlebot4_node.dir
+/home/rudolfs/ros2_ws/build/turtlebot4_node/CMakeFiles/test.dir
+/home/rudolfs/ros2_ws/build/turtlebot4_node/CMakeFiles/edit_cache.dir
+/home/rudolfs/ros2_ws/build/turtlebot4_node/CMakeFiles/rebuild_cache.dir
+/home/rudolfs/ros2_ws/build/turtlebot4_node/CMakeFiles/list_install_components.dir
+/home/rudolfs/ros2_ws/build/turtlebot4_node/CMakeFiles/install.dir
+/home/rudolfs/ros2_ws/build/turtlebot4_node/CMakeFiles/install/local.dir
+/home/rudolfs/ros2_ws/build/turtlebot4_node/CMakeFiles/install/strip.dir
