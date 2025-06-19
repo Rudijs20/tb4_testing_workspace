@@ -59,18 +59,18 @@ class MetricsMonitor(Node):
         #     self.local_callback,
         #     10
         # )
-        self.local_sub = self.create_subscription(
-            PointStamped,
-            '/lookahead_point',  # use this for RPP
-            self.local_callback,
-            10
-        )
         # self.local_sub = self.create_subscription(
-        #     Path,
-        #     '/optimal_trajectory',    # Use this for modified MPPI 
+        #     PointStamped,
+        #     '/lookahead_point',  # use this for RPP
         #     self.local_callback,
         #     10
         # )
+        self.local_sub = self.create_subscription(
+            Path,
+            '/optimal_trajectory',    # Use this for modified MPPI 
+            self.local_callback,
+            10
+        )
 
     def clock_callback(self, msg):
         self.latest_time = msg.clock.sec + msg.clock.nanosec * 1e-9
@@ -122,12 +122,12 @@ def main():
                 navigator.path_length += (dx**2 + dy**2)**0.5
             navigator.previous_position = current_position
 
-    def local_plan_callback(msg):
-        if navigator.tracking_active:
-            navigator.local_planner_changes += 1
+    # def local_plan_callback(msg):
+    #     if navigator.tracking_active:
+    #         navigator.local_planner_changes += 1
 
     navigator.create_subscription(Odometry, '/odom', odom_callback, 10)
-    navigator.create_subscription(Path, '/controller_server/local_plan', local_plan_callback, 10)
+    # navigator.create_subscription(Path, '/controller_server/local_plan', local_plan_callback, 10)
 
     if not navigator.getDockedStatus():
         navigator.info('Docking before initializing pose')

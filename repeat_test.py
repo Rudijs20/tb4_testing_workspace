@@ -4,7 +4,7 @@ import os
 import signal
 import sys
 
-NUM_RUNS = 5
+NUM_RUNS = 10
 # WORLD_DIR = "/opt/ros/jazzy/share/turtlebot4_gz_bringup/worlds"
 WORLD_DIR = "/home/rudolfs/ros2_ws/worlds"
 sim_proc = None
