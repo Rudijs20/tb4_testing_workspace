@@ -47,7 +47,7 @@ for i in range(NUM_RUNS):
         "nav2:=true",
         "slam:=false",
         "localization:=true",
-        "rviz:=true",
+        "rviz:=false",
         "use_sim_time:=true",
         "world:=maze",
         "map:=/home/rudolfs/ros2_ws/maps/maze.yaml",
@@ -63,7 +63,7 @@ for i in range(NUM_RUNS):
     time.sleep(15)
 
     nav_proc = subprocess.Popen([
-        "ros2", "run", "tb4_nav_to_pose", "min_nav_to_pose"
+        "ros2", "run", "tb4_nav_to_pose", "nav_to_pose"
     ])
 
     nav_proc.wait()

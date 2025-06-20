@@ -59,18 +59,18 @@ class MetricsMonitor(Node):
         #     self.local_callback,
         #     10
         # )
-        # self.local_sub = self.create_subscription(
-        #     PointStamped,
-        #     '/lookahead_point',  # use this for RPP
-        #     self.local_callback,
-        #     10
-        # )
         self.local_sub = self.create_subscription(
-            Path,
-            '/optimal_trajectory',    # Use this for modified MPPI 
+            PointStamped,
+            '/lookahead_point',  # use this for RPP
             self.local_callback,
             10
         )
+        # self.local_sub = self.create_subscription(
+        #     Path,
+        #     '/optimal_trajectory',    # Use this for modified MPPI 
+        #     self.local_callback,
+        #     10
+        # )
 
     def clock_callback(self, msg):
         self.latest_time = msg.clock.sec + msg.clock.nanosec * 1e-9
