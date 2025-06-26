@@ -4,8 +4,9 @@ import matplotlib.pyplot as plt
 import glob
 import os
 
-controllers = ['DWB', 'MPPI', 'RPP']
-base_dir = '/home/rudolfs/ros2_ws/Map1/'
+
+controllers = ['Map1_DWB', 'Map1_MPPI', 'Map1_RPP']
+base_dir = '/home/rudolfs/ros2_ws/AllResults/Map1/'
 common_time = np.arange(0, 600, 1)  # Adjust to your log duration
 
 cpu_results = {}

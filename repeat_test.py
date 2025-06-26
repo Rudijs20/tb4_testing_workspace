@@ -4,7 +4,7 @@ import os
 import signal
 import sys
 
-NUM_RUNS = 10
+NUM_RUNS = 1
 # WORLD_DIR = "/opt/ros/jazzy/share/turtlebot4_gz_bringup/worlds"
 WORLD_DIR = "/home/rudolfs/ros2_ws/worlds"
 sim_proc = None
@@ -47,7 +47,7 @@ for i in range(NUM_RUNS):
         "nav2:=true",
         "slam:=false",
         "localization:=true",
-        "rviz:=false",
+        "rviz:=true",
         "use_sim_time:=true",
         "world:=maze",
         "map:=/home/rudolfs/ros2_ws/maps/maze.yaml",

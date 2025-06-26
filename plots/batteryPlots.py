@@ -5,8 +5,8 @@ from scipy.integrate import cumulative_trapezoid
 import glob
 import os
 
-controllers = ['DWB', 'MPPI', 'RPP']
-base_dir = '/home/rudolfs/ros2_ws/Map1/'
+controllers = ['Map3_DWB', 'Map3_MPPI', 'Map3_RPP']
+base_dir = '/home/rudolfs/ros2_ws/AllResults/Map3/'
 common_time = np.arange(0, 600, 1)  # Adjust based on max sim time
 
 results = {}
