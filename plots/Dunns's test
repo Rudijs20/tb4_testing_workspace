@@ -1,0 +1,71 @@
+import os
+import glob
+import pandas as pd
+from scipy.stats import kruskal
+import scikit_posthocs as sp
+
+base_dir = '/home/rudolfs/ros2_ws/AllResults'
+maps_to_include = ['Map1', 'Map2', 'Map3']
+planners = ['DWB', 'MPPI', 'RPP']
+
+data = []
+
+for map_name in maps_to_include:
+    map_path = os.path.join(base_dir, map_name)
+    for planner in planners:
+        planner_path = os.path.join(map_path, f"{map_name}_{planner}")
+        csv_files = glob.glob(os.path.join(planner_path, 'battery_log_*.csv'))
+
+        for file in csv_files:
+            try:
+                df = pd.read_csv(file)  # automatically uses the header row
+                if df.empty or df.shape[1] < 2:
+                    continue
+                start = pd.to_numeric(df["percentage"].iloc[0], errors='coerce')
+                end = pd.to_numeric(df["percentage"].iloc[-1], errors='coerce')
+                if pd.isna(start) or pd.isna(end):
+                    continue  # skip if conversion failed
+
+                battery_drop = start - end
+
+                data.append({
+                    "Map": map_name,
+                    "Planner": planner,
+                    "BatteryDrop": battery_drop
+                })
+            except Exception as e:
+                print(f"Error reading {file}: {e}")
+
+# Create DataFrame
+# ... [your existing imports and data loading code] ...
+
+# Create DataFrame
+df = pd.DataFrame(data)
+
+# Add combined group labels
+df["Group"] = df["Map"] + "_" + df["Planner"]
+
+# Global Kruskal-Wallis test across all combinations
+print("\nGlobal Kruskal-Wallis test across all Map+Planner groups:")
+stat, p = kruskal(*[group["BatteryDrop"].values for _, group in df.groupby("Group")])
+print(f"H = {stat:.4f}, p = {p:.4f}")
+print("→ Significant" if p < 0.05 else "→ Not significant")
+
+# Kruskal-Wallis within each map (compare planners on the same map)
+print("\nKruskal-Wallis tests within each map (comparing planners):")
+for map_name in maps_to_include:
+    map_df = df[df["Map"] == map_name]
+    if map_df["Planner"].nunique() > 1:
+        groups = [g["BatteryDrop"].values for _, g in map_df.groupby("Planner")]
+        stat, p = kruskal(*groups)
+        print(f"{map_name}: H = {stat:.4f}, p = {p:.4f} → {'Significant' if p < 0.05 else 'Not significant'}")
+
+# Kruskal-Wallis within each planner (compare maps using the same planner)
+print("\nKruskal-Wallis tests within each planner (comparing maps):")
+for planner in planners:
+    planner_df = df[df["Planner"] == planner]
+    if planner_df["Map"].nunique() > 1:
+        groups = [g["BatteryDrop"].values for _, g in planner_df.groupby("Map")]
+        stat, p = kruskal(*groups)
+        print(f"{planner}: H = {stat:.4f}, p = {p:.4f} → {'Significant' if p < 0.05 else 'Not significant'}")
+

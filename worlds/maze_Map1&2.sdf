@@ -1,3 +1,12 @@
+<!-- 
+
+
+Currently the code has one Actor to achive Map1 without acotr commnet out the whole actor model. 
+To Run the map change the name to maze.sdf
+
+
+ -->
+
 <sdf version='1.10'>
   <world name='maze'>
     <physics name='1ms' type='ignored'>

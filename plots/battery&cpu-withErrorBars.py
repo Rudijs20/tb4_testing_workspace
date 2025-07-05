@@ -34,15 +34,24 @@ for map_name in maps:
         battery_avg = battery_avg*100
         cpu_avg = sum(cpu_means) / len(cpu_means) if cpu_means else None
 
-        results.append({
-            "Map": map_name,
-            "Planner": planner_name,
-            "BatteryUsageMean": battery_avg,
-            "CPUUsageMean": cpu_avg
-        })
+        for b, c in zip(battery_means, cpu_means):
+            results.append({
+                "Map": map_name,
+                "Planner": planner_name,
+                "BatteryUsed": b * 100,
+                "CPUUsed": c
+            })
 
 # Convert to DataFrame
-df = pd.DataFrame(results)
+df_raw = pd.DataFrame(results)
+
+df = df_raw.groupby(["Map", "Planner"]).agg(
+    BatteryUsageMean=("BatteryUsed", "mean"),
+    BatteryUsageStd=("BatteryUsed", "std"),
+    CPUUsageMean=("CPUUsed", "mean"),
+    CPUUsageStd=("CPUUsed", "std")
+).reset_index()
+
 sns.set_theme(style="whitegrid", context="paper", palette="colorblind")
 plt.rcParams["font.family"] = "DejaVu Sans"  # Clean, modern font
 plt.rcParams["font.size"] = 12
@@ -58,88 +67,71 @@ palette = {"DWB": "#4C72B0", "MPPI": "#DD8452", "RPP": "#55A868"}
 
 # ----- BATTERY USAGE PLOT -----
 plt.figure(figsize=(8, 5))
-ax = sns.barplot(
-    data=df,
+ax = sns.boxplot(
+    data=df_raw,
     x="Map",
-    y="BatteryUsageMean",
+    y="BatteryUsed",
     hue="Planner",
     palette=palette,
-    edgecolor=".2",
     linewidth=1.5,
-    saturation=0.9
+    fliersize=3
 )
 
-# Add value labels
-for container in ax.containers:
-    ax.bar_label(container, fmt='%.2f%%', padding=3, fontsize=10)
+# Add value labels (optional, boxplots usually omit this)
+# for container in ax.containers:
+#     ax.bar_label(container, fmt='%.2f%%', padding=3, fontsize=10)
 
-# Styling enhancements
-# plt.title("Battery Consumption by Navigation Planner", pad=20, fontweight="bold")
 plt.ylabel("Battery Percentage Used (%)", labelpad=10)
 plt.xlabel("")
-plt.ylim(0, df["BatteryUsageMean"].max() * 1.2)  # Add headroom for labels
+plt.ylim(0, df_raw["BatteryUsed"].max() * 1.2)
 plt.legend(
     title="Planner",
+    loc='upper center',
+    ncol=3,
     frameon=True,
-    shadow=True,
-    loc='upper center',  # Positions at top center
-    # bbox_to_anchor=(0.5, 1.15),  # Adjust these values to fine-tune position
-    ncol=3,  # This creates the horizontal/elongated layout
-    fancybox=True,  # Gives rounded corners
-    framealpha=0.95,  # Slight transparency
-    facecolor='white',  # Background color
-    edgecolor='gray',  # Border color
+    fancybox=True,
+    framealpha=0.95,
+    facecolor='white',
+    edgecolor='gray',
     fontsize=10,
     title_fontsize=11
 )
-
-# Remove spines for cleaner look
 sns.despine(left=True, bottom=True)
 plt.tight_layout()
-plt.savefig("battery_usage_plot.png", dpi=300)
+plt.savefig("battery_usage_boxplot.png", dpi=300)
 plt.close()
+
 
 # ----- CPU USAGE PLOT -----
 plt.figure(figsize=(8, 5))
-ax = sns.barplot(
-    data=df,
+ax = sns.boxplot(
+    data=df_raw,
     x="Map",
-    y="CPUUsageMean",
+    y="CPUUsed",
     hue="Planner",
     palette=palette,
-    edgecolor=".2",
     linewidth=1.5,
-    saturation=0.9
+    fliersize=3
 )
 
-# Add value labels
-for container in ax.containers:
-    ax.bar_label(container, fmt='%.2f%%', padding=3, fontsize=10)
-
-# Styling enhancements
-# plt.title("Average CPU Utilization (Controller Server) by Navigation Planner", 
-#           pad=20, fontweight="bold")
 plt.ylabel("CPU Usage (%)", labelpad=10)
 plt.xlabel("")
-plt.ylim(0, df["CPUUsageMean"].max() * 1.3)  # Add headroom for labels
+plt.ylim(0, df_raw["CPUUsed"].max() * 1.3)
 plt.legend(
     title="Planner",
+    loc='upper center',
+    ncol=3,
     frameon=True,
-    shadow=True,
-    loc='upper center',  # Positions at top center
-    # bbox_to_anchor=(0.5, 1.15),  # Adjust these values to fine-tune position
-    ncol=3,  # This creates the horizontal/elongated layout
-    fancybox=True,  # Gives rounded corners
-    framealpha=0.95,  # Slight transparency
-    facecolor='white',  # Background color
-    edgecolor='gray',  # Border color
+    fancybox=True,
+    framealpha=0.95,
+    facecolor='white',
+    edgecolor='gray',
     fontsize=10,
     title_fontsize=11
 )
-
-# Add light grid
-# ax.yaxis.grid(True, linestyle='--', alpha=0.4)
 sns.despine(left=True, bottom=True)
 plt.tight_layout()
-plt.savefig("cpu_usage_plot.png", dpi=300)
+plt.savefig("cpu_usage_boxplot.png", dpi=300)
 plt.close()
+
+
