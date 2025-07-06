@@ -36,8 +36,6 @@ for map_name in maps_to_include:
             except Exception as e:
                 print(f"Error reading {file}: {e}")
 
-# Create DataFrame
-# ... [your existing imports and data loading code] ...
 
 # Create DataFrame
 df = pd.DataFrame(data)
