@@ -9,8 +9,13 @@ Run the following command inside the `ros2_ws` folder (**must be located in your
 ```bash
 colcon build --symlink-install
 ```
-
 > `--symlink-install` allows Python packages to be used without needing to rebuild after code edits.
+
+
+```bash
+source install/setup.bash
+```
+> the source command with full path can be included in the ~/.bashrc file so every new teminal launches it automatically
 
 ---
 
@@ -95,7 +100,7 @@ Run these commands in this order to launch a navigation task:
 1. File already located on the turtlebot at VU
 
 ```bash
-ros2 launch turtlebot4_navigation localization.launch.py map:=/home/ubuntu/FullMap5.2.yaml
+ros2 launch turtlebot4_navigation localization.launch.py map:=/home/ubuntu/rudolfs_ws/robotLab.yaml
 ```
 
 2.
@@ -110,7 +115,7 @@ ros2 launch turtlebot4_navigation nav2.launch.py
 ros2 launch turtlebot4_viz view_navigation.launch.py
 ```
 
-4.
+4. In the ~/rudolfs_ws on the turtlebot do:
 
 ```bash
 python3 nav2_cpu_logger.py
@@ -209,3 +214,16 @@ critics: [
        "PathAngleCritic", "PreferForwardCritic"
    	    ]
 ```
+
+
+# Problems with fixes:
+
+1. The map wasn’t being created in rviz, it was being locked to a 7x7 size, can be fixed with changing the file /opt/ros/jazzy/share/irobot_create_description/urdf/create3.urdf.xacro
+Find near the bottom the rendering_engine and change from ogre to ogre2 
+
+2. If Nav2 dones't work it is becase MPPI doesn't work with jazzy version ubuntu so a source install needs to be done for the navigation. If using this workspace than it is already included in the src folder just do colcon build and source.
+3. To change the speed at which the battery_state topic publishes go to /opt/ros/jazzy/share/irobot_create_common_bringup/launch/create3_nodes.launch.py
+And add a paramete {'battery_state_publish_rate': 1.0} with 1.0 being the hz you want the topics to publish at
+
+4. I couldn’t find where the MPPI controller publishes the changed velocity commands, so I had to download the source file and modify the controller.cpp and controller files.hpp files to add a publisher /optimal_trajectory topic. In the manual MPPI has an option that can be turned on to publish this exact thing but it for some reason is taken out from the jazzy version of MPPI so I had to put it back in basically. 
+
