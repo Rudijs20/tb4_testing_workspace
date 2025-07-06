@@ -22,6 +22,7 @@ setup(
         'console_scripts': [
             'nav_to_pose = tb4_nav_to_pose.nav_to_pose:main',
             'min_nav_to_pose = tb4_nav_to_pose.min_nav_to_pose:main',
+            'realW_nav_to_pose = tb4_nav_to_pose.realW_nav_to_pose:main',
         ],
     },
 )

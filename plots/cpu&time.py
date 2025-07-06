@@ -6,7 +6,7 @@ import numpy as np
 
 maps = ['Map1', 'Map2', 'Map3']
 controllers = ['DWB', 'MPPI', 'RPP']
-base_dir = '/home/rudolfs/ros2_ws/AllResults/'
+base_dir = os.path.expanduser("~/ros2_ws/AllResults/")
 
 colors = {'DWB': 'blue', 'MPPI': 'red', 'RPP': 'green'}
 

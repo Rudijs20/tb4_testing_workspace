@@ -14,7 +14,7 @@ normal_speed_threshold = 0.26  # Speed indicating normal operation
 maps = ['Map1', 'Map2', 'Map3']
 # maps = ['Map3']
 controllers = ['DWB', 'MPPI', 'RPP']
-base_dir = '/home/rudolfs/ros2_ws/AllResults/'
+base_dir = os.path.expanduser("~/ros2_ws/AllResults/")
 
 # Set seaborn style with clean fonts
 sns.set_theme(style="whitegrid", context="paper", palette="colorblind")

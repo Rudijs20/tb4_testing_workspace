@@ -4,7 +4,7 @@ import glob
 from scipy.stats import shapiro, levene
 
 # Folder structure
-base_dir = '/home/rudolfs/ros2_ws/AllResults'
+base_dir = os.path.expanduser("~/ros2_ws/AllResults/")
 maps = ['Map1', 'Map2', 'Map3']
 controllers = ['DWB', 'MPPI', 'RPP']
 

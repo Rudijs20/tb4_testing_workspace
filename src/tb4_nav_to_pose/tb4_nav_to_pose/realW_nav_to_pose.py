@@ -1,4 +1,5 @@
-#!/usr/bin/env python3
+# !/usr/bin/env python3
+# !/bin/bash
 
 import subprocess
 import rclpy
@@ -16,18 +17,9 @@ import threading
 from rclpy.executors import SingleThreadedExecutor
 from geometry_msgs.msg import PointStamped
 
-
 class MetricsMonitor(Node):
     def __init__(self):
         super().__init__('metrics_monitor')
-
-        self.clock_subscription = self.create_subscription(
-            Clock,
-            '/clock',
-            self.clock_callback,
-            10)
-        self.latest_time = None
-        self.first_time_received = False
 
         self.global_count = 0
         self.local_count = 0
@@ -67,6 +59,7 @@ class MetricsMonitor(Node):
     def local_callback(self, msg):
         self.local_count += 1
 
+
 def run_script(command):
     return subprocess.Popen(command, shell=True)
 
@@ -74,9 +67,7 @@ def main():
     rclpy.init()
 
     navigator = TurtleBot4Navigator()
-    
-    cpu_script = os.path.expanduser("~/ros2_ws/nav2_cpu_logger.py")
-    cpu_proc = run_script(f"python3 {cpu_script}")
+    # rviz_proc = subprocess.Popen(["ros2", "launch", "turtlebot4_viz", "view_navigation.launch.py"])
     battery_proc = subprocess.Popen(["ros2", "run", "battery_logger", "log_battery"])
     cmd_vel_proc = subprocess.Popen(["ros2", "run", "cmd_vel_tracker", "cmd_vel_logger"])
 
@@ -95,21 +86,23 @@ def main():
                 dy = current_position.y - navigator.previous_position.y
                 navigator.path_length += (dx**2 + dy**2)**0.5
             navigator.previous_position = current_position
-
-
+            
     navigator.create_subscription(Odometry, '/odom', odom_callback, 10)
 
-    if not navigator.getDockedStatus():
-        navigator.info('Docking before initializing pose')
-        navigator.dock()
+    if navigator.getDockedStatus():
+        navigator.info('Undocking before initializing pose')
+        navigator.undock()
 
-    initial_pose = navigator.getPoseStamped([1.7502, -0.2405], TurtleBot4Directions.NORTH_WEST)
+    initial_pose = navigator.getPoseStamped([3.36,-0.242], 200.45) 
+
     navigator.setInitialPose(initial_pose)
     navigator.waitUntilNav2Active()
+    print("Navigatoinr is active.")
 
-    goal_pose = navigator.getPoseStamped([31.2465, -7.9053], TurtleBot4Directions.NORTH_WEST)
-
-    navigator.undock()
+    # Different goal poses can be used to test the navigation in the 11th floor office:
+    # goal_pose = navigator.getPoseStamped([32.111, -8.418], TurtleBot4Directions.EAST) # FAR LOCATOIN
+    goal_pose = navigator.getPoseStamped([21.19, -13.18], TurtleBot4Directions.EAST) # MIDDLE LOCATOIN
+    # goal_pose = navigator.getPoseStamped([2.2, -1.23], TurtleBot4Directions.EAST) # NEAR LOCATION
 
     navigator.path_length = 0.0
     navigator.previous_position = None
@@ -124,10 +117,7 @@ def main():
     monitor_thread = threading.Thread(target=executor.spin, daemon=True)
     monitor_thread.start()
 
-    while metrics_monitor.latest_time is None:
-        time.sleep(0.1)
-
-    start_time = metrics_monitor.latest_time
+    start_time = time.time()
 
     print("Start time:", start_time)
 
@@ -153,7 +143,7 @@ def main():
     else:
         navigator.info('Goal has an invalid return status!')
 
-    end_time = metrics_monitor.latest_time
+    end_time = time.time()
     global_count = metrics_monitor.global_count
     local_count = metrics_monitor.local_count
     execution_time = end_time - start_time if start_time and end_time else 0.0
@@ -163,9 +153,9 @@ def main():
 
     navigator.tracking_active = False
 
-    cpu_proc.terminate()
     battery_proc.terminate()
     cmd_vel_proc.terminate()
+    # rviz_proc.terminate()
 
     results_dir = os.path.expanduser("~/ros2_ws/results")
     os.makedirs(results_dir, exist_ok=True)

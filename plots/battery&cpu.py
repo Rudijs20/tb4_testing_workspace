@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-base_dir = '/home/rudolfs/ros2_ws/AllResults'
+base_dir = os.path.expanduser("~/ros2_ws/AllResults/")
 maps = ['Map1', 'Map2', 'Map3']
 # maps = ['Map1_IRL']
 planners = ['DWB', 'MPPI', 'RPP']

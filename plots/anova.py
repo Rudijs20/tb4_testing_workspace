@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import statsmodels.api as sm
 from statsmodels.formula.api import ols
 
-base_dir = '/home/rudolfs/ros2_ws/AllResults/'
+base_dir = os.path.expanduser("~/ros2_ws/AllResults/")
 maps = ['Map1', 'Map2', 'Map3']
 controllers = ['DWB', 'MPPI', 'RPP']
 

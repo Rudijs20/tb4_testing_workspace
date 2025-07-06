@@ -4,7 +4,7 @@ import pandas as pd
 from scipy.stats import kruskal
 
 # Base directory where all environment folders are
-base_dir = '/home/rudolfs/ros2_ws/AllResults'
+base_dir = os.path.expanduser("~/ros2_ws/AllResults/")
 
 battery_data = []
 

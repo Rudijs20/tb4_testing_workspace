@@ -1,21 +1,5 @@
 #!/usr/bin/env python3
 
-# Copyright 2022 Clearpath Robotics, Inc.
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-#
-# @author Roni Kreinin (rkreinin@clearpathrobotics.com)
-
 import subprocess
 import rclpy
 import time
@@ -83,17 +67,6 @@ class MetricsMonitor(Node):
     def local_callback(self, msg):
         self.local_count += 1
 
-    # def get_time(self):
-    #     if not self.first_time_received:
-    #         self.get_logger().info('Waiting for first clock message...')
-    #         while rclpy.ok() and not self.first_time_received:
-    #             rclpy.spin_once(self, timeout_sec=0.1)
-    #     return self.latest_time
-
-    # def reset_counts(self):
-    #     self.global_count = 0
-    #     self.local_count = 0
-
 def run_script(command):
     return subprocess.Popen(command, shell=True)
 
@@ -101,8 +74,9 @@ def main():
     rclpy.init()
 
     navigator = TurtleBot4Navigator()
-
-    cpu_proc = run_script("python3 /home/rudolfs/ros2_ws/nav2_cpu_logger.py")
+    
+    cpu_script = os.path.expanduser("~/ros2_ws/nav2_cpu_logger.py")
+    cpu_proc = run_script(f"python3 {cpu_script}")
     battery_proc = subprocess.Popen(["ros2", "run", "battery_logger", "log_battery"])
     cmd_vel_proc = subprocess.Popen(["ros2", "run", "cmd_vel_tracker", "cmd_vel_logger"])
 
@@ -122,12 +96,8 @@ def main():
                 navigator.path_length += (dx**2 + dy**2)**0.5
             navigator.previous_position = current_position
 
-    # def local_plan_callback(msg):
-    #     if navigator.tracking_active:
-    #         navigator.local_planner_changes += 1
 
     navigator.create_subscription(Odometry, '/odom', odom_callback, 10)
-    # navigator.create_subscription(Path, '/controller_server/local_plan', local_plan_callback, 10)
 
     if not navigator.getDockedStatus():
         navigator.info('Docking before initializing pose')
@@ -138,7 +108,6 @@ def main():
     navigator.waitUntilNav2Active()
 
     goal_pose = navigator.getPoseStamped([31.2465, -7.9053], TurtleBot4Directions.NORTH_WEST)
-    # goal_pose = navigator.getPoseStamped([2.3, -1.5], TurtleBot4Directions.NORTH_WEST)
 
     navigator.undock()
 
@@ -159,7 +128,6 @@ def main():
         time.sleep(0.1)
 
     start_time = metrics_monitor.latest_time
-    # metrics_monitor.reset_counts()
 
     print("Start time:", start_time)
 

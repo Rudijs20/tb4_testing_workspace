@@ -4,7 +4,7 @@ import pandas as pd
 from scipy.stats import kruskal
 import scikit_posthocs as sp
 
-base_dir = '/home/rudolfs/ros2_ws/AllResults'
+base_dir = os.path.expanduser("~/ros2_ws/AllResults/")
 maps_to_include = ['Map1', 'Map2', 'Map3']
 planners = ['DWB', 'MPPI', 'RPP']
 

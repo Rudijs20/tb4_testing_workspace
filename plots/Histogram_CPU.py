@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Base directory where all the Map folders are located
-base_dir = '/home/rudolfs/ros2_ws/AllResults'
+base_dir = os.path.expanduser("~/ros2_ws/AllResults/")
 
 # Prepare a list to store results
 data = []
