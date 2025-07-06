@@ -47,7 +47,7 @@ for i in range(NUM_RUNS):
         "nav2:=true",
         "slam:=false",
         "localization:=true",
-        "rviz:=true",
+        "rviz:=false",          # Turned off for performance imporvements
         "use_sim_time:=true",
         "world:=maze",
         f"map:={map_path}",
