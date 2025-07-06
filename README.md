@@ -60,11 +60,37 @@ To switch the navigation controller or planner, edit:
 
 Real-world tests require several processes to be started manually due to frequent crashes and general instability.
 
+### 1. Start the Robot
+
+First, plug the LiDAR camera back in and launch the robot's standard startup in the SSH'ed terminal. Without this, the robot won’t function:
+
+```bash
+ros2 launch turtlebot4_bringup standard.launch.py
+```
+
+### 2. (Optional) Enable Autostart on Boot
+
+If you want the robot to launch automatically on boot, run:
+
+```bash
+sudo systemctl enable turtlebot4.service
+```
+
+Then reboot the robot:
+
+```bash
+sudo reboot
+```
+
+However, it’s useful to keep the manual launch option available. When the robot crashes or shows errors, manually restarting the standard launch usually fixes it temporarily.
+
+### 3. Navigation testing steps:
+
 First repeat the colcon build steps from the simulation setup
 
-Run these commands in this order:
+Run these commands in this order to launch a navigation task:
 
-### On SSH'ed terminal (except step 3):
+#### On SSH'ed terminal (except step 3):
 
 1. File already located on the turtlebot at VU
 
@@ -98,9 +124,9 @@ ros2 run tb4_nav_to_pose realW_nav_to_pose
 
 ---
 
-## 🧪 Configs Used for Thesis Testing
+## Configs Used for Thesis Testing
 
-### ⚒️ Regulated Pure Pursuit (RPP)
+### Regulated Pure Pursuit (RPP)
 
 ```yaml
 plugin: "nav2_regulated_pure_pursuit_controller::RegulatedPurePursuitController"
@@ -116,7 +142,7 @@ stateful: true
 
 ---
 
-### ⚙️ DWB
+### DWB
 
 ```yaml
 plugin: "dwb_core::DWBLocalPlanner"
@@ -147,7 +173,7 @@ critics: ["RotateToGoal", "Oscillation", "BaseObstacle", "GoalAlign", "PathAlign
 
 ---
 
-### 🧠 MPPI
+### MPPI
 
 ```yaml
 plugin: "nav2_mppi_controller::MPPIController"
