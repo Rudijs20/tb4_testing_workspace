@@ -60,6 +60,15 @@ To switch the navigation controller or planner, edit:
   [https://docs.nav2.org/configuration/index.html](https://docs.nav2.org/configuration/index.html)
 
 ---
+## Results and Folder layout
+
+All data collected from each simulation test is stored in the results folder. Previous tests can be found in the AllResults folder, which contains both simulation and real-world data.
+
+The code used to generate plots from this data is located in the plots folder, while the finished images are saved in the PlotFotos folder.
+
+Finally, the .csv files in the main workspace contain combined datasets that were generated from the raw data in AllResults.
+
+---
 
 ## Running Real-World Tests
 
